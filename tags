@@ -1,0 +1,1540 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALIGN_SIZE	logiciel/kernel/libfemto/std/malloc.c	31;"	d	file:
+ALLOC_HEADER_SZ	logiciel/kernel/libfemto/std/malloc.c	42;"	d	file:
+AT_BASE	logiciel/kernel/libfemto/include/elf.h	/^	AT_BASE = 7,$/;"	e	enum:__anon1
+AT_CLKTCK	logiciel/kernel/libfemto/include/elf.h	/^	AT_CLKTCK = 17,$/;"	e	enum:__anon1
+AT_EGID	logiciel/kernel/libfemto/include/elf.h	/^	AT_EGID  = 14,$/;"	e	enum:__anon1
+AT_ENTRY	logiciel/kernel/libfemto/include/elf.h	/^	AT_ENTRY = 9,$/;"	e	enum:__anon1
+AT_EUID	logiciel/kernel/libfemto/include/elf.h	/^	AT_EUID = 12,$/;"	e	enum:__anon1
+AT_FLAGS	logiciel/kernel/libfemto/include/elf.h	/^	AT_FLAGS = 8,$/;"	e	enum:__anon1
+AT_GID	logiciel/kernel/libfemto/include/elf.h	/^	AT_GID = 13,$/;"	e	enum:__anon1
+AT_NULL	logiciel/kernel/libfemto/include/elf.h	/^	AT_NULL = 0,$/;"	e	enum:__anon1
+AT_PAGESZ	logiciel/kernel/libfemto/include/elf.h	/^	AT_PAGESZ = 6,$/;"	e	enum:__anon1
+AT_PHDR	logiciel/kernel/libfemto/include/elf.h	/^	AT_PHDR = 3,$/;"	e	enum:__anon1
+AT_PHENT	logiciel/kernel/libfemto/include/elf.h	/^	AT_PHENT = 4,$/;"	e	enum:__anon1
+AT_PHNUM	logiciel/kernel/libfemto/include/elf.h	/^	AT_PHNUM = 5,$/;"	e	enum:__anon1
+AT_RANDOM	logiciel/kernel/libfemto/include/elf.h	/^	AT_RANDOM = 25$/;"	e	enum:__anon1
+AT_SECURE	logiciel/kernel/libfemto/include/elf.h	/^	AT_SECURE = 23,$/;"	e	enum:__anon1
+AT_UID	logiciel/kernel/libfemto/include/elf.h	/^	AT_UID = 11,$/;"	e	enum:__anon1
+BALL_C	logiciel/apps/brick/brick.h	13;"	d
+BALL_L	logiciel/apps/brick/brick.h	12;"	d
+BAR_C	logiciel/apps/brick/brick.h	9;"	d
+BAR_L	logiciel/apps/brick/brick.h	8;"	d
+BLACK	logiciel/apps/brick/brick.h	22;"	d
+BLACK	logiciel/apps/pong/pong.h	6;"	d
+BLUE	logiciel/apps/pong/pong.c	17;"	d	file:
+BOUNDARY	logiciel/apps/pong/pong.h	20;"	d
+BRICK_C	logiciel/apps/brick/brick.h	11;"	d
+BRICK_L	logiciel/apps/brick/brick.h	10;"	d
+CLINT_BASE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	157;"	d
+CLINT_MSIP	logiciel/kernel/env/cep_riscv/cep_platform.h	25;"	d
+CLINT_SIZE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	158;"	d
+CLINT_TIMER	logiciel/kernel/env/cep_riscv/cep_platform.h	29;"	d
+CLINT_TIMER_CMP	logiciel/kernel/env/cep_riscv/cep_platform.h	26;"	d
+CLINT_TIMER_CMP_HI	logiciel/kernel/env/cep_riscv/cep_platform.h	27;"	d
+CLINT_TIMER_CMP_LO	logiciel/kernel/env/cep_riscv/cep_platform.h	28;"	d
+CLINT_TIMER_HI	logiciel/kernel/env/cep_riscv/cep_platform.h	30;"	d
+CLINT_TIMER_LOW	logiciel/kernel/env/cep_riscv/cep_platform.h	31;"	d
+CYAN	logiciel/apps/brick/brick.h	23;"	d
+C_BALL	logiciel/apps/pong/pong.h	10;"	d
+C_RACKET	logiciel/apps/pong/pong.h	9;"	d
+DCSR_CAUSE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	52;"	d
+DCSR_CAUSE_DEBUGINT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	61;"	d
+DCSR_CAUSE_HALT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	63;"	d
+DCSR_CAUSE_HWBP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	60;"	d
+DCSR_CAUSE_NONE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	58;"	d
+DCSR_CAUSE_STEP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	62;"	d
+DCSR_CAUSE_SWBP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	59;"	d
+DCSR_DEBUGINT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	53;"	d
+DCSR_EBREAKH	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	47;"	d
+DCSR_EBREAKM	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	46;"	d
+DCSR_EBREAKS	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	48;"	d
+DCSR_EBREAKU	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	49;"	d
+DCSR_FULLRESET	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	45;"	d
+DCSR_HALT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	54;"	d
+DCSR_NDRESET	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	44;"	d
+DCSR_PRV	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	56;"	d
+DCSR_STEP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	55;"	d
+DCSR_STOPCYCLE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	50;"	d
+DCSR_STOPTIME	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	51;"	d
+DCSR_XDEBUGVER	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	43;"	d
+DEFAULT_RSTVEC	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	156;"	d
+DEFINE_CLZ	logiciel/kernel/libfemto/std/clz.c	8;"	d	file:
+DEFINE_CTZ	logiciel/kernel/libfemto/std/ctz.c	8;"	d	file:
+DF_BIND_NOW	logiciel/kernel/libfemto/include/elf.h	/^	DF_BIND_NOW = 8,$/;"	e	enum:__anon39
+DF_ORIGIN	logiciel/kernel/libfemto/include/elf.h	/^	DF_ORIGIN = 1,$/;"	e	enum:__anon39
+DF_STATIC_TLS	logiciel/kernel/libfemto/include/elf.h	/^	DF_STATIC_TLS = 16$/;"	e	enum:__anon39
+DF_SYMBOLIC	logiciel/kernel/libfemto/include/elf.h	/^	DF_SYMBOLIC = 2,$/;"	e	enum:__anon39
+DF_TEXTREL	logiciel/kernel/libfemto/include/elf.h	/^	DF_TEXTREL = 4,$/;"	e	enum:__anon39
+DH_UNSCALED	logiciel/apps/brick/brick.c	37;"	d	file:
+DH_UNSCALED	logiciel/apps/snake/snake.c	24;"	d	file:
+DH_UNSCALED	logiciel/apps/snake_it/snake_it.c	24;"	d	file:
+DISPLAY_HEIGHT	logiciel/apps/blue/blue.c	9;"	d	file:
+DISPLAY_HEIGHT	logiciel/kernel/env/cep_riscv/cep_platform.h	36;"	d
+DISPLAY_HEIGHT	logiciel/kernel/env/cep_riscv/cep_platform.h	39;"	d
+DISPLAY_HEIGHT	logiciel/mips_legacy/mips_invader_zybo.c	26;"	d	file:
+DISPLAY_SCALE	logiciel/apps/brick/brick.c	35;"	d	file:
+DISPLAY_SCALE	logiciel/apps/invader/invader.c	22;"	d	file:
+DISPLAY_SCALE	logiciel/apps/pong/pong.c	13;"	d	file:
+DISPLAY_SCALE	logiciel/apps/snake/snake.c	21;"	d	file:
+DISPLAY_SCALE	logiciel/apps/snake_it/snake_it.c	21;"	d	file:
+DISPLAY_SIZE	logiciel/kernel/env/cep_riscv/cep_platform.h	41;"	d
+DISPLAY_WIDTH	logiciel/apps/blue/blue.c	8;"	d	file:
+DISPLAY_WIDTH	logiciel/kernel/env/cep_riscv/cep_platform.h	35;"	d
+DISPLAY_WIDTH	logiciel/kernel/env/cep_riscv/cep_platform.h	38;"	d
+DISPLAY_WIDTH	logiciel/mips_legacy/mips_invader_zybo.c	25;"	d	file:
+DRAM_BASE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	160;"	d
+DT_BIND_NOW	logiciel/kernel/libfemto/include/elf.h	/^	DT_BIND_NOW = 24,$/;"	e	enum:__anon40
+DT_DEBUG	logiciel/kernel/libfemto/include/elf.h	/^	DT_DEBUG = 21,$/;"	e	enum:__anon40
+DT_FINI	logiciel/kernel/libfemto/include/elf.h	/^	DT_FINI = 13,$/;"	e	enum:__anon40
+DT_FINI_ARRAY	logiciel/kernel/libfemto/include/elf.h	/^	DT_FINI_ARRAY = 26,$/;"	e	enum:__anon40
+DT_FINI_ARRAYSZ	logiciel/kernel/libfemto/include/elf.h	/^	DT_FINI_ARRAYSZ = 28,$/;"	e	enum:__anon40
+DT_FLAGS	logiciel/kernel/libfemto/include/elf.h	/^	DT_FLAGS = 30,$/;"	e	enum:__anon40
+DT_HASH	logiciel/kernel/libfemto/include/elf.h	/^	DT_HASH = 4,$/;"	e	enum:__anon40
+DT_HIOS	logiciel/kernel/libfemto/include/elf.h	/^	DT_HIOS = 0x6fffffff,$/;"	e	enum:__anon40
+DT_HIPROC	logiciel/kernel/libfemto/include/elf.h	/^	DT_HIPROC = 0x7fffffff$/;"	e	enum:__anon40
+DT_INIT	logiciel/kernel/libfemto/include/elf.h	/^	DT_INIT = 12,$/;"	e	enum:__anon40
+DT_INIT_ARRAY	logiciel/kernel/libfemto/include/elf.h	/^	DT_INIT_ARRAY = 25,$/;"	e	enum:__anon40
+DT_INIT_ARRAYSZ	logiciel/kernel/libfemto/include/elf.h	/^	DT_INIT_ARRAYSZ = 27,$/;"	e	enum:__anon40
+DT_JMPREL	logiciel/kernel/libfemto/include/elf.h	/^	DT_JMPREL = 23,$/;"	e	enum:__anon40
+DT_LOOS	logiciel/kernel/libfemto/include/elf.h	/^	DT_LOOS = 0x60000000,$/;"	e	enum:__anon40
+DT_LOPROC	logiciel/kernel/libfemto/include/elf.h	/^	DT_LOPROC = 0x70000000,$/;"	e	enum:__anon40
+DT_NEEDED	logiciel/kernel/libfemto/include/elf.h	/^	DT_NEEDED = 1,$/;"	e	enum:__anon40
+DT_NULL	logiciel/kernel/libfemto/include/elf.h	/^	DT_NULL = 0,$/;"	e	enum:__anon40
+DT_PLTGOT	logiciel/kernel/libfemto/include/elf.h	/^	DT_PLTGOT = 3,$/;"	e	enum:__anon40
+DT_PLTREL	logiciel/kernel/libfemto/include/elf.h	/^	DT_PLTREL = 20,$/;"	e	enum:__anon40
+DT_PLTRELSZ	logiciel/kernel/libfemto/include/elf.h	/^	DT_PLTRELSZ = 2,$/;"	e	enum:__anon40
+DT_REL	logiciel/kernel/libfemto/include/elf.h	/^	DT_REL = 17,$/;"	e	enum:__anon40
+DT_RELA	logiciel/kernel/libfemto/include/elf.h	/^	DT_RELA = 7,$/;"	e	enum:__anon40
+DT_RELAENT	logiciel/kernel/libfemto/include/elf.h	/^	DT_RELAENT = 9,$/;"	e	enum:__anon40
+DT_RELASZ	logiciel/kernel/libfemto/include/elf.h	/^	DT_RELASZ = 8,$/;"	e	enum:__anon40
+DT_RELENT	logiciel/kernel/libfemto/include/elf.h	/^	DT_RELENT = 19,$/;"	e	enum:__anon40
+DT_RELSZ	logiciel/kernel/libfemto/include/elf.h	/^	DT_RELSZ = 18,$/;"	e	enum:__anon40
+DT_RPATH	logiciel/kernel/libfemto/include/elf.h	/^	DT_RPATH = 15,$/;"	e	enum:__anon40
+DT_RUNPATH	logiciel/kernel/libfemto/include/elf.h	/^	DT_RUNPATH = 29,$/;"	e	enum:__anon40
+DT_SONAME	logiciel/kernel/libfemto/include/elf.h	/^	DT_SONAME = 14,$/;"	e	enum:__anon40
+DT_STRSZ	logiciel/kernel/libfemto/include/elf.h	/^	DT_STRSZ = 10,$/;"	e	enum:__anon40
+DT_STRTAB	logiciel/kernel/libfemto/include/elf.h	/^	DT_STRTAB = 5,$/;"	e	enum:__anon40
+DT_SYMBOLIC	logiciel/kernel/libfemto/include/elf.h	/^	DT_SYMBOLIC = 16,$/;"	e	enum:__anon40
+DT_SYMENT	logiciel/kernel/libfemto/include/elf.h	/^	DT_SYMENT = 11,$/;"	e	enum:__anon40
+DT_SYMTAB	logiciel/kernel/libfemto/include/elf.h	/^	DT_SYMTAB = 6,$/;"	e	enum:__anon40
+DT_TEXTREL	logiciel/kernel/libfemto/include/elf.h	/^	DT_TEXTREL = 22,$/;"	e	enum:__anon40
+DW_UNSCALED	logiciel/apps/brick/brick.c	36;"	d	file:
+DW_UNSCALED	logiciel/apps/snake/snake.c	23;"	d	file:
+DW_UNSCALED	logiciel/apps/snake_it/snake_it.c	23;"	d	file:
+EAST	logiciel/apps/snake/snake.h	15;"	d
+EAST	logiciel/apps/snake_it/snake.h	15;"	d
+EF_RISCV_FLOAT_ABI_DOUBLE	logiciel/kernel/libfemto/include/elf.h	/^	EF_RISCV_FLOAT_ABI_DOUBLE = 0x4,$/;"	e	enum:__anon38
+EF_RISCV_FLOAT_ABI_QUAD	logiciel/kernel/libfemto/include/elf.h	/^	EF_RISCV_FLOAT_ABI_QUAD = 0x6,$/;"	e	enum:__anon38
+EF_RISCV_FLOAT_ABI_SINGLE	logiciel/kernel/libfemto/include/elf.h	/^	EF_RISCV_FLOAT_ABI_SINGLE = 0x2,$/;"	e	enum:__anon38
+EF_RISCV_RVC	logiciel/kernel/libfemto/include/elf.h	/^	EF_RISCV_RVC = 0x1,$/;"	e	enum:__anon38
+EF_RISCV_RVE	logiciel/kernel/libfemto/include/elf.h	/^	EF_RISCV_RVE = 0x8$/;"	e	enum:__anon38
+EI_ABIVERSION	logiciel/kernel/libfemto/include/elf.h	/^	EI_ABIVERSION = 8,$/;"	e	enum:__anon7
+EI_CLASS	logiciel/kernel/libfemto/include/elf.h	/^	EI_CLASS = 4,$/;"	e	enum:__anon7
+EI_DATA	logiciel/kernel/libfemto/include/elf.h	/^	EI_DATA = 5,$/;"	e	enum:__anon7
+EI_MAG0	logiciel/kernel/libfemto/include/elf.h	/^	EI_MAG0 = 0,$/;"	e	enum:__anon7
+EI_MAG1	logiciel/kernel/libfemto/include/elf.h	/^	EI_MAG1 = 1,$/;"	e	enum:__anon7
+EI_MAG2	logiciel/kernel/libfemto/include/elf.h	/^	EI_MAG2 = 2,$/;"	e	enum:__anon7
+EI_MAG3	logiciel/kernel/libfemto/include/elf.h	/^	EI_MAG3 = 3,$/;"	e	enum:__anon7
+EI_NIDENT	logiciel/kernel/libfemto/include/elf.h	/^	EI_NIDENT = 16$/;"	e	enum:__anon7
+EI_OSABI	logiciel/kernel/libfemto/include/elf.h	/^	EI_OSABI = 7,$/;"	e	enum:__anon7
+EI_PAD	logiciel/kernel/libfemto/include/elf.h	/^	EI_PAD = 9,$/;"	e	enum:__anon7
+EI_VERSION	logiciel/kernel/libfemto/include/elf.h	/^	EI_VERSION = 6,$/;"	e	enum:__anon7
+ELF32_R_INFO	logiciel/kernel/libfemto/include/elf.h	/^static inline const Elf32_Word ELF32_R_INFO(Elf32_Word s, Elf32_Word t) { return (s << 8) | (t & 0xff); }$/;"	f
+ELF32_R_SYM	logiciel/kernel/libfemto/include/elf.h	/^static inline const Elf32_Word ELF32_R_SYM(Elf32_Word i) { return i >> 8; }$/;"	f
+ELF32_R_TYPE	logiciel/kernel/libfemto/include/elf.h	/^static inline const Elf32_Word ELF32_R_TYPE(Elf32_Word i) { return i & 0xff; }$/;"	f
+ELF32_ST_BIND	logiciel/kernel/libfemto/include/elf.h	/^static inline const Elf32_Byte ELF32_ST_BIND(Elf32_Word i) { return i >> 4; }$/;"	f
+ELF32_ST_INFO	logiciel/kernel/libfemto/include/elf.h	/^static inline const Elf32_Byte ELF32_ST_INFO(Elf32_Word b, Elf32_Word t) { return (b << 4) | (t & 0xf); }$/;"	f
+ELF32_ST_TYPE	logiciel/kernel/libfemto/include/elf.h	/^static inline const Elf32_Byte ELF32_ST_TYPE(Elf32_Word i) { return i & 0xf; }$/;"	f
+ELF64_R_INFO	logiciel/kernel/libfemto/include/elf.h	/^static inline const Elf64_Xword ELF64_R_INFO(Elf64_Xword s, Elf64_Xword t) { return (s << 32) | (t & 0xffffffffUL); }$/;"	f
+ELF64_R_SYM	logiciel/kernel/libfemto/include/elf.h	/^static inline const Elf64_Xword ELF64_R_SYM(Elf64_Xword i) { return i >> 32; }$/;"	f
+ELF64_R_TYPE	logiciel/kernel/libfemto/include/elf.h	/^static inline const Elf64_Xword ELF64_R_TYPE(Elf64_Xword i) { return i & 0xffffffffUL; }$/;"	f
+ELF64_ST_BIND	logiciel/kernel/libfemto/include/elf.h	/^static inline const Elf32_Byte ELF64_ST_BIND(Elf32_Word i) { return i >> 4; }$/;"	f
+ELF64_ST_INFO	logiciel/kernel/libfemto/include/elf.h	/^static inline const Elf32_Byte ELF64_ST_INFO(Elf32_Word b, Elf32_Word t) { return (b << 4) | (t & 0xf); }$/;"	f
+ELF64_ST_TYPE	logiciel/kernel/libfemto/include/elf.h	/^static inline const Elf32_Byte ELF64_ST_TYPE(Elf32_Word i) { return i & 0xf; }$/;"	f
+ELFABIVERSION_NONE	logiciel/kernel/libfemto/include/elf.h	/^	ELFABIVERSION_NONE = 0$/;"	e	enum:__anon12
+ELFCLASS128	logiciel/kernel/libfemto/include/elf.h	/^	ELFCLASS128 = 3$/;"	e	enum:__anon9
+ELFCLASS32	logiciel/kernel/libfemto/include/elf.h	/^	ELFCLASS32 = 1,$/;"	e	enum:__anon9
+ELFCLASS64	logiciel/kernel/libfemto/include/elf.h	/^	ELFCLASS64 = 2,$/;"	e	enum:__anon9
+ELFCLASSNONE	logiciel/kernel/libfemto/include/elf.h	/^	ELFCLASSNONE = 0,$/;"	e	enum:__anon9
+ELFDATA2LSB	logiciel/kernel/libfemto/include/elf.h	/^	ELFDATA2LSB = 1,$/;"	e	enum:__anon10
+ELFDATA2MSB	logiciel/kernel/libfemto/include/elf.h	/^	ELFDATA2MSB = 2$/;"	e	enum:__anon10
+ELFDATANONE	logiciel/kernel/libfemto/include/elf.h	/^	ELFDATANONE = 0,$/;"	e	enum:__anon10
+ELFMAG0	logiciel/kernel/libfemto/include/elf.h	/^	ELFMAG0 = 0x7f,$/;"	e	enum:__anon8
+ELFMAG1	logiciel/kernel/libfemto/include/elf.h	/^	ELFMAG1 = 'E',$/;"	e	enum:__anon8
+ELFMAG2	logiciel/kernel/libfemto/include/elf.h	/^	ELFMAG2 = 'L',$/;"	e	enum:__anon8
+ELFMAG3	logiciel/kernel/libfemto/include/elf.h	/^	ELFMAG3 = 'F'$/;"	e	enum:__anon8
+ELFOSABI_FREEBSD	logiciel/kernel/libfemto/include/elf.h	/^	ELFOSABI_FREEBSD = 9$/;"	e	enum:__anon11
+ELFOSABI_LINUX	logiciel/kernel/libfemto/include/elf.h	/^	ELFOSABI_LINUX = 3,$/;"	e	enum:__anon11
+ELFOSABI_SOLARIS	logiciel/kernel/libfemto/include/elf.h	/^	ELFOSABI_SOLARIS = 6,$/;"	e	enum:__anon11
+ELFOSABI_SYSV	logiciel/kernel/libfemto/include/elf.h	/^	ELFOSABI_SYSV = 0,$/;"	e	enum:__anon11
+EM_NONE	logiciel/kernel/libfemto/include/elf.h	/^	EM_NONE = 0,$/;"	e	enum:__anon5
+EM_RISCV	logiciel/kernel/libfemto/include/elf.h	/^	EM_RISCV = 243$/;"	e	enum:__anon5
+EM_X86_64	logiciel/kernel/libfemto/include/elf.h	/^	EM_X86_64 = 62,$/;"	e	enum:__anon5
+ET_CORE	logiciel/kernel/libfemto/include/elf.h	/^	ET_CORE = 4,$/;"	e	enum:__anon4
+ET_DYN	logiciel/kernel/libfemto/include/elf.h	/^	ET_DYN = 3,$/;"	e	enum:__anon4
+ET_EXEC	logiciel/kernel/libfemto/include/elf.h	/^	ET_EXEC = 2,$/;"	e	enum:__anon4
+ET_HIPROC	logiciel/kernel/libfemto/include/elf.h	/^	ET_HIPROC = 0xffff$/;"	e	enum:__anon4
+ET_LOPROC	logiciel/kernel/libfemto/include/elf.h	/^	ET_LOPROC = 0xff00,$/;"	e	enum:__anon4
+ET_NONE	logiciel/kernel/libfemto/include/elf.h	/^	ET_NONE = 0,$/;"	e	enum:__anon4
+ET_REL	logiciel/kernel/libfemto/include/elf.h	/^	ET_REL = 1,$/;"	e	enum:__anon4
+EV_CURRENT	logiciel/kernel/libfemto/include/elf.h	/^	EV_CURRENT = 1$/;"	e	enum:__anon6
+EV_NONE	logiciel/kernel/libfemto/include/elf.h	/^	EV_NONE = 0,$/;"	e	enum:__anon6
+EXT_IO_BASE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	159;"	d
+Elf32_Addr	logiciel/kernel/libfemto/include/elf.h	/^typedef uint32_t Elf32_Addr;$/;"	t
+Elf32_Byte	logiciel/kernel/libfemto/include/elf.h	/^typedef uint8_t  Elf32_Byte;$/;"	t
+Elf32_Dyn	logiciel/kernel/libfemto/include/elf.h	/^} Elf32_Dyn;$/;"	t	typeref:struct:__anon41
+Elf32_Ehdr	logiciel/kernel/libfemto/include/elf.h	/^} Elf32_Ehdr;$/;"	t	typeref:struct:__anon13
+Elf32_Half	logiciel/kernel/libfemto/include/elf.h	/^typedef uint16_t Elf32_Half;$/;"	t
+Elf32_Nhdr	logiciel/kernel/libfemto/include/elf.h	/^} Elf32_Nhdr;$/;"	t	typeref:struct:__anon25
+Elf32_Off	logiciel/kernel/libfemto/include/elf.h	/^typedef uint32_t Elf32_Off;$/;"	t
+Elf32_Phdr	logiciel/kernel/libfemto/include/elf.h	/^} Elf32_Phdr;$/;"	t	typeref:struct:__anon17
+Elf32_Rel	logiciel/kernel/libfemto/include/elf.h	/^} Elf32_Rel;$/;"	t	typeref:struct:__anon32
+Elf32_Rela	logiciel/kernel/libfemto/include/elf.h	/^} Elf32_Rela;$/;"	t	typeref:struct:__anon33
+Elf32_Shdr	logiciel/kernel/libfemto/include/elf.h	/^} Elf32_Shdr;$/;"	t	typeref:struct:__anon23
+Elf32_Sword	logiciel/kernel/libfemto/include/elf.h	/^typedef int32_t  Elf32_Sword;$/;"	t
+Elf32_Sym	logiciel/kernel/libfemto/include/elf.h	/^} Elf32_Sym;$/;"	t	typeref:struct:__anon30
+Elf32_Word	logiciel/kernel/libfemto/include/elf.h	/^typedef uint32_t Elf32_Word;$/;"	t
+Elf32_auxv	logiciel/kernel/libfemto/include/elf.h	/^} Elf32_auxv;$/;"	t	typeref:struct:__anon2
+Elf64_Addr	logiciel/kernel/libfemto/include/elf.h	/^typedef uint64_t Elf64_Addr;$/;"	t
+Elf64_Byte	logiciel/kernel/libfemto/include/elf.h	/^typedef uint8_t  Elf64_Byte;$/;"	t
+Elf64_Dyn	logiciel/kernel/libfemto/include/elf.h	/^} Elf64_Dyn;$/;"	t	typeref:struct:__anon43
+Elf64_Ehdr	logiciel/kernel/libfemto/include/elf.h	/^} Elf64_Ehdr;$/;"	t	typeref:struct:__anon14
+Elf64_Half	logiciel/kernel/libfemto/include/elf.h	/^typedef uint16_t Elf64_Half;$/;"	t
+Elf64_Nhdr	logiciel/kernel/libfemto/include/elf.h	/^} Elf64_Nhdr;$/;"	t	typeref:struct:__anon26
+Elf64_Off	logiciel/kernel/libfemto/include/elf.h	/^typedef uint64_t Elf64_Off;$/;"	t
+Elf64_Phdr	logiciel/kernel/libfemto/include/elf.h	/^} Elf64_Phdr;$/;"	t	typeref:struct:__anon18
+Elf64_Rel	logiciel/kernel/libfemto/include/elf.h	/^} Elf64_Rel;$/;"	t	typeref:struct:__anon34
+Elf64_Rela	logiciel/kernel/libfemto/include/elf.h	/^} Elf64_Rela;$/;"	t	typeref:struct:__anon35
+Elf64_Shdr	logiciel/kernel/libfemto/include/elf.h	/^} Elf64_Shdr;$/;"	t	typeref:struct:__anon24
+Elf64_Sword	logiciel/kernel/libfemto/include/elf.h	/^typedef int32_t  Elf64_Sword;$/;"	t
+Elf64_Sxword	logiciel/kernel/libfemto/include/elf.h	/^typedef int64_t  Elf64_Sxword;$/;"	t
+Elf64_Sym	logiciel/kernel/libfemto/include/elf.h	/^} Elf64_Sym;$/;"	t	typeref:struct:__anon31
+Elf64_Word	logiciel/kernel/libfemto/include/elf.h	/^typedef uint32_t Elf64_Word;$/;"	t
+Elf64_Xword	logiciel/kernel/libfemto/include/elf.h	/^typedef uint64_t Elf64_Xword;$/;"	t
+Elf64_auxv	logiciel/kernel/libfemto/include/elf.h	/^} Elf64_auxv;$/;"	t	typeref:struct:__anon3
+FAST	logiciel/kernel/examples/hello_cep/hello_cep.c	17;"	d	file:
+FRAME_BUFFER_CTRL_ADDR_REG	logiciel/kernel/env/cep_riscv/cep_platform.h	16;"	d
+FRAME_BUFFER_CTRL_BASE_ADDRESS	logiciel/kernel/env/cep_riscv/cep_platform.h	14;"	d
+FRAME_BUFFER_CTRL_MODE_REG	logiciel/kernel/env/cep_riscv/cep_platform.h	15;"	d
+GLUE	logiciel/kernel/libfemto/std/clz.c	6;"	d	file:
+GLUE	logiciel/kernel/libfemto/std/ctz.c	6;"	d	file:
+GLUE_HELPER	logiciel/kernel/libfemto/std/clz.c	5;"	d	file:
+GLUE_HELPER	logiciel/kernel/libfemto/std/ctz.c	5;"	d	file:
+GREEN	logiciel/apps/brick/brick.h	29;"	d
+GREEN	logiciel/apps/snake/snake.h	18;"	d
+GREEN	logiciel/apps/snake_it/snake.h	18;"	d
+GRP_COMDAT	logiciel/kernel/libfemto/include/elf.h	/^  GRP_COMDAT = 0x1,$/;"	e	enum:__anon22
+GRP_MASKOS	logiciel/kernel/libfemto/include/elf.h	/^  GRP_MASKOS = 0x0ff00000,$/;"	e	enum:__anon22
+GRP_MASKPROC	logiciel/kernel/libfemto/include/elf.h	/^  GRP_MASKPROC = 0xf0000000$/;"	e	enum:__anon22
+Group	logiciel/apps/brick/brick.c	/^brick_t Group[MAX_BRICK + 1];    \/* tableau to storage a group of bricks *\/$/;"	v
+HART0_CLOCK_FREQ	logiciel/kernel/libfemto/include/auxval.h	/^    HART0_CLOCK_FREQ           = 0x00010000,$/;"	e	enum:__anon61
+HDMI_MODE_1080p_30Hz_blk_0	logiciel/kernel/env/cep_riscv/cep_platform.h	51;"	d
+HDMI_MODE_1080p_30Hz_blk_1	logiciel/kernel/env/cep_riscv/cep_platform.h	52;"	d
+HDMI_MODE_1080p_30Hz_blk_2	logiciel/kernel/env/cep_riscv/cep_platform.h	53;"	d
+HDMI_MODE_1080p_60Hz	logiciel/kernel/env/cep_riscv/cep_platform.h	50;"	d
+HDMI_MODE_720p_60Hz	logiciel/kernel/env/cep_riscv/cep_platform.h	49;"	d
+INIT_LIST_HEAD	logiciel/kernel/libfemto/include/list.h	/^static __inline__ void INIT_LIST_HEAD(struct list_head *head)$/;"	f
+INIT_POSITION	logiciel/apps/snake/snake.h	9;"	d
+INIT_POSITION	logiciel/apps/snake_it/snake.h	9;"	d
+INIT_SIZE	logiciel/apps/snake/snake.h	6;"	d
+INIT_SIZE	logiciel/apps/snake_it/snake.h	6;"	d
+INT16_MAX	logiciel/kernel/libfemto/include/stdint.h	40;"	d
+INT32_MAX	logiciel/kernel/libfemto/include/stdint.h	41;"	d
+INT64_MAX	logiciel/kernel/libfemto/include/stdint.h	42;"	d
+INT8_MAX	logiciel/kernel/libfemto/include/stdint.h	39;"	d
+INTPTR_MAX	logiciel/kernel/libfemto/include/stdint.h	49;"	d
+IRQ_COP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	153;"	d
+IRQ_HOST	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	154;"	d
+IRQ_H_EXT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	151;"	d
+IRQ_H_SOFT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	145;"	d
+IRQ_H_TIMER	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	148;"	d
+IRQ_M_EXT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	152;"	d
+IRQ_M_SOFT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	146;"	d
+IRQ_M_TIMER	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	149;"	d
+IRQ_S_EXT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	150;"	d
+IRQ_S_SOFT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	144;"	d
+IRQ_S_TIMER	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	147;"	d
+LIST_HEAD	logiciel/kernel/libfemto/include/list.h	72;"	d
+L_PATTERN	logiciel/apps/pong/pong.h	8;"	d
+MAGENTA	logiciel/apps/brick/brick.h	24;"	d
+MAX_BRICK	logiciel/apps/brick/brick.h	16;"	d
+MAX_DIGIT	logiciel/apps/pong/pong.h	18;"	d
+MAX_FONT	logiciel/apps/pong/pong.h	19;"	d
+MAX_LONG	logiciel/apps/snake/snake.h	7;"	d
+MAX_LONG	logiciel/apps/snake_it/snake.h	7;"	d
+MAX_X	logiciel/apps/invader/invader.c	24;"	d	file:
+MCAUSE_UNSET	logiciel/kernel/examples/probe/probe.c	9;"	d	file:
+MCONTROL_ACTION	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	71;"	d
+MCONTROL_ACTION_DEBUG_EXCEPTION	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	85;"	d
+MCONTROL_ACTION_DEBUG_MODE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	86;"	d
+MCONTROL_ACTION_TRACE_EMIT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	89;"	d
+MCONTROL_ACTION_TRACE_START	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	87;"	d
+MCONTROL_ACTION_TRACE_STOP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	88;"	d
+MCONTROL_CHAIN	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	72;"	d
+MCONTROL_DMODE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	66;"	d
+MCONTROL_EXECUTE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	78;"	d
+MCONTROL_H	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	75;"	d
+MCONTROL_LOAD	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	80;"	d
+MCONTROL_M	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	74;"	d
+MCONTROL_MASKMAX	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	67;"	d
+MCONTROL_MATCH	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	73;"	d
+MCONTROL_MATCH_EQUAL	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	91;"	d
+MCONTROL_MATCH_GE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	93;"	d
+MCONTROL_MATCH_LT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	94;"	d
+MCONTROL_MATCH_MASK_HIGH	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	96;"	d
+MCONTROL_MATCH_MASK_LOW	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	95;"	d
+MCONTROL_MATCH_NAPOT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	92;"	d
+MCONTROL_S	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	76;"	d
+MCONTROL_SELECT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	69;"	d
+MCONTROL_STORE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	79;"	d
+MCONTROL_TIMING	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	70;"	d
+MCONTROL_TYPE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	65;"	d
+MCONTROL_TYPE_MATCH	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	83;"	d
+MCONTROL_TYPE_NONE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	82;"	d
+MCONTROL_U	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	77;"	d
+MIN_ALLOC_SZ	logiciel/kernel/libfemto/std/malloc.c	45;"	d	file:
+MIP_HEIP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	105;"	d
+MIP_HSIP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	99;"	d
+MIP_HTIP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	102;"	d
+MIP_MEIP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	106;"	d
+MIP_MSIP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	100;"	d
+MIP_MTIP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	103;"	d
+MIP_SEIP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	104;"	d
+MIP_SSIP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	98;"	d
+MIP_STIP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	101;"	d
+MOVE_1	logiciel/apps/brick/brick.h	14;"	d
+MOVE_2	logiciel/apps/brick/brick.h	15;"	d
+MOVE_BALL_X	logiciel/apps/pong/pong.h	21;"	d
+MOVE_BALL_Y	logiciel/apps/pong/pong.h	22;"	d
+MOVE_RAK	logiciel/apps/pong/pong.h	17;"	d
+MSTATUS32_SD	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	28;"	d
+MSTATUS64_SD	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	29;"	d
+MSTATUS_FS	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	20;"	d
+MSTATUS_HIE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	11;"	d
+MSTATUS_HPIE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	15;"	d
+MSTATUS_HPP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	18;"	d
+MSTATUS_MIE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	12;"	d
+MSTATUS_MPIE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	16;"	d
+MSTATUS_MPP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	19;"	d
+MSTATUS_MPRV	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	22;"	d
+MSTATUS_MXR	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	24;"	d
+MSTATUS_SD	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	180;"	d
+MSTATUS_SD	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	185;"	d
+MSTATUS_SIE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	10;"	d
+MSTATUS_SPIE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	14;"	d
+MSTATUS_SPP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	17;"	d
+MSTATUS_SUM	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	23;"	d
+MSTATUS_TSR	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	27;"	d
+MSTATUS_TVM	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	25;"	d
+MSTATUS_TW	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	26;"	d
+MSTATUS_UIE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	9;"	d
+MSTATUS_UPIE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	13;"	d
+MSTATUS_XS	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	21;"	d
+NOBJETS	logiciel/mips_legacy/mips_game.c	13;"	d	file:
+NORTH	logiciel/apps/snake/snake.h	13;"	d
+NORTH	logiciel/apps/snake_it/snake.h	13;"	d
+NS16550A_UART0_CTRL_ADDR	logiciel/kernel/libfemto/include/auxval.h	/^    NS16550A_UART0_CTRL_ADDR   = 0x00030000,$/;"	e	enum:__anon61
+NULL	logiciel/kernel/libfemto/include/stddef.h	7;"	d
+N_COLOR	logiciel/apps/brick/brick.h	30;"	d
+N_LEVEL	logiciel/apps/brick/brick.h	17;"	d
+N_OBJECTS	logiciel/apps/brick/brick.c	33;"	d	file:
+N_OBJECTS	logiciel/apps/invader/invader.c	19;"	d	file:
+N_OBJECTS	logiciel/mips_legacy/mips_invader_zybo.c	27;"	d	file:
+N_PLAYER	logiciel/apps/pong/pong.h	7;"	d
+N_SIZE_COLONNE	logiciel/apps/pong/pong.h	12;"	d
+N_SIZE_LINE	logiciel/apps/pong/pong.h	11;"	d
+OLIVE	logiciel/apps/brick/brick.h	26;"	d
+OLIVE	logiciel/apps/snake/snake.h	19;"	d
+OLIVE	logiciel/apps/snake_it/snake.h	19;"	d
+Object	logiciel/apps/pong/pong.h	/^typedef struct Object {$/;"	s
+Object	logiciel/apps/pong/pong.h	/^} Object;$/;"	t	typeref:struct:Object
+Object	logiciel/apps/snake/snake.h	/^typedef struct Object {$/;"	s
+Object	logiciel/apps/snake/snake.h	/^} Object;$/;"	t	typeref:struct:Object
+Object	logiciel/apps/snake_it/snake.h	/^typedef struct Object {$/;"	s
+Object	logiciel/apps/snake_it/snake.h	/^} Object;$/;"	t	typeref:struct:Object
+Object	logiciel/mips_legacy/sprite.h	/^typedef struct Object {$/;"	s
+Object	logiciel/mips_legacy/sprite.h	/^} Object;$/;"	t	typeref:struct:Object
+Objet	logiciel/mips_legacy/mips_game.c	/^typedef struct Objet {$/;"	s	file:
+Objet	logiciel/mips_legacy/mips_game.c	/^} Objet;$/;"	t	typeref:struct:Objet	file:
+PATTERN_SIZE	logiciel/apps/brick/brick.h	7;"	d
+PATTERN_SIZE	logiciel/apps/snake/snake.h	8;"	d
+PATTERN_SIZE	logiciel/apps/snake_it/snake.h	8;"	d
+PERIPHS_BASE_ADDRESS	logiciel/kernel/env/cep_riscv/cep_platform.h	7;"	d
+PF_MASKOS	logiciel/kernel/libfemto/include/elf.h	/^	PF_MASKOS = 0x00FF0000,$/;"	e	enum:__anon16
+PF_MASKPROC	logiciel/kernel/libfemto/include/elf.h	/^	PF_MASKPROC = 0xFF000000,$/;"	e	enum:__anon16
+PF_R	logiciel/kernel/libfemto/include/elf.h	/^	PF_R = 0x4,$/;"	e	enum:__anon16
+PF_W	logiciel/kernel/libfemto/include/elf.h	/^	PF_W = 0x2,$/;"	e	enum:__anon16
+PF_X	logiciel/kernel/libfemto/include/elf.h	/^	PF_X = 0x1,$/;"	e	enum:__anon16
+PIXEL_SIZE	logiciel/kernel/env/cep_riscv/cep_platform.h	42;"	d
+PLIC_ENABLE_1	logiciel/kernel/env/cep_riscv/cep_platform.h	21;"	d
+PLIC_IRQ_2	logiciel/apps/snake_it/snake_it.c	45;"	d	file:
+PLIC_IRQ_2	logiciel/kernel/examples/hello_cep/hello_cep.c	13;"	d	file:
+PLIC_IRQ_CLAIM	logiciel/kernel/env/cep_riscv/cep_platform.h	22;"	d
+PLIC_PENDING_1	logiciel/kernel/env/cep_riscv/cep_platform.h	20;"	d
+PMPADDR_COUNT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	137;"	d
+PMPCFG_COUNT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	136;"	d
+PMP_A	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	133;"	d
+PMP_L	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	134;"	d
+PMP_NA4	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	141;"	d
+PMP_NAPOT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	142;"	d
+PMP_OFF	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	139;"	d
+PMP_R	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	130;"	d
+PMP_SHIFT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	135;"	d
+PMP_TOR	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	140;"	d
+PMP_W	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	131;"	d
+PMP_X	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	132;"	d
+POS_INIT_R_X	logiciel/apps/pong/pong.h	13;"	d
+PRV_H	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	113;"	d
+PRV_M	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	114;"	d
+PRV_S	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	112;"	d
+PRV_U	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	111;"	d
+PTE_A	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	169;"	d
+PTE_A	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_A         = 1 << PTE_SHIFT_A,$/;"	e	enum:__anon47
+PTE_D	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	170;"	d
+PTE_D	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_D         = 1 << PTE_SHIFT_D,$/;"	e	enum:__anon47
+PTE_G	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	168;"	d
+PTE_G	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_G         = 1 << PTE_SHIFT_G,$/;"	e	enum:__anon47
+PTE_PPN_SHIFT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	173;"	d
+PTE_R	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	164;"	d
+PTE_R	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_R         = 1 << PTE_SHIFT_R,$/;"	e	enum:__anon47
+PTE_SHIFT_A	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_SHIFT_A   = 6,$/;"	e	enum:__anon47
+PTE_SHIFT_D	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_SHIFT_D   = 7,$/;"	e	enum:__anon47
+PTE_SHIFT_G	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_SHIFT_G   = 5,$/;"	e	enum:__anon47
+PTE_SHIFT_R	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_SHIFT_R   = 1,$/;"	e	enum:__anon47
+PTE_SHIFT_SW1	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_SHIFT_SW1 = 8,$/;"	e	enum:__anon47
+PTE_SHIFT_SW2	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_SHIFT_SW2 = 9,$/;"	e	enum:__anon47
+PTE_SHIFT_U	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_SHIFT_U   = 4,$/;"	e	enum:__anon47
+PTE_SHIFT_V	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_SHIFT_V   = 0,$/;"	e	enum:__anon47
+PTE_SHIFT_W	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_SHIFT_W   = 2,$/;"	e	enum:__anon47
+PTE_SHIFT_X	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_SHIFT_X   = 3,$/;"	e	enum:__anon47
+PTE_SOFT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	171;"	d
+PTE_SW1	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_SW1       = 1 << PTE_SHIFT_SW1,$/;"	e	enum:__anon47
+PTE_SW2	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_SW2       = 1 << PTE_SHIFT_SW2$/;"	e	enum:__anon47
+PTE_TABLE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	175;"	d
+PTE_U	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	167;"	d
+PTE_U	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_U         = 1 << PTE_SHIFT_U,$/;"	e	enum:__anon47
+PTE_V	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	163;"	d
+PTE_V	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_V         = 1 << PTE_SHIFT_V,$/;"	e	enum:__anon47
+PTE_W	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	165;"	d
+PTE_W	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_W         = 1 << PTE_SHIFT_W,$/;"	e	enum:__anon47
+PTE_X	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	166;"	d
+PTE_X	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    PTE_X         = 1 << PTE_SHIFT_X,$/;"	e	enum:__anon47
+PTRDIFF_MAX	logiciel/kernel/libfemto/include/stdint.h	51;"	d
+PT_DYNAMIC	logiciel/kernel/libfemto/include/elf.h	/^	PT_DYNAMIC = 2,$/;"	e	enum:__anon15
+PT_GNU_EH_FRAME	logiciel/kernel/libfemto/include/elf.h	/^	PT_GNU_EH_FRAME = 0x6474e550,$/;"	e	enum:__anon15
+PT_GNU_RELRO	logiciel/kernel/libfemto/include/elf.h	/^	PT_GNU_RELRO = 0x6474e552,$/;"	e	enum:__anon15
+PT_GNU_STACK	logiciel/kernel/libfemto/include/elf.h	/^	PT_GNU_STACK = 0x6474e551,$/;"	e	enum:__anon15
+PT_HIOS	logiciel/kernel/libfemto/include/elf.h	/^	PT_HIOS = 0x6fffffff,$/;"	e	enum:__anon15
+PT_HIPROC	logiciel/kernel/libfemto/include/elf.h	/^	PT_HIPROC = 0x7fffffff$/;"	e	enum:__anon15
+PT_INTERP	logiciel/kernel/libfemto/include/elf.h	/^	PT_INTERP = 3,$/;"	e	enum:__anon15
+PT_LOAD	logiciel/kernel/libfemto/include/elf.h	/^	PT_LOAD = 1,$/;"	e	enum:__anon15
+PT_LOOS	logiciel/kernel/libfemto/include/elf.h	/^	PT_LOOS = 0x60000000,$/;"	e	enum:__anon15
+PT_LOPROC	logiciel/kernel/libfemto/include/elf.h	/^	PT_LOPROC = 0x70000000,$/;"	e	enum:__anon15
+PT_NOTE	logiciel/kernel/libfemto/include/elf.h	/^	PT_NOTE = 4,$/;"	e	enum:__anon15
+PT_NULL	logiciel/kernel/libfemto/include/elf.h	/^	PT_NULL = 0,$/;"	e	enum:__anon15
+PT_PHDR	logiciel/kernel/libfemto/include/elf.h	/^	PT_PHDR = 6,$/;"	e	enum:__anon15
+PT_SHLIB	logiciel/kernel/libfemto/include/elf.h	/^	PT_SHLIB = 5,$/;"	e	enum:__anon15
+PT_TLS	logiciel/kernel/libfemto/include/elf.h	/^	PT_TLS = 7,$/;"	e	enum:__anon15
+RAND_FACTOR	logiciel/apps/snake/snake.h	10;"	d
+RAND_FACTOR	logiciel/apps/snake_it/snake.h	10;"	d
+RED	logiciel/apps/brick/brick.h	27;"	d
+RED	logiciel/apps/pong/pong.c	16;"	d	file:
+RED	logiciel/apps/snake/snake.h	17;"	d
+RED	logiciel/apps/snake_it/snake.h	17;"	d
+REG_LEDS_ADDR	logiciel/kernel/env/cep_riscv/cep_platform.h	8;"	d
+REG_LEDS_CTRL	logiciel/kernel/env/cep_riscv/cep_platform.h	9;"	d
+REG_PIN_ADDR	logiciel/kernel/env/cep_riscv/cep_platform.h	10;"	d
+REG_PUSHBUTTON_CTL_ADDR	logiciel/kernel/env/cep_riscv/cep_platform.h	11;"	d
+REG_PUSHBUTTON_MODE_INT	logiciel/kernel/env/cep_riscv/cep_platform.h	46;"	d
+REG_PUSHBUTTON_MODE_POLL	logiciel/kernel/env/cep_riscv/cep_platform.h	45;"	d
+RISCV_HTIF_BASE_ADDR	logiciel/kernel/libfemto/include/auxval.h	/^    RISCV_HTIF_BASE_ADDR       = 0x00050000,$/;"	e	enum:__anon61
+RISCV_PGLEVEL_BITS	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	182;"	d
+RISCV_PGLEVEL_BITS	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	187;"	d
+RISCV_PGSHIFT	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	190;"	d
+RISCV_PGSIZE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	191;"	d
+R_RISCV_32	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_32 = 1,$/;"	e	enum:__anon37
+R_RISCV_64	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_64 = 2,$/;"	e	enum:__anon37
+R_RISCV_ADD16	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_ADD16 = 34,$/;"	e	enum:__anon37
+R_RISCV_ADD32	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_ADD32 = 35,$/;"	e	enum:__anon37
+R_RISCV_ADD64	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_ADD64 = 36,$/;"	e	enum:__anon37
+R_RISCV_ADD8	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_ADD8 = 33,$/;"	e	enum:__anon37
+R_RISCV_ALIGN	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_ALIGN = 43,$/;"	e	enum:__anon37
+R_RISCV_BRANCH	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_BRANCH = 16,$/;"	e	enum:__anon37
+R_RISCV_CALL	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_CALL = 18,$/;"	e	enum:__anon37
+R_RISCV_CALL_PLT	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_CALL_PLT = 19,$/;"	e	enum:__anon37
+R_RISCV_COPY	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_COPY = 4,$/;"	e	enum:__anon37
+R_RISCV_GNU_VTENTRY	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_GNU_VTENTRY = 42,$/;"	e	enum:__anon37
+R_RISCV_GNU_VTINHERIT	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_GNU_VTINHERIT = 41,$/;"	e	enum:__anon37
+R_RISCV_GOT_HI20	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_GOT_HI20 = 20,$/;"	e	enum:__anon37
+R_RISCV_GPREL_I	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_GPREL_I = 47,$/;"	e	enum:__anon37
+R_RISCV_GPREL_S	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_GPREL_S = 48,$/;"	e	enum:__anon37
+R_RISCV_HI20	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_HI20 = 26,$/;"	e	enum:__anon37
+R_RISCV_JAL	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_JAL = 17,$/;"	e	enum:__anon37
+R_RISCV_JUMP_SLOT	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_JUMP_SLOT = 5,$/;"	e	enum:__anon37
+R_RISCV_LO12_I	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_LO12_I = 27,$/;"	e	enum:__anon37
+R_RISCV_LO12_S	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_LO12_S = 28,$/;"	e	enum:__anon37
+R_RISCV_NONE	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_NONE = 0,$/;"	e	enum:__anon37
+R_RISCV_PCREL_HI20	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_PCREL_HI20 = 23,$/;"	e	enum:__anon37
+R_RISCV_PCREL_LO12_I	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_PCREL_LO12_I = 24,$/;"	e	enum:__anon37
+R_RISCV_PCREL_LO12_S	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_PCREL_LO12_S = 25,$/;"	e	enum:__anon37
+R_RISCV_RELATIVE	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_RELATIVE = 3,$/;"	e	enum:__anon37
+R_RISCV_RELAX	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_RELAX = 51,$/;"	e	enum:__anon37
+R_RISCV_RVC_BRANCH	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_RVC_BRANCH = 44,$/;"	e	enum:__anon37
+R_RISCV_RVC_JUMP	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_RVC_JUMP = 45,$/;"	e	enum:__anon37
+R_RISCV_RVC_LUI	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_RVC_LUI = 46,$/;"	e	enum:__anon37
+R_RISCV_SET16	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_SET16 = 55,$/;"	e	enum:__anon37
+R_RISCV_SET32	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_SET32 = 56,$/;"	e	enum:__anon37
+R_RISCV_SET6	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_SET6 = 53,$/;"	e	enum:__anon37
+R_RISCV_SET8	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_SET8 = 54,$/;"	e	enum:__anon37
+R_RISCV_SUB16	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_SUB16 = 38,$/;"	e	enum:__anon37
+R_RISCV_SUB32	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_SUB32 = 39,$/;"	e	enum:__anon37
+R_RISCV_SUB6	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_SUB6 = 52,$/;"	e	enum:__anon37
+R_RISCV_SUB64	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_SUB64 = 40,$/;"	e	enum:__anon37
+R_RISCV_SUB8	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_SUB8 = 37,$/;"	e	enum:__anon37
+R_RISCV_TLS_DTPMOD32	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TLS_DTPMOD32 = 6,$/;"	e	enum:__anon37
+R_RISCV_TLS_DTPMOD64	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TLS_DTPMOD64 = 7,$/;"	e	enum:__anon37
+R_RISCV_TLS_DTPREL32	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TLS_DTPREL32 = 8,$/;"	e	enum:__anon37
+R_RISCV_TLS_DTPREL64	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TLS_DTPREL64 = 9,$/;"	e	enum:__anon37
+R_RISCV_TLS_GD_HI20	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TLS_GD_HI20 = 22,$/;"	e	enum:__anon37
+R_RISCV_TLS_GOT_HI20	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TLS_GOT_HI20 = 21,$/;"	e	enum:__anon37
+R_RISCV_TLS_TPREL32	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TLS_TPREL32 = 10,$/;"	e	enum:__anon37
+R_RISCV_TLS_TPREL64	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TLS_TPREL64 = 11,$/;"	e	enum:__anon37
+R_RISCV_TPREL_ADD	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TPREL_ADD = 32,$/;"	e	enum:__anon37
+R_RISCV_TPREL_HI20	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TPREL_HI20 = 29,$/;"	e	enum:__anon37
+R_RISCV_TPREL_I	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TPREL_I = 49,$/;"	e	enum:__anon37
+R_RISCV_TPREL_LO12_I	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TPREL_LO12_I = 30,$/;"	e	enum:__anon37
+R_RISCV_TPREL_LO12_S	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TPREL_LO12_S = 31,$/;"	e	enum:__anon37
+R_RISCV_TPREL_S	logiciel/kernel/libfemto/include/elf.h	/^	R_RISCV_TPREL_S = 50,$/;"	e	enum:__anon37
+R_X86_64_16	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_16 = 12,$/;"	e	enum:__anon36
+R_X86_64_32	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_32 = 10,$/;"	e	enum:__anon36
+R_X86_64_32S	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_32S = 11,$/;"	e	enum:__anon36
+R_X86_64_64	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_64 = 1,$/;"	e	enum:__anon36
+R_X86_64_8	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_8 = 14,$/;"	e	enum:__anon36
+R_X86_64_COPY	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_COPY = 5,$/;"	e	enum:__anon36
+R_X86_64_DTPMOD64	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_DTPMOD64 = 16,$/;"	e	enum:__anon36
+R_X86_64_DTPOFF32	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_DTPOFF32 = 21,$/;"	e	enum:__anon36
+R_X86_64_DTPOFF64	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_DTPOFF64 = 17,$/;"	e	enum:__anon36
+R_X86_64_GLOB_DAT	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_GLOB_DAT = 6,$/;"	e	enum:__anon36
+R_X86_64_GOT32	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_GOT32 = 3,$/;"	e	enum:__anon36
+R_X86_64_GOTOFF64	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_GOTOFF64 = 25,$/;"	e	enum:__anon36
+R_X86_64_GOTPC32	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_GOTPC32 = 26,$/;"	e	enum:__anon36
+R_X86_64_GOTPC32_TLSDESC	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_GOTPC32_TLSDESC = 34,$/;"	e	enum:__anon36
+R_X86_64_GOTPCREL	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_GOTPCREL = 9,$/;"	e	enum:__anon36
+R_X86_64_GOTTPOFF	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_GOTTPOFF = 22,$/;"	e	enum:__anon36
+R_X86_64_IRELATIVE	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_IRELATIVE = 37,$/;"	e	enum:__anon36
+R_X86_64_JUMP_SLOT	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_JUMP_SLOT = 7,$/;"	e	enum:__anon36
+R_X86_64_NONE	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_NONE = 0,$/;"	e	enum:__anon36
+R_X86_64_PC16	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_PC16 = 13,$/;"	e	enum:__anon36
+R_X86_64_PC32	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_PC32 = 2,$/;"	e	enum:__anon36
+R_X86_64_PC64	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_PC64 = 24,$/;"	e	enum:__anon36
+R_X86_64_PC8	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_PC8 = 15,$/;"	e	enum:__anon36
+R_X86_64_PLT32	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_PLT32 = 4,$/;"	e	enum:__anon36
+R_X86_64_RELATIVE	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_RELATIVE = 8,$/;"	e	enum:__anon36
+R_X86_64_RELATIVE64	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_RELATIVE64 = 38$/;"	e	enum:__anon36
+R_X86_64_SIZE32	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_SIZE32 = 32,$/;"	e	enum:__anon36
+R_X86_64_SIZE64	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_SIZE64 = 33,$/;"	e	enum:__anon36
+R_X86_64_TLSDESC	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_TLSDESC = 36,$/;"	e	enum:__anon36
+R_X86_64_TLSDESC_CALL	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_TLSDESC_CALL = 35,$/;"	e	enum:__anon36
+R_X86_64_TLSGD	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_TLSGD = 19,$/;"	e	enum:__anon36
+R_X86_64_TLSLD	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_TLSLD = 20,$/;"	e	enum:__anon36
+R_X86_64_TPOFF32	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_TPOFF32 = 23,$/;"	e	enum:__anon36
+R_X86_64_TPOFF64	logiciel/kernel/libfemto/include/elf.h	/^	R_X86_64_TPOFF64  = 18,$/;"	e	enum:__anon36
+SBI_CONSOLE_GETCHAR	logiciel/kernel/libfemto/drivers/semihost.c	/^    SBI_CONSOLE_GETCHAR = 2,$/;"	e	enum:__anon63	file:
+SBI_CONSOLE_PUTCHAR	logiciel/kernel/libfemto/drivers/semihost.c	/^    SBI_CONSOLE_PUTCHAR = 1,$/;"	e	enum:__anon63	file:
+SBI_SHUTDOWN	logiciel/kernel/libfemto/drivers/semihost.c	/^    SBI_SHUTDOWN = 8$/;"	e	enum:__anon63	file:
+SCORE_INT	logiciel/apps/pong/pong.h	16;"	d
+SCORE_POS	logiciel/apps/pong/pong.h	14;"	d
+SCORE_TOP	logiciel/apps/pong/pong.h	15;"	d
+SHF_ALLOC	logiciel/kernel/libfemto/include/elf.h	/^	SHF_ALLOC = 0x2,$/;"	e	enum:__anon21
+SHF_EXECINSTR	logiciel/kernel/libfemto/include/elf.h	/^	SHF_EXECINSTR = 0x4,$/;"	e	enum:__anon21
+SHF_GROUP	logiciel/kernel/libfemto/include/elf.h	/^	SHF_GROUP = 0x200,$/;"	e	enum:__anon21
+SHF_INFO_LINK	logiciel/kernel/libfemto/include/elf.h	/^	SHF_INFO_LINK = 0x40,$/;"	e	enum:__anon21
+SHF_LINK_ORDER	logiciel/kernel/libfemto/include/elf.h	/^	SHF_LINK_ORDER = 0x80,$/;"	e	enum:__anon21
+SHF_MASKOS	logiciel/kernel/libfemto/include/elf.h	/^	SHF_MASKOS = 0x0F000000,$/;"	e	enum:__anon21
+SHF_MASKPROC	logiciel/kernel/libfemto/include/elf.h	/^	SHF_MASKPROC = 0xf0000000$/;"	e	enum:__anon21
+SHF_MERGE	logiciel/kernel/libfemto/include/elf.h	/^	SHF_MERGE = 0x10,$/;"	e	enum:__anon21
+SHF_STRINGS	logiciel/kernel/libfemto/include/elf.h	/^	SHF_STRINGS = 0x20,$/;"	e	enum:__anon21
+SHF_TLS	logiciel/kernel/libfemto/include/elf.h	/^	SHF_TLS = 0x400,$/;"	e	enum:__anon21
+SHF_WRITE	logiciel/kernel/libfemto/include/elf.h	/^	SHF_WRITE = 0x1,$/;"	e	enum:__anon21
+SHN_ABS	logiciel/kernel/libfemto/include/elf.h	/^	SHN_ABS = 0xfff1,$/;"	e	enum:__anon19
+SHN_COMMON	logiciel/kernel/libfemto/include/elf.h	/^	SHN_COMMON = 0xfff2,$/;"	e	enum:__anon19
+SHN_HIOS	logiciel/kernel/libfemto/include/elf.h	/^	SHN_HIOS = 0xff3f,$/;"	e	enum:__anon19
+SHN_HIPROC	logiciel/kernel/libfemto/include/elf.h	/^	SHN_HIPROC = 0xff1f,$/;"	e	enum:__anon19
+SHN_HIRESERVE	logiciel/kernel/libfemto/include/elf.h	/^	SHN_HIRESERVE = 0xffff,$/;"	e	enum:__anon19
+SHN_LOOS	logiciel/kernel/libfemto/include/elf.h	/^	SHN_LOOS = 0xff20,$/;"	e	enum:__anon19
+SHN_LOPROC	logiciel/kernel/libfemto/include/elf.h	/^	SHN_LOPROC = 0xff00,$/;"	e	enum:__anon19
+SHN_UNDEF	logiciel/kernel/libfemto/include/elf.h	/^	SHN_UNDEF = 0,$/;"	e	enum:__anon19
+SHN_XINDEX	logiciel/kernel/libfemto/include/elf.h	/^	SHN_XINDEX = 0xffff,$/;"	e	enum:__anon19
+SHT_DYNAMIC	logiciel/kernel/libfemto/include/elf.h	/^	SHT_DYNAMIC = 6,$/;"	e	enum:__anon20
+SHT_DYNSYM	logiciel/kernel/libfemto/include/elf.h	/^	SHT_DYNSYM = 11,$/;"	e	enum:__anon20
+SHT_FINI_ARRAY	logiciel/kernel/libfemto/include/elf.h	/^	SHT_FINI_ARRAY = 15,$/;"	e	enum:__anon20
+SHT_GNU_VERDEF	logiciel/kernel/libfemto/include/elf.h	/^	SHT_GNU_VERDEF = 0x6ffffffd,$/;"	e	enum:__anon20
+SHT_GNU_VERNEED	logiciel/kernel/libfemto/include/elf.h	/^	SHT_GNU_VERNEED = 0x6ffffffe,$/;"	e	enum:__anon20
+SHT_GNU_VERSYM	logiciel/kernel/libfemto/include/elf.h	/^	SHT_GNU_VERSYM = 0x6fffffff,$/;"	e	enum:__anon20
+SHT_GROUP	logiciel/kernel/libfemto/include/elf.h	/^	SHT_GROUP = 17,$/;"	e	enum:__anon20
+SHT_HASH	logiciel/kernel/libfemto/include/elf.h	/^	SHT_HASH = 5,$/;"	e	enum:__anon20
+SHT_HIOS	logiciel/kernel/libfemto/include/elf.h	/^	SHT_HIOS = 0x6fffffff,$/;"	e	enum:__anon20
+SHT_HIPROC	logiciel/kernel/libfemto/include/elf.h	/^	SHT_HIPROC = 0x7fffffff,$/;"	e	enum:__anon20
+SHT_HIUSER	logiciel/kernel/libfemto/include/elf.h	/^	SHT_HIUSER = 0xffffffff$/;"	e	enum:__anon20
+SHT_INIT_ARRAY	logiciel/kernel/libfemto/include/elf.h	/^	SHT_INIT_ARRAY = 14,$/;"	e	enum:__anon20
+SHT_LOOS	logiciel/kernel/libfemto/include/elf.h	/^	SHT_LOOS = 0x60000000,$/;"	e	enum:__anon20
+SHT_LOPROC	logiciel/kernel/libfemto/include/elf.h	/^	SHT_LOPROC = 0x70000000,$/;"	e	enum:__anon20
+SHT_LOUSER	logiciel/kernel/libfemto/include/elf.h	/^	SHT_LOUSER = 0x80000000,$/;"	e	enum:__anon20
+SHT_NOBITS	logiciel/kernel/libfemto/include/elf.h	/^	SHT_NOBITS = 8,$/;"	e	enum:__anon20
+SHT_NOTE	logiciel/kernel/libfemto/include/elf.h	/^	SHT_NOTE = 7,$/;"	e	enum:__anon20
+SHT_NULL	logiciel/kernel/libfemto/include/elf.h	/^	SHT_NULL = 0,$/;"	e	enum:__anon20
+SHT_PREINIT_ARRAY	logiciel/kernel/libfemto/include/elf.h	/^	SHT_PREINIT_ARRAY = 16,$/;"	e	enum:__anon20
+SHT_PROGBITS	logiciel/kernel/libfemto/include/elf.h	/^	SHT_PROGBITS = 1,$/;"	e	enum:__anon20
+SHT_REL	logiciel/kernel/libfemto/include/elf.h	/^	SHT_REL = 9,$/;"	e	enum:__anon20
+SHT_RELA	logiciel/kernel/libfemto/include/elf.h	/^	SHT_RELA = 4,$/;"	e	enum:__anon20
+SHT_SHLIB	logiciel/kernel/libfemto/include/elf.h	/^	SHT_SHLIB = 10,$/;"	e	enum:__anon20
+SHT_STRTAB	logiciel/kernel/libfemto/include/elf.h	/^	SHT_STRTAB = 3,$/;"	e	enum:__anon20
+SHT_SYMTAB	logiciel/kernel/libfemto/include/elf.h	/^	SHT_SYMTAB = 2,$/;"	e	enum:__anon20
+SHT_SYMTAB_SHNDX	logiciel/kernel/libfemto/include/elf.h	/^	SHT_SYMTAB_SHNDX = 18,$/;"	e	enum:__anon20
+SIFIVE_CLIC_CRTL_ADDR	logiciel/kernel/libfemto/include/auxval.h	/^    SIFIVE_CLIC_CRTL_ADDR      = 0x55550001,$/;"	e	enum:__anon61
+SIFIVE_CLINT_CTRL_ADDR	logiciel/kernel/libfemto/include/auxval.h	/^    SIFIVE_CLINT_CTRL_ADDR     = 0x55550000,$/;"	e	enum:__anon61
+SIFIVE_GPIO0_CTRL_ADDR	logiciel/kernel/libfemto/include/auxval.h	/^    SIFIVE_GPIO0_CTRL_ADDR     = 0x55550020,$/;"	e	enum:__anon61
+SIFIVE_SPI0_CTRL_ADDR	logiciel/kernel/libfemto/include/auxval.h	/^    SIFIVE_SPI0_CTRL_ADDR      = 0x55550030,$/;"	e	enum:__anon61
+SIFIVE_TEST_CTRL_ADDR	logiciel/kernel/libfemto/include/auxval.h	/^    SIFIVE_TEST_CTRL_ADDR      = 0x55550002,$/;"	e	enum:__anon61
+SIFIVE_TEST_FAIL	logiciel/kernel/libfemto/drivers/sifive_test.c	/^	SIFIVE_TEST_FAIL = 0x3333,$/;"	e	enum:__anon65	file:
+SIFIVE_TEST_PASS	logiciel/kernel/libfemto/drivers/sifive_test.c	/^	SIFIVE_TEST_PASS = 0x5555,$/;"	e	enum:__anon65	file:
+SIFIVE_UART0_CTRL_ADDR	logiciel/kernel/libfemto/include/auxval.h	/^    SIFIVE_UART0_CTRL_ADDR     = 0x55550010,$/;"	e	enum:__anon61
+SIP_SSIP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	108;"	d
+SIP_STIP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	109;"	d
+SIZE_MAX	logiciel/kernel/libfemto/include/stdint.h	52;"	d
+SLOW	logiciel/kernel/examples/hello_cep/hello_cep.c	16;"	d	file:
+SOUTH	logiciel/apps/snake/snake.h	12;"	d
+SOUTH	logiciel/apps/snake_it/snake.h	12;"	d
+SPTBR32_ASID	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	117;"	d
+SPTBR32_MODE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	116;"	d
+SPTBR32_PPN	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	118;"	d
+SPTBR64_ASID	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	120;"	d
+SPTBR64_MODE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	119;"	d
+SPTBR64_PPN	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	121;"	d
+SPTBR_MODE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	183;"	d
+SPTBR_MODE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	188;"	d
+SPTBR_MODE_OFF	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	123;"	d
+SPTBR_MODE_SV32	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	124;"	d
+SPTBR_MODE_SV39	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	125;"	d
+SPTBR_MODE_SV48	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	126;"	d
+SPTBR_MODE_SV57	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	127;"	d
+SPTBR_MODE_SV64	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	128;"	d
+SSTATUS32_SD	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	40;"	d
+SSTATUS64_SD	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	41;"	d
+SSTATUS_FS	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	36;"	d
+SSTATUS_MXR	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	39;"	d
+SSTATUS_SD	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	181;"	d
+SSTATUS_SD	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	186;"	d
+SSTATUS_SIE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	32;"	d
+SSTATUS_SPIE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	34;"	d
+SSTATUS_SPP	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	35;"	d
+SSTATUS_SUM	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	38;"	d
+SSTATUS_UIE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	31;"	d
+SSTATUS_UPIE	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	33;"	d
+SSTATUS_XS	logiciel/kernel/libfemto/include/arch/riscv/encoding.h	37;"	d
+STB_GLOBAL	logiciel/kernel/libfemto/include/elf.h	/^	STB_GLOBAL = 1,$/;"	e	enum:__anon27
+STB_HIOS	logiciel/kernel/libfemto/include/elf.h	/^	STB_HIOS = 12,$/;"	e	enum:__anon27
+STB_HIPROC	logiciel/kernel/libfemto/include/elf.h	/^	STB_HIPROC = 15$/;"	e	enum:__anon27
+STB_LOCAL	logiciel/kernel/libfemto/include/elf.h	/^	STB_LOCAL = 0,$/;"	e	enum:__anon27
+STB_LOOS	logiciel/kernel/libfemto/include/elf.h	/^	STB_LOOS = 10,$/;"	e	enum:__anon27
+STB_LOPROC	logiciel/kernel/libfemto/include/elf.h	/^	STB_LOPROC = 13,$/;"	e	enum:__anon27
+STB_WEAK	logiciel/kernel/libfemto/include/elf.h	/^	STB_WEAK = 2,$/;"	e	enum:__anon27
+STT_FILE	logiciel/kernel/libfemto/include/elf.h	/^	STT_FILE = 4,$/;"	e	enum:__anon28
+STT_FUNC	logiciel/kernel/libfemto/include/elf.h	/^	STT_FUNC = 2,$/;"	e	enum:__anon28
+STT_HIOS	logiciel/kernel/libfemto/include/elf.h	/^	STT_HIOS = 12,$/;"	e	enum:__anon28
+STT_HIPROC	logiciel/kernel/libfemto/include/elf.h	/^	STT_HIPROC = 15$/;"	e	enum:__anon28
+STT_LOOS	logiciel/kernel/libfemto/include/elf.h	/^	STT_LOOS = 10,$/;"	e	enum:__anon28
+STT_LOPROC	logiciel/kernel/libfemto/include/elf.h	/^	STT_LOPROC = 13,$/;"	e	enum:__anon28
+STT_NOTYPE	logiciel/kernel/libfemto/include/elf.h	/^	STT_NOTYPE = 0,$/;"	e	enum:__anon28
+STT_OBJECT	logiciel/kernel/libfemto/include/elf.h	/^	STT_OBJECT = 1,$/;"	e	enum:__anon28
+STT_SECTION	logiciel/kernel/libfemto/include/elf.h	/^	STT_SECTION = 3,$/;"	e	enum:__anon28
+STV_DEFAULT	logiciel/kernel/libfemto/include/elf.h	/^	STV_DEFAULT = 0,$/;"	e	enum:__anon29
+STV_HIDDEN	logiciel/kernel/libfemto/include/elf.h	/^	STV_HIDDEN = 2,$/;"	e	enum:__anon29
+STV_INTERNAL	logiciel/kernel/libfemto/include/elf.h	/^	STV_INTERNAL = 1,$/;"	e	enum:__anon29
+STV_PROTECTED	logiciel/kernel/libfemto/include/elf.h	/^	STV_PROTECTED = 3$/;"	e	enum:__anon29
+SV32_LEVELS	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    SV32_LEVELS = 2,$/;"	e	enum:__anon48
+SV32_LEVEL_BITS	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    SV32_LEVEL_BITS = 10,$/;"	e	enum:__anon48
+SV32_PTE_SIZE	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    SV32_PTE_SIZE = 4$/;"	e	enum:__anon48
+SV39_LEVELS	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    SV39_LEVELS = 3,$/;"	e	enum:__anon52
+SV39_LEVEL_BITS	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    SV39_LEVEL_BITS = 9,$/;"	e	enum:__anon52
+SV39_PTE_SIZE	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    SV39_PTE_SIZE = 8$/;"	e	enum:__anon52
+SV48_LEVELS	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    SV48_LEVELS = 4,$/;"	e	enum:__anon56
+SV48_LEVEL_BITS	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    SV48_LEVEL_BITS = 9,$/;"	e	enum:__anon56
+SV48_PTE_SIZE	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    SV48_PTE_SIZE = 8$/;"	e	enum:__anon56
+Snake	logiciel/apps/snake/snake.h	/^typedef struct Snake {$/;"	s
+Snake	logiciel/apps/snake/snake.h	/^}Snake;$/;"	t	typeref:struct:Snake
+Snake	logiciel/apps/snake_it/snake.h	/^typedef struct Snake {$/;"	s
+Snake	logiciel/apps/snake_it/snake.h	/^}Snake;$/;"	t	typeref:struct:Snake
+TIMER_FREQ	logiciel/kernel/env/cep_riscv/cep_platform.h	57;"	d
+TIMER_FREQ	logiciel/kernel/env/cep_riscv/cep_platform.h	60;"	d
+TIMER_RATIO	logiciel/kernel/env/cep_riscv/cep_platform.h	58;"	d
+TIMER_RATIO	logiciel/kernel/env/cep_riscv/cep_platform.h	61;"	d
+UART0_BAUD_RATE	logiciel/kernel/libfemto/include/auxval.h	/^    UART0_BAUD_RATE            = 0x00011100,$/;"	e	enum:__anon61
+UART0_CLOCK_FREQ	logiciel/kernel/libfemto/include/auxval.h	/^    UART0_CLOCK_FREQ           = 0x00011000,$/;"	e	enum:__anon61
+UART_DLL	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_DLL      = 0x00,  \/* Divisor LSB (LCR_DLAB) *\/$/;"	e	enum:__anon62	file:
+UART_DLM	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_DLM      = 0x01,  \/* Divisor MSB (LCR_DLAB) *\/$/;"	e	enum:__anon62	file:
+UART_FCR	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_FCR      = 0x02,  \/* FIFO Control Register *\/$/;"	e	enum:__anon62	file:
+UART_IER	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_IER      = 0x01,  \/* Interrupt Enable Register *\/$/;"	e	enum:__anon62	file:
+UART_IP_RXWM	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^    UART_IP_RXWM    = 2$/;"	e	enum:__anon64	file:
+UART_IP_TXWM	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^    UART_IP_TXWM    = 1,$/;"	e	enum:__anon64	file:
+UART_LCR	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LCR      = 0x03,  \/* Line Control Register *\/$/;"	e	enum:__anon62	file:
+UART_LCR_8BIT	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LCR_8BIT = 0x03,  \/* 8-bit *\/$/;"	e	enum:__anon62	file:
+UART_LCR_DLAB	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LCR_DLAB = 0x80,  \/* Divisor Latch Bit *\/$/;"	e	enum:__anon62	file:
+UART_LCR_PODD	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LCR_PODD = 0x08,  \/* Parity Odd *\/$/;"	e	enum:__anon62	file:
+UART_LSR	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LSR      = 0x05,  \/* Line Status Register *\/$/;"	e	enum:__anon62	file:
+UART_LSR_BI	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LSR_BI   = 0x10,  \/* Break indicator *\/$/;"	e	enum:__anon62	file:
+UART_LSR_DA	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LSR_DA   = 0x01,  \/* Data Available *\/$/;"	e	enum:__anon62	file:
+UART_LSR_EF	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LSR_EF   = 0x80,  \/* Erroneous data in FIFO *\/$/;"	e	enum:__anon62	file:
+UART_LSR_FE	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LSR_FE   = 0x08,  \/* Framing Error *\/$/;"	e	enum:__anon62	file:
+UART_LSR_OE	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LSR_OE   = 0x02,  \/* Overrun Error *\/$/;"	e	enum:__anon62	file:
+UART_LSR_PE	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LSR_PE   = 0x04,  \/* Parity Error *\/$/;"	e	enum:__anon62	file:
+UART_LSR_RE	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LSR_RE   = 0x20,  \/* THR is empty *\/$/;"	e	enum:__anon62	file:
+UART_LSR_RI	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_LSR_RI   = 0x40,  \/* THR is empty and line is idle *\/$/;"	e	enum:__anon62	file:
+UART_MCR	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_MCR      = 0x04,  \/* Modem Control Register *\/$/;"	e	enum:__anon62	file:
+UART_MSR	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_MSR      = 0x06,  \/* Modem Status Register *\/$/;"	e	enum:__anon62	file:
+UART_RBR	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_RBR      = 0x00,  \/* Receive Buffer Register *\/$/;"	e	enum:__anon62	file:
+UART_REG_DIV	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^    UART_REG_DIV    = 6,$/;"	e	enum:__anon64	file:
+UART_REG_IE	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^    UART_REG_IE     = 4,$/;"	e	enum:__anon64	file:
+UART_REG_IP	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^    UART_REG_IP     = 5,$/;"	e	enum:__anon64	file:
+UART_REG_RXCTRL	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^    UART_REG_RXCTRL = 3,$/;"	e	enum:__anon64	file:
+UART_REG_RXFIFO	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^    UART_REG_RXFIFO = 1,$/;"	e	enum:__anon64	file:
+UART_REG_TXCTRL	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^    UART_REG_TXCTRL = 2,$/;"	e	enum:__anon64	file:
+UART_REG_TXFIFO	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^    UART_REG_TXFIFO = 0,$/;"	e	enum:__anon64	file:
+UART_RXEN	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^    UART_RXEN       = 1,$/;"	e	enum:__anon64	file:
+UART_SCR	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_SCR      = 0x07,  \/* Scratch Register *\/$/;"	e	enum:__anon62	file:
+UART_THR	logiciel/kernel/libfemto/drivers/ns16550a.c	/^    UART_THR      = 0x00,  \/* Transmit Hold Register *\/$/;"	e	enum:__anon62	file:
+UART_TXEN	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^    UART_TXEN       = 1,$/;"	e	enum:__anon64	file:
+UART_TXSTOP	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^    UART_TXSTOP     = 2,$/;"	e	enum:__anon64	file:
+UINT16_MAX	logiciel/kernel/libfemto/include/stdint.h	45;"	d
+UINT32_MAX	logiciel/kernel/libfemto/include/stdint.h	46;"	d
+UINT64_MAX	logiciel/kernel/libfemto/include/stdint.h	47;"	d
+UINT8_MAX	logiciel/kernel/libfemto/include/stdint.h	44;"	d
+UINTPTR_MAX	logiciel/kernel/libfemto/include/stdint.h	50;"	d
+VRAM_OFFSET	logiciel/kernel/env/cep_riscv/cep_platform.h	17;"	d
+WALL_C	logiciel/apps/brick/brick.h	19;"	d
+WALL_L	logiciel/apps/brick/brick.h	18;"	d
+WEST	logiciel/apps/snake/snake.h	14;"	d
+WEST	logiciel/apps/snake_it/snake.h	14;"	d
+WHITE	logiciel/apps/brick/brick.h	28;"	d
+WHITE	logiciel/apps/pong/pong.c	15;"	d	file:
+YELLOW	logiciel/apps/brick/brick.h	25;"	d
+_PONG_H_	logiciel/apps/pong/pong.h	2;"	d
+__BRICK_H__	logiciel/apps/brick/brick.h	2;"	d
+__CEP_PLATFORM_H__	logiciel/kernel/env/cep_riscv/cep_platform.h	2;"	d
+__SNAKE_H__	logiciel/apps/snake/snake.h	2;"	d
+__SNAKE_H__	logiciel/apps/snake_it/snake.h	2;"	d
+__SPRITE_H__	logiciel/apps/invader/invader.h	2;"	d
+__SPRITE_H__	logiciel/mips_legacy/sprite.h	2;"	d
+__auxv	logiciel/kernel/env/cep_riscv/setup.c	/^auxval_t __auxv[] = {$/;"	v
+__auxv	logiciel/kernel/env/coreip-e2-arty/setup.c	/^auxval_t __auxv[] = {$/;"	v
+__auxv	logiciel/kernel/env/default/setup.c	/^auxval_t __auxv[] = {$/;"	v
+__auxv	logiciel/kernel/env/qemu-sifive_e/setup.c	/^auxval_t __auxv[] = {$/;"	v
+__auxv	logiciel/kernel/env/qemu-sifive_u/setup.c	/^auxval_t __auxv[] = {$/;"	v
+__auxv	logiciel/kernel/env/semihost/setup.c	/^auxval_t __auxv[] = {$/;"	v
+__auxv	logiciel/kernel/env/spike/setup.c	/^auxval_t __auxv[] = {$/;"	v
+__auxv	logiciel/kernel/env/virt/setup.c	/^auxval_t __auxv[] = {$/;"	v
+__syscall	logiciel/kernel/libfemto/drivers/semihost.c	13;"	d	file:
+_beltoh	logiciel/kernel/libfemto/include/endian.h	41;"	d
+_beltoh	logiciel/kernel/libfemto/include/endian.h	48;"	d
+_htobel	logiciel/kernel/libfemto/include/endian.h	40;"	d
+_htobel	logiciel/kernel/libfemto/include/endian.h	47;"	d
+_htolel	logiciel/kernel/libfemto/include/endian.h	42;"	d
+_htolel	logiciel/kernel/libfemto/include/endian.h	49;"	d
+_leltoh	logiciel/kernel/libfemto/include/endian.h	43;"	d
+_leltoh	logiciel/kernel/libfemto/include/endian.h	50;"	d
+_malloc_addblock	logiciel/kernel/libfemto/std/malloc.c	/^void _malloc_addblock(void* addr, size_t size)$/;"	f
+a_type	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word a_type;$/;"	m	struct:__anon2
+a_type	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word a_type;$/;"	m	struct:__anon3
+a_val	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word a_val;$/;"	m	struct:__anon2
+a_val	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word a_val;$/;"	m	struct:__anon3
+abort	logiciel/kernel/libfemto/std/abort.c	/^void abort(void)$/;"	f
+ack_ei	logiciel/apps/snake_it/snake_it.c	/^static void ack_ei(void)$/;"	f	file:
+ack_irq	logiciel/kernel/examples/hello_cep/hello_cep.c	/^void ack_irq() {$/;"	f
+add_body	logiciel/apps/snake/snake.c	/^void add_body(Object *body_old, Object *body_new)$/;"	f
+add_body	logiciel/apps/snake_it/snake_it.c	/^void add_body(Object *body_old, Object *body_new)$/;"	f
+affiche_motif	logiciel/mips_legacy/mips_game.c	/^void affiche_motif(uint32 motif[8], int x, int y)$/;"	f
+affiche_motif_ligne	logiciel/mips_legacy/mips_game.c	/^void affiche_motif_ligne(uint32 m,int x,int y){$/;"	f
+affiche_pixel	logiciel/mips_legacy/mips_game.c	/^void affiche_pixel(int pix, int x, int y)$/;"	f
+affiche_sprite	logiciel/mips_legacy/mips_game.c	/^void affiche_sprite(Objet *objet){$/;"	f
+alive	logiciel/apps/invader/invader.h	/^   uint32_t alive;$/;"	m	struct:object_t
+alive	logiciel/mips_legacy/sprite.h	/^	uint32 alive;$/;"	m	struct:Object
+all_csr_enums	logiciel/kernel/libfemto/arch/riscv/csr.c	/^static int all_csr_enums[] = {$/;"	v	file:
+all_csr_names	logiciel/kernel/libfemto/arch/riscv/csr.c	/^static const char* all_csr_names[] = {$/;"	v	file:
+alloc_node	logiciel/kernel/libfemto/std/malloc.c	/^typedef struct alloc_node$/;"	s	file:
+alloc_node_t	logiciel/kernel/libfemto/std/malloc.c	/^} alloc_node_t;$/;"	t	typeref:struct:alloc_node	file:
+alloc_square	logiciel/apps/snake/snake.c	/^void alloc_square(Object *object, uint32_t x, uint32_t y, uint32_t color, uint32_t *pattern)$/;"	f
+alloc_square	logiciel/apps/snake_it/snake_it.c	/^void alloc_square(Object *object, uint32_t x, uint32_t y, uint32_t color, uint32_t *pattern)$/;"	f
+alloca	logiciel/kernel/libfemto/include/alloca.h	3;"	d
+arch_setup	logiciel/kernel/env/cep_riscv/setup.c	/^void arch_setup()$/;"	f
+arch_setup	logiciel/kernel/env/coreip-e2-arty/setup.c	/^void arch_setup()$/;"	f
+arch_setup	logiciel/kernel/env/default/setup.c	/^void arch_setup() {}$/;"	f
+arch_setup	logiciel/kernel/env/qemu-sifive_e/setup.c	/^void arch_setup()$/;"	f
+arch_setup	logiciel/kernel/env/qemu-sifive_u/setup.c	/^void arch_setup()$/;"	f
+arch_setup	logiciel/kernel/env/semihost/setup.c	/^void arch_setup() {$/;"	f
+arch_setup	logiciel/kernel/env/spike/setup.c	/^void arch_setup()$/;"	f
+arch_setup	logiciel/kernel/env/virt/setup.c	/^void arch_setup()$/;"	f
+assert	logiciel/kernel/libfemto/include/arch/riscv/machine.h	22;"	d
+auxval	logiciel/kernel/libfemto/include/auxval.h	/^typedef struct auxval {$/;"	s
+auxval_t	logiciel/kernel/libfemto/include/auxval.h	/^} auxval_t;$/;"	t	typeref:struct:auxval
+ax	logiciel/apps/brick/brick.h	/^  int      ax, ay;$/;"	m	struct:object_t
+ax	logiciel/apps/invader/invader.h	/^   int ax, ay;$/;"	m	struct:object_t
+ax	logiciel/apps/pong/pong.h	/^   int ax, ay;$/;"	m	struct:Object
+ax	logiciel/apps/snake/snake.h	/^  uint32_t ax, ay;$/;"	m	struct:Object
+ax	logiciel/apps/snake_it/snake.h	/^  uint32_t ax, ay;$/;"	m	struct:Object
+ax	logiciel/mips_legacy/mips_game.c	/^  int ax,ay;$/;"	m	struct:Objet	file:
+ax	logiciel/mips_legacy/sprite.h	/^	int ax, ay;$/;"	m	struct:Object
+ay	logiciel/apps/brick/brick.h	/^  int      ax, ay;$/;"	m	struct:object_t
+ay	logiciel/apps/invader/invader.h	/^   int ax, ay;$/;"	m	struct:object_t
+ay	logiciel/apps/pong/pong.h	/^   int ax, ay;$/;"	m	struct:Object
+ay	logiciel/apps/snake/snake.h	/^  uint32_t ax, ay;$/;"	m	struct:Object
+ay	logiciel/apps/snake_it/snake.h	/^  uint32_t ax, ay;$/;"	m	struct:Object
+ay	logiciel/mips_legacy/mips_game.c	/^  int ax,ay;$/;"	m	struct:Objet	file:
+ay	logiciel/mips_legacy/sprite.h	/^	int ax, ay;$/;"	m	struct:Object
+ball	logiciel/apps/pong/pong.c	/^Object ball = { L_PATTERN, C_BALL, 0, DISPLAY_WIDTH \/ (2 * DISPLAY_SCALE) - L_PATTERN, 0, -MOVE_BALL_X, MOVE_BALL_Y, WHITE, sprite_ball, -1, -1 };                                                      \/* Ping Pong Ball *\/$/;"	v
+ball_on_bar	logiciel/apps/brick/brick.c	/^void ball_on_bar(object_t *ball, object_t *bar)$/;"	f
+bar_catch	logiciel/apps/brick/brick.c	/^void bar_catch(object_t *ball, object_t *bar)$/;"	f
+be16toh	logiciel/kernel/libfemto/include/endian.h	/^static inline uint16_t be16toh(uint16_t x) { return bswap16(x); }$/;"	f
+be16toh	logiciel/kernel/libfemto/include/endian.h	/^static inline uint16_t be16toh(uint16_t x) { return x; }$/;"	f
+be32toh	logiciel/kernel/libfemto/include/endian.h	/^static inline uint32_t be32toh(uint32_t x) { return bswap32(x); }$/;"	f
+be32toh	logiciel/kernel/libfemto/include/endian.h	/^static inline uint32_t be32toh(uint32_t x) { return x; }$/;"	f
+be64toh	logiciel/kernel/libfemto/include/endian.h	/^static inline uint64_t be64toh(uint64_t x) { return bswap64(x); }$/;"	f
+be64toh	logiciel/kernel/libfemto/include/endian.h	/^static inline uint64_t be64toh(uint64_t x) { return x; }$/;"	f
+betoh	logiciel/kernel/libfemto/include/endian.h	64;"	d
+bg	logiciel/apps/brick/brick.h	/^  uint32_t bg[BAR_C][PATTERN_SIZE]; \/* background *\/$/;"	m	struct:object_t
+bg	logiciel/apps/invader/invader.h	/^   uint32_t bg[8][8];           \/* background *\/$/;"	m	struct:object_t
+bg	logiciel/apps/pong/pong.h	/^   uint32_t bg[MAX_FONT][L_PATTERN];$/;"	m	struct:Object
+bg	logiciel/apps/snake/snake.h	/^  uint32_t bg[PATTERN_SIZE][PATTERN_SIZE]; \/* background *\/$/;"	m	struct:Object
+bg	logiciel/apps/snake_it/snake.h	/^  uint32_t bg[PATTERN_SIZE][PATTERN_SIZE]; \/* background *\/$/;"	m	struct:Object
+bg	logiciel/mips_legacy/sprite.h	/^	uint32 bg[8][8]; \/* background *\/$/;"	m	struct:Object
+block	logiciel/kernel/libfemto/std/malloc.c	/^	char* block;$/;"	m	struct:alloc_node	file:
+body	logiciel/apps/snake/snake.c	/^Object body[MAX_LONG];          \/* The array which stores the information about the snakes' body *\/$/;"	v
+body	logiciel/apps/snake_it/snake_it.c	/^Object body[MAX_LONG];          \/* The array which stores the information about the snakes' body *\/$/;"	v
+break_up	logiciel/apps/brick/brick.c	/^void break_up(object_t *ball, brick_t *brick)$/;"	f
+brick_t	logiciel/apps/brick/brick.h	/^typedef struct brick_t {$/;"	s
+brick_t	logiciel/apps/brick/brick.h	/^} brick_t;$/;"	t	typeref:struct:brick_t
+bswap16	logiciel/kernel/libfemto/include/endian.h	3;"	d
+bswap32	logiciel/kernel/libfemto/include/endian.h	4;"	d
+bswap64	logiciel/kernel/libfemto/include/endian.h	5;"	d
+build	logiciel/apps/brick/brick.c	/^void build(object_t *ball, object_t *bar)$/;"	f
+build_wall	logiciel/apps/brick/brick.c	/^void build_wall(uint32_t *canvas)$/;"	f
+calculate_score	logiciel/apps/pong/pong.c	/^void calculate_score(void)$/;"	f
+carre	logiciel/apps/snake/snake.c	/^uint32_t carre[PATTERN_SIZE]  = { 0xf, 0xf, 0xf, 0xf };$/;"	v
+carre	logiciel/apps/snake_it/snake_it.c	/^uint32_t carre[PATTERN_SIZE]  = { 0xf, 0xf, 0xf, 0xf };$/;"	v
+cause_breakpoint	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_breakpoint           = 3,$/;"	e	enum:__anon45
+cause_exec_page_fault	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_exec_page_fault      = 12,$/;"	e	enum:__anon45
+cause_fault_fetch	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_fault_fetch          = 1,$/;"	e	enum:__anon45
+cause_fault_load	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_fault_load           = 5,$/;"	e	enum:__anon45
+cause_fault_store	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_fault_store          = 7,$/;"	e	enum:__anon45
+cause_hypervisor_ecall	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_hypervisor_ecall     = 10,$/;"	e	enum:__anon45
+cause_illegal_instruction	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_illegal_instruction  = 2,$/;"	e	enum:__anon45
+cause_load_page_fault	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_load_page_fault      = 13,$/;"	e	enum:__anon45
+cause_machine_ecall	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_machine_ecall        = 11,$/;"	e	enum:__anon45
+cause_misaligned_fetch	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_misaligned_fetch     = 0,$/;"	e	enum:__anon45
+cause_misaligned_load	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_misaligned_load      = 4,$/;"	e	enum:__anon45
+cause_misaligned_store	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_misaligned_store     = 6,$/;"	e	enum:__anon45
+cause_store_page_fault	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_store_page_fault     = 15$/;"	e	enum:__anon45
+cause_supervisor_ecall	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_supervisor_ecall     = 9,$/;"	e	enum:__anon45
+cause_user_ecall	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  cause_user_ecall           = 8,$/;"	e	enum:__anon45
+clear_csr	logiciel/kernel/libfemto/include/arch/riscv/machine.h	39;"	d
+clear_screen	logiciel/apps/blue/blue.c	/^void clear_screen(uint32_t color)$/;"	f
+clear_screen	logiciel/apps/brick/brick.c	/^void clear_screen(uint32_t color)$/;"	f
+clear_screen	logiciel/apps/invader/invader.c	/^void clear_screen(uint32_t color)$/;"	f
+clear_screen	logiciel/apps/pong/pong.c	/^void clear_screen(uint32_t color)$/;"	f
+clear_screen	logiciel/apps/snake/snake.c	/^void clear_screen(uint32_t color)$/;"	f
+clear_screen	logiciel/apps/snake_it/snake_it.c	/^void clear_screen(uint32_t color)$/;"	f
+clear_screen	logiciel/mips_legacy/mips_invader_zybo.c	/^void clear_screen(uint32 color)$/;"	f
+clz	logiciel/kernel/libfemto/include/stdbits.h	9;"	d
+coalesce_free_list	logiciel/kernel/libfemto/std/malloc.c	/^static void coalesce_free_list(void)$/;"	f	file:
+color	logiciel/apps/brick/brick.h	/^  uint32_t color;$/;"	m	struct:brick_t
+color	logiciel/apps/brick/brick.h	/^  uint32_t color;$/;"	m	struct:object_t
+color	logiciel/apps/invader/invader.h	/^   uint32_t color;$/;"	m	struct:object_t
+color	logiciel/apps/pong/pong.h	/^   uint32_t color;$/;"	m	struct:Object
+color	logiciel/apps/snake/snake.h	/^  uint32_t color;$/;"	m	struct:Object
+color	logiciel/apps/snake_it/snake.h	/^  uint32_t color;$/;"	m	struct:Object
+color	logiciel/mips_legacy/sprite.h	/^	uint32 color;$/;"	m	struct:Object
+compteur	logiciel/mips_legacy/test_irq.c	/^volatile int compteur;$/;"	v
+console_dev	logiciel/kernel/libfemto/arch/riscv/device.c	/^console_device_t *console_dev = &console_none;$/;"	v
+console_device	logiciel/kernel/libfemto/include/device.h	/^typedef struct console_device {$/;"	s
+console_device_t	logiciel/kernel/libfemto/include/device.h	/^} console_device_t;$/;"	t	typeref:struct:console_device
+console_none	logiciel/kernel/libfemto/arch/riscv/device.c	/^console_device_t console_none = {$/;"	v
+console_ns16550a	logiciel/kernel/libfemto/drivers/ns16550a.c	/^console_device_t console_ns16550a = {$/;"	v
+console_semihost	logiciel/kernel/libfemto/drivers/semihost.c	/^console_device_t console_semihost = {$/;"	v
+console_sifive_uart	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^console_device_t console_sifive_uart = {$/;"	v
+container_of	logiciel/kernel/libfemto/include/list.h	42;"	d
+count	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^    int count;$/;"	m	struct:pmp_info
+csr_cycle	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_cycle,$/;"	e	enum:__anon60
+csr_cycleh	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_cycleh,$/;"	e	enum:__anon60
+csr_enum_array	logiciel/kernel/libfemto/arch/riscv/csr.c	/^int* csr_enum_array()$/;"	f
+csr_fcsr	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_fcsr,$/;"	e	enum:__anon60
+csr_fflags	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_fflags,$/;"	e	enum:__anon60
+csr_frm	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_frm,$/;"	e	enum:__anon60
+csr_instret	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_instret,$/;"	e	enum:__anon60
+csr_instreth	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_instreth,$/;"	e	enum:__anon60
+csr_marchid	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_marchid,$/;"	e	enum:__anon60
+csr_mcause	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mcause,$/;"	e	enum:__anon60
+csr_mcounteren	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mcounteren,$/;"	e	enum:__anon60
+csr_mcycle	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mcycle,$/;"	e	enum:__anon60
+csr_mcycleh	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mcycleh,$/;"	e	enum:__anon60
+csr_medeleg	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_medeleg,$/;"	e	enum:__anon60
+csr_mepc	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mepc,$/;"	e	enum:__anon60
+csr_mhartid	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mhartid,$/;"	e	enum:__anon60
+csr_mideleg	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mideleg,$/;"	e	enum:__anon60
+csr_mie	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mie,$/;"	e	enum:__anon60
+csr_mimpid	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mimpid,$/;"	e	enum:__anon60
+csr_minstret	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_minstret,$/;"	e	enum:__anon60
+csr_minstreth	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_minstreth,$/;"	e	enum:__anon60
+csr_mip	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mip,$/;"	e	enum:__anon60
+csr_misa	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_misa,$/;"	e	enum:__anon60
+csr_mscratch	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mscratch,$/;"	e	enum:__anon60
+csr_mstatus	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mstatus,$/;"	e	enum:__anon60
+csr_mtval	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mtval,$/;"	e	enum:__anon60
+csr_mtvec	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mtvec,$/;"	e	enum:__anon60
+csr_mvendorid	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_mvendorid,$/;"	e	enum:__anon60
+csr_name_array	logiciel/kernel/libfemto/arch/riscv/csr.c	/^const char** csr_name_array()$/;"	f
+csr_none	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_none,$/;"	e	enum:__anon60
+csr_pmpaddr0	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr0,$/;"	e	enum:__anon60
+csr_pmpaddr1	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr1,$/;"	e	enum:__anon60
+csr_pmpaddr10	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr10,$/;"	e	enum:__anon60
+csr_pmpaddr11	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr11,$/;"	e	enum:__anon60
+csr_pmpaddr12	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr12,$/;"	e	enum:__anon60
+csr_pmpaddr13	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr13,$/;"	e	enum:__anon60
+csr_pmpaddr14	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr14,$/;"	e	enum:__anon60
+csr_pmpaddr15	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr15$/;"	e	enum:__anon60
+csr_pmpaddr2	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr2,$/;"	e	enum:__anon60
+csr_pmpaddr3	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr3,$/;"	e	enum:__anon60
+csr_pmpaddr4	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr4,$/;"	e	enum:__anon60
+csr_pmpaddr5	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr5,$/;"	e	enum:__anon60
+csr_pmpaddr6	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr6,$/;"	e	enum:__anon60
+csr_pmpaddr7	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr7,$/;"	e	enum:__anon60
+csr_pmpaddr8	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr8,$/;"	e	enum:__anon60
+csr_pmpaddr9	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpaddr9,$/;"	e	enum:__anon60
+csr_pmpcfg0	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpcfg0,$/;"	e	enum:__anon60
+csr_pmpcfg1	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpcfg1,$/;"	e	enum:__anon60
+csr_pmpcfg2	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpcfg2,$/;"	e	enum:__anon60
+csr_pmpcfg3	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_pmpcfg3,$/;"	e	enum:__anon60
+csr_satp	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_satp,$/;"	e	enum:__anon60
+csr_scause	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_scause,$/;"	e	enum:__anon60
+csr_scounteren	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_scounteren,$/;"	e	enum:__anon60
+csr_sedeleg	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_sedeleg,$/;"	e	enum:__anon60
+csr_sepc	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_sepc,$/;"	e	enum:__anon60
+csr_sideleg	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_sideleg,$/;"	e	enum:__anon60
+csr_sie	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_sie,$/;"	e	enum:__anon60
+csr_sip	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_sip,$/;"	e	enum:__anon60
+csr_sscratch	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_sscratch,$/;"	e	enum:__anon60
+csr_sstatus	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_sstatus,$/;"	e	enum:__anon60
+csr_stval	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_stval,$/;"	e	enum:__anon60
+csr_stvec	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_stvec,$/;"	e	enum:__anon60
+csr_time	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_time,$/;"	e	enum:__anon60
+csr_timeh	logiciel/kernel/libfemto/include/arch/riscv/csr.h	/^    csr_timeh,$/;"	e	enum:__anon60
+ctz	logiciel/kernel/libfemto/include/stdbits.h	20;"	d
+d_ptr	logiciel/kernel/libfemto/include/elf.h	/^		Elf32_Addr  d_ptr;$/;"	m	union:__anon41::__anon42
+d_ptr	logiciel/kernel/libfemto/include/elf.h	/^		Elf64_Addr  d_ptr;$/;"	m	union:__anon43::__anon44
+d_tag	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Sword  d_tag;$/;"	m	struct:__anon41
+d_tag	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Sxword d_tag;$/;"	m	struct:__anon43
+d_un	logiciel/kernel/libfemto/include/elf.h	/^	} d_un;$/;"	m	struct:__anon41	typeref:union:__anon41::__anon42
+d_un	logiciel/kernel/libfemto/include/elf.h	/^	} d_un;$/;"	m	struct:__anon43	typeref:union:__anon43::__anon44
+d_val	logiciel/kernel/libfemto/include/elf.h	/^		Elf32_Word  d_val;$/;"	m	union:__anon41::__anon42
+d_val	logiciel/kernel/libfemto/include/elf.h	/^		Elf64_Xword d_val;$/;"	m	union:__anon43::__anon44
+dead	logiciel/apps/snake/snake.h	/^  uint32_t dead;$/;"	m	struct:Snake
+dead	logiciel/apps/snake_it/snake.h	/^  uint32_t dead;$/;"	m	struct:Snake
+deadline	logiciel/apps/invader/invader.h	/^   uint32_t deadline;$/;"	m	struct:object_t
+deadline	logiciel/mips_legacy/sprite.h	/^	uint32 deadline;$/;"	m	struct:Object
+default_getchar	logiciel/kernel/libfemto/arch/riscv/device.c	/^static int default_getchar()$/;"	f	file:
+default_poweroff	logiciel/kernel/libfemto/arch/riscv/device.c	/^static void default_poweroff(int status)$/;"	f	file:
+default_putchar	logiciel/kernel/libfemto/arch/riscv/device.c	/^static int default_putchar(int ch)$/;"	f	file:
+destroy_brick	logiciel/apps/brick/brick.c	/^void destroy_brick(brick_t *brick)$/;"	f
+die	logiciel/kernel/libfemto/include/arch/riscv/machine.h	16;"	d
+die	logiciel/kernel/libfemto/include/arch/riscv/machine.h	19;"	d
+direct	logiciel/apps/snake/snake.h	/^  uint32_t direct;$/;"	m	struct:Snake
+direct	logiciel/apps/snake_it/snake.h	/^  uint32_t direct;$/;"	m	struct:Snake
+display_brick	logiciel/apps/brick/brick.c	/^void display_brick(brick_t *brick)$/;"	f
+display_img	logiciel/kernel/examples/hello_cep/hello_cep.c	/^void display_img(uint32_t* img) {$/;"	f
+display_pattern	logiciel/apps/brick/brick.c	/^void display_pattern(uint32_t *pattern, int x, int y, uint32_t color, uint32_t size_l, uint32_t size_c)$/;"	f
+display_pattern	logiciel/apps/invader/invader.c	/^void display_pattern(uint32_t pattern[8], int x, int y, uint32_t color)$/;"	f
+display_pattern	logiciel/apps/pong/pong.c	/^void display_pattern(uint32_t *pattern, int size_line, int size_colonne, int x, int y, uint32_t color)$/;"	f
+display_pattern	logiciel/apps/snake/snake.c	/^void display_pattern(uint32_t *pattern, uint32_t x, uint32_t y, uint32_t color)$/;"	f
+display_pattern	logiciel/apps/snake_it/snake_it.c	/^void display_pattern(uint32_t *pattern, uint32_t x, uint32_t y, uint32_t color)$/;"	f
+display_pattern	logiciel/mips_legacy/mips_invader_zybo.c	/^void display_pattern(uint32 pattern[8], int x, int y, uint32 color)$/;"	f
+display_pattern_line	logiciel/apps/brick/brick.c	/^void display_pattern_line(uint32_t m, int x, int y, uint32_t color, uint32_t size_l)$/;"	f
+display_pattern_line	logiciel/apps/invader/invader.c	/^void display_pattern_line(uint32_t m, int x, int y, uint32_t color)$/;"	f
+display_pattern_line	logiciel/apps/pong/pong.c	/^void display_pattern_line(uint32_t m, int size_line, int x, int y, uint32_t color)$/;"	f
+display_pattern_line	logiciel/apps/snake/snake.c	/^void display_pattern_line(uint32_t m, uint32_t x, uint32_t y, uint32_t color)$/;"	f
+display_pattern_line	logiciel/apps/snake_it/snake_it.c	/^void display_pattern_line(uint32_t m, uint32_t x, uint32_t y, uint32_t color)$/;"	f
+display_pattern_line	logiciel/mips_legacy/mips_invader_zybo.c	/^void display_pattern_line(uint32 m, int x, int y, uint32 color)$/;"	f
+display_score	logiciel/apps/pong/pong.c	/^void display_score(Object *object, int player)$/;"	f
+display_sprite	logiciel/apps/brick/brick.c	/^void display_sprite(object_t *object)$/;"	f
+display_sprite	logiciel/apps/invader/invader.c	/^void display_sprite(object_t * object)$/;"	f
+display_sprite	logiciel/apps/pong/pong.c	/^void display_sprite(Object *object)$/;"	f
+display_sprite	logiciel/apps/snake/snake.c	/^void display_sprite(Object *object)$/;"	f
+display_sprite	logiciel/apps/snake_it/snake_it.c	/^void display_sprite(Object *object)$/;"	f
+display_sprite	logiciel/mips_legacy/mips_invader_zybo.c	/^void display_sprite(Object *object)$/;"	f
+display_status	logiciel/kernel/examples/hello_cep/hello_cep.c	/^void display_status(){$/;"	f
+display_timer	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^void display_timer()$/;"	f
+draw_boundary	logiciel/apps/pong/pong.c	/^void draw_boundary(void)$/;"	f
+dx	logiciel/apps/brick/brick.h	/^  int      dx, dy; $/;"	m	struct:object_t
+dx	logiciel/apps/invader/invader.h	/^   int dx, dy;$/;"	m	struct:object_t
+dx	logiciel/apps/invader/invader.h	/^   int dx;$/;"	m	struct:state_t
+dx	logiciel/apps/pong/pong.h	/^   int dx, dy;$/;"	m	struct:Object
+dx	logiciel/mips_legacy/mips_game.c	/^  int dx, dy;$/;"	m	struct:Objet	file:
+dx	logiciel/mips_legacy/sprite.h	/^	int dx, dy;$/;"	m	struct:Object
+dy	logiciel/apps/brick/brick.h	/^  int      dx, dy; $/;"	m	struct:object_t
+dy	logiciel/apps/invader/invader.h	/^   int dx, dy;$/;"	m	struct:object_t
+dy	logiciel/apps/invader/invader.h	/^   int dy;$/;"	m	struct:state_t
+dy	logiciel/apps/pong/pong.h	/^   int dx, dy;$/;"	m	struct:Object
+dy	logiciel/mips_legacy/mips_game.c	/^  int dx, dy;$/;"	m	struct:Objet	file:
+dy	logiciel/mips_legacy/sprite.h	/^	int dx, dy;$/;"	m	struct:Object
+e_ehsize	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Half  e_ehsize;$/;"	m	struct:__anon13
+e_ehsize	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Half  e_ehsize;$/;"	m	struct:__anon14
+e_entry	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Addr  e_entry;$/;"	m	struct:__anon13
+e_entry	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Addr  e_entry;$/;"	m	struct:__anon14
+e_flags	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  e_flags;$/;"	m	struct:__anon13
+e_flags	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word  e_flags;$/;"	m	struct:__anon14
+e_ident	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Byte  e_ident[EI_NIDENT];$/;"	m	struct:__anon13
+e_ident	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Byte  e_ident[EI_NIDENT];$/;"	m	struct:__anon14
+e_machine	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Half  e_machine;$/;"	m	struct:__anon13
+e_machine	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Half  e_machine;$/;"	m	struct:__anon14
+e_phentsize	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Half  e_phentsize;$/;"	m	struct:__anon13
+e_phentsize	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Half  e_phentsize;$/;"	m	struct:__anon14
+e_phnum	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Half  e_phnum;$/;"	m	struct:__anon13
+e_phnum	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Half  e_phnum;$/;"	m	struct:__anon14
+e_phoff	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Off   e_phoff;$/;"	m	struct:__anon13
+e_phoff	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Off   e_phoff;$/;"	m	struct:__anon14
+e_shentsize	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Half  e_shentsize;$/;"	m	struct:__anon13
+e_shentsize	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Half  e_shentsize;$/;"	m	struct:__anon14
+e_shnum	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Half  e_shnum;$/;"	m	struct:__anon13
+e_shnum	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Half  e_shnum;$/;"	m	struct:__anon14
+e_shoff	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Off   e_shoff;$/;"	m	struct:__anon13
+e_shoff	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Off   e_shoff;$/;"	m	struct:__anon14
+e_shstrndx	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Half  e_shstrndx;$/;"	m	struct:__anon13
+e_shstrndx	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Half  e_shstrndx;$/;"	m	struct:__anon14
+e_type	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Half  e_type;$/;"	m	struct:__anon13
+e_type	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Half  e_type;$/;"	m	struct:__anon14
+e_version	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  e_version;$/;"	m	struct:__anon13
+e_version	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word  e_version;$/;"	m	struct:__anon14
+eat_food	logiciel/apps/snake/snake.c	/^uint32_t eat_food(void)$/;"	f
+eat_food	logiciel/apps/snake_it/snake_it.c	/^uint32_t eat_food(void)$/;"	f
+echeance	logiciel/mips_legacy/mips_game.c	/^  uint32 echeance;$/;"	m	struct:Objet	file:
+enable_irqs	logiciel/apps/snake_it/snake_it.c	/^static void enable_irqs(void)$/;"	f	file:
+enable_irqs	logiciel/kernel/examples/hello_cep/hello_cep.c	/^void enable_irqs() {$/;"	f
+end	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^    uintptr_t end;$/;"	m	struct:memory_info
+exist	logiciel/apps/brick/brick.h	/^  uint32_t exist;$/;"	m	struct:brick_t
+exit	logiciel/kernel/libfemto/std/exit.c	/^void exit(int status)$/;"	f
+flags	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint32_t flags   : 10;$/;"	m	struct:sv32_pte::__anon51
+flags	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t flags   : 10;$/;"	m	struct:sv39_pte::__anon55
+flags	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t flags   : 10;$/;"	m	struct:sv48_pte::__anon59
+flip	logiciel/apps/brick/brick.c	/^uint32_t flip, level;           \/* to remark if the ball has been shot and the level *\/$/;"	v
+food	logiciel/apps/snake/snake.c	/^Object food;                    \/* The variable which contains the information of the food which will be eaten by the snake *\/$/;"	v
+food	logiciel/apps/snake_it/snake_it.c	/^Object food;                    \/* The variable which contains the information of the food which will be eaten by the snake *\/$/;"	v
+free	logiciel/kernel/libfemto/std/malloc.c	/^void free(void* ptr)$/;"	f
+fruit	logiciel/apps/snake/snake.c	/^uint32_t fruit[PATTERN_SIZE]  = { 0x4, 0xf, 0x7, 0x7};$/;"	v
+fruit	logiciel/apps/snake_it/snake_it.c	/^uint32_t fruit[PATTERN_SIZE]  = { 0x4, 0xf, 0x7, 0x7};$/;"	v
+game_over	logiciel/apps/snake/snake.c	/^void game_over(void)$/;"	f
+game_over	logiciel/apps/snake_it/snake_it.c	/^void game_over(void)$/;"	f
+get_field	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^static inline uintptr_t get_field(uintptr_t reg, uintptr_t mask)$/;"	f
+get_trap_fn	logiciel/kernel/libfemto/arch/riscv/trap.c	/^trap_fn get_trap_fn()$/;"	f
+getauxval	logiciel/kernel/libfemto/arch/riscv/auxval.c	/^unsigned long getauxval(unsigned long key)$/;"	f
+getchar	logiciel/kernel/libfemto/include/device.h	/^    int (*getchar)();$/;"	m	struct:console_device
+getchar	logiciel/kernel/libfemto/std/getchar.c	/^int getchar()$/;"	f
+granularity	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^    int granularity;$/;"	m	struct:pmp_info
+has_ext	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^static inline int has_ext(char ext) { return misa() & (1 << (ext - 'a')); }$/;"	f
+head	logiciel/apps/snake/snake.c	/^uint32_t head[PATTERN_SIZE]   = { 0xf, 0xd, 0xf, 0xf }; \/\/ snake head$/;"	v
+head	logiciel/apps/snake/snake.h	/^  Object *head;$/;"	m	struct:Snake
+head	logiciel/apps/snake_it/snake.h	/^  Object *head;$/;"	m	struct:Snake
+head	logiciel/apps/snake_it/snake_it.c	/^uint32_t head[PATTERN_SIZE]   = { 0xf, 0xd, 0xf, 0xf }; \/\/ snake head$/;"	v
+hit	logiciel/apps/pong/pong.c	/^void hit(void)$/;"	f
+htobe	logiciel/kernel/libfemto/include/endian.h	53;"	d
+htobe16	logiciel/kernel/libfemto/include/endian.h	/^static inline uint16_t htobe16(uint16_t x) { return bswap16(x); }$/;"	f
+htobe16	logiciel/kernel/libfemto/include/endian.h	/^static inline uint16_t htobe16(uint16_t x) { return x; }$/;"	f
+htobe32	logiciel/kernel/libfemto/include/endian.h	/^static inline uint32_t htobe32(uint32_t x) { return bswap32(x); }$/;"	f
+htobe32	logiciel/kernel/libfemto/include/endian.h	/^static inline uint32_t htobe32(uint32_t x) { return x; }$/;"	f
+htobe64	logiciel/kernel/libfemto/include/endian.h	/^static inline uint64_t htobe64(uint64_t x) { return bswap64(x); }$/;"	f
+htobe64	logiciel/kernel/libfemto/include/endian.h	/^static inline uint64_t htobe64(uint64_t x) { return x; }$/;"	f
+htole	logiciel/kernel/libfemto/include/endian.h	75;"	d
+htole16	logiciel/kernel/libfemto/include/endian.h	/^static inline uint16_t htole16(uint16_t x) { return bswap16(x); }$/;"	f
+htole16	logiciel/kernel/libfemto/include/endian.h	/^static inline uint16_t htole16(uint16_t x) { return x; }$/;"	f
+htole32	logiciel/kernel/libfemto/include/endian.h	/^static inline uint32_t htole32(uint32_t x) { return bswap32(x); }$/;"	f
+htole32	logiciel/kernel/libfemto/include/endian.h	/^static inline uint32_t htole32(uint32_t x) { return x; }$/;"	f
+htole64	logiciel/kernel/libfemto/include/endian.h	/^static inline uint64_t htole64(uint64_t x) { return bswap64(x); }$/;"	f
+htole64	logiciel/kernel/libfemto/include/endian.h	/^static inline uint64_t htole64(uint64_t x) { return x; }$/;"	f
+image_1080	logiciel/kernel/examples/hello_cep/paysage_1080.h	/^uint32_t image_1080[] = {$/;"	v
+image_720	logiciel/kernel/examples/hello_cep/paysage_720.h	/^uint32_t image_720[] = {$/;"	v
+img	logiciel/apps/blue/blue.c	/^volatile uint32_t *img  = (volatile uint32_t *)VRAM_OFFSET; \/* Memory Video *\/$/;"	v
+img	logiciel/apps/brick/brick.c	/^volatile uint32_t *img = (volatile uint32_t *) VRAM_OFFSET;                                                                                                                                             \/* Memory Video *\/$/;"	v
+img	logiciel/apps/invader/invader.c	/^static volatile uint32_t *img = (volatile uint32_t *) VRAM_OFFSET;$/;"	v	file:
+img	logiciel/apps/pong/pong.c	/^volatile uint32_t *img = (volatile uint32_t *) VRAM_OFFSET;$/;"	v
+img	logiciel/apps/snake/snake.c	/^volatile uint32_t *img = (volatile uint32_t *)VRAM_OFFSET;$/;"	v
+img	logiciel/apps/snake_it/snake_it.c	/^volatile uint32_t *img = (volatile uint32_t *)VRAM_OFFSET;$/;"	v
+img	logiciel/mips_legacy/mips_game.c	/^volatile uint32 *img  = (volatile uint32 *)0x80000;$/;"	v
+img	logiciel/mips_legacy/mips_invader_zybo.c	/^volatile uint32 *img  = (volatile uint32 *)0x80080000; \/* IP VGA *\/$/;"	v
+init	logiciel/kernel/libfemto/include/device.h	/^    void (*init)();$/;"	m	struct:console_device
+init	logiciel/kernel/libfemto/include/device.h	/^    void (*init)();$/;"	m	struct:poweroff_device
+init_ball	logiciel/apps/pong/pong.c	/^void init_ball(void)$/;"	f
+initialize	logiciel/apps/brick/brick.c	/^void initialize()$/;"	f
+initialize	logiciel/apps/invader/invader.c	/^void initialize()$/;"	f
+initialize	logiciel/apps/pong/pong.c	/^void initialize(void)$/;"	f
+initialize	logiciel/mips_legacy/mips_invader_zybo.c	/^void initialize()$/;"	f
+int16_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INT16_TYPE__ int16_t;$/;"	t
+int32_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INT32_TYPE__ int32_t;$/;"	t
+int64_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INT64_TYPE__ int64_t;$/;"	t
+int8_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INT8_TYPE__ int8_t;$/;"	t
+int_fast16_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INT_FAST16_TYPE__ int_fast16_t;$/;"	t
+int_fast32_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INT_FAST32_TYPE__ int_fast32_t;$/;"	t
+int_fast64_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INT_FAST64_TYPE__ int_fast64_t;$/;"	t
+int_fast8_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INT_FAST8_TYPE__ int_fast8_t;$/;"	t
+int_least16_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INT_LEAST16_TYPE__ int_least16_t;$/;"	t
+int_least32_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INT_LEAST32_TYPE__ int_least32_t;$/;"	t
+int_least64_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INT_LEAST64_TYPE__ int_least64_t;$/;"	t
+int_least8_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INT_LEAST8_TYPE__ int_least8_t;$/;"	t
+intmax_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INTMAX_TYPE__ intmax_t;$/;"	t
+intptr_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __INTPTR_TYPE__ intptr_t;$/;"	t
+intr_h_external	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  intr_h_external           = 10,$/;"	e	enum:__anon46
+intr_h_software	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  intr_h_software           = 2,$/;"	e	enum:__anon46
+intr_h_timer	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  intr_h_timer              = 6,$/;"	e	enum:__anon46
+intr_m_external	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  intr_m_external           = 11,$/;"	e	enum:__anon46
+intr_m_software	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  intr_m_software           = 3,$/;"	e	enum:__anon46
+intr_m_timer	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  intr_m_timer              = 7,$/;"	e	enum:__anon46
+intr_s_external	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  intr_s_external           = 9,$/;"	e	enum:__anon46
+intr_s_software	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  intr_s_software           = 1,$/;"	e	enum:__anon46
+intr_s_timer	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  intr_s_timer              = 5,$/;"	e	enum:__anon46
+intr_u_external	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  intr_u_external           = 8,$/;"	e	enum:__anon46
+intr_u_software	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  intr_u_software           = 0,$/;"	e	enum:__anon46
+intr_u_timer	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^  intr_u_timer              = 4,$/;"	e	enum:__anon46
+isa_string	logiciel/kernel/examples/probe/probe.c	/^static const char* isa_string(char *buf, size_t bufsz)$/;"	f	file:
+ispow2	logiciel/kernel/libfemto/include/stdbits.h	/^static inline int ispow2(uintptr_t val)$/;"	f
+isr	logiciel/mips_legacy/test_irq.c	/^void isr()$/;"	f
+key	logiciel/kernel/libfemto/include/auxval.h	/^    unsigned long key;$/;"	m	struct:auxval
+le16toh	logiciel/kernel/libfemto/include/endian.h	/^static inline uint16_t le16toh(uint16_t x) { return bswap16(x); }$/;"	f
+le16toh	logiciel/kernel/libfemto/include/endian.h	/^static inline uint16_t le16toh(uint16_t x) { return x; }$/;"	f
+le32toh	logiciel/kernel/libfemto/include/endian.h	/^static inline uint32_t le32toh(uint16_t x) { return bswap64(x); }$/;"	f
+le32toh	logiciel/kernel/libfemto/include/endian.h	/^static inline uint32_t le32toh(uint32_t x) { return x; }$/;"	f
+le64toh	logiciel/kernel/libfemto/include/endian.h	/^static inline uint64_t le64toh(uint64_t x) { return bswap64(x); }$/;"	f
+le64toh	logiciel/kernel/libfemto/include/endian.h	/^static inline uint64_t le64toh(uint64_t x) { return x; }$/;"	f
+led	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^static volatile uint32_t *led          = (volatile uint32_t *)REG_LEDS_ADDR; \/\/ IP led$/;"	v	file:
+led	logiciel/mips_legacy/mips_invader_zybo.c	/^volatile uint32 *led  = (volatile uint32 *)0x80004000; \/* IP led *\/$/;"	v
+led_set	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^void led_set(uint32_t value)$/;"	f
+led_set	logiciel/mips_legacy/mips_invader_zybo.c	/^void led_set(uint32 value)$/;"	f
+letoh	logiciel/kernel/libfemto/include/endian.h	86;"	d
+level	logiciel/apps/brick/brick.c	/^uint32_t flip, level;           \/* to remark if the ball has been shot and the level *\/$/;"	v
+levels	logiciel/apps/brick/brick.c	/^uint32_t levels[N_LEVEL][WALL_C] = {$/;"	v
+libfemto_start_main	logiciel/kernel/libfemto/arch/riscv/start.c	/^__attribute__((noreturn)) void libfemto_start_main()$/;"	f
+list_add	logiciel/kernel/libfemto/include/list.h	/^static __inline__ void list_add(struct list_head *node,$/;"	f
+list_add_before	logiciel/kernel/libfemto/include/list.h	135;"	d
+list_add_behind	logiciel/kernel/libfemto/include/list.h	145;"	d
+list_add_tail	logiciel/kernel/libfemto/include/list.h	/^static __inline__ void list_add_tail(struct list_head *node,$/;"	f
+list_cut_position	logiciel/kernel/libfemto/include/list.h	/^static __inline__ void list_cut_position(struct list_head *head_to,$/;"	f
+list_del	logiciel/kernel/libfemto/include/list.h	/^static __inline__ void list_del(struct list_head *node)$/;"	f
+list_del_init	logiciel/kernel/libfemto/include/list.h	/^static __inline__ void list_del_init(struct list_head *node)$/;"	f
+list_empty	logiciel/kernel/libfemto/include/list.h	/^static __inline__ int list_empty(const struct list_head *head)$/;"	f
+list_entry	logiciel/kernel/libfemto/include/list.h	376;"	d
+list_first_entry	logiciel/kernel/libfemto/include/list.h	386;"	d
+list_for_each	logiciel/kernel/libfemto/include/list.h	409;"	d
+list_for_each_entry	logiciel/kernel/libfemto/include/list.h	442;"	d
+list_for_each_entry_safe	logiciel/kernel/libfemto/include/list.h	489;"	d
+list_for_each_entry_safe_t	logiciel/kernel/libfemto/include/list.h	472;"	d
+list_for_each_entry_t	logiciel/kernel/libfemto/include/list.h	427;"	d
+list_for_each_safe	logiciel/kernel/libfemto/include/list.h	454;"	d
+list_head	logiciel/kernel/libfemto/include/list.h	/^struct list_head {$/;"	s
+list_is_singular	logiciel/kernel/libfemto/include/list.h	/^static __inline__ int list_is_singular(const struct list_head *head)$/;"	f
+list_last_entry	logiciel/kernel/libfemto/include/list.h	397;"	d
+list_move	logiciel/kernel/libfemto/include/list.h	/^static __inline__ void list_move(struct list_head *node, struct list_head *head)$/;"	f
+list_move_tail	logiciel/kernel/libfemto/include/list.h	/^static __inline__ void list_move_tail(struct list_head *node,$/;"	f
+list_splice	logiciel/kernel/libfemto/include/list.h	/^static __inline__ void list_splice(struct list_head *list,$/;"	f
+list_splice_init	logiciel/kernel/libfemto/include/list.h	/^static __inline__ void list_splice_init(struct list_head *list,$/;"	f
+list_splice_tail	logiciel/kernel/libfemto/include/list.h	/^static __inline__ void list_splice_tail(struct list_head *list,$/;"	f
+list_splice_tail_init	logiciel/kernel/libfemto/include/list.h	/^static __inline__ void list_splice_tail_init(struct list_head *list,$/;"	f
+main	logiciel/apps/blue/blue.c	/^int main() {$/;"	f
+main	logiciel/apps/brick/brick.c	/^void main(void)$/;"	f
+main	logiciel/apps/invader/invader.c	/^void main(void)$/;"	f
+main	logiciel/apps/pong/pong.c	/^void main(void)$/;"	f
+main	logiciel/apps/snake/snake.c	/^void main(void)$/;"	f
+main	logiciel/apps/snake_it/snake_it.c	/^void main(void)$/;"	f
+main	logiciel/kernel/examples/abort/main.c	/^int main(int argc, char **argv)$/;"	f
+main	logiciel/kernel/examples/alloca/main.c	/^int main(int argc, char **argv)$/;"	f
+main	logiciel/kernel/examples/argv0/main.c	/^int main(int argc, char **argv)$/;"	f
+main	logiciel/kernel/examples/enclave/enclave.c	/^int main()$/;"	f
+main	logiciel/kernel/examples/hang/hang.c	/^int main(int argc, char **argv)$/;"	f
+main	logiciel/kernel/examples/hello/hello.c	/^int main(int argc, char **argv)$/;"	f
+main	logiciel/kernel/examples/hello_cep/hello_cep.c	/^int main(int argc, char **argv)$/;"	f
+main	logiciel/kernel/examples/malloc/main.c	/^int main(int argc, char **argv)$/;"	f
+main	logiciel/kernel/examples/memory/main.c	/^int main(int argc, char **argv)$/;"	f
+main	logiciel/kernel/examples/probe/probe.c	/^int main(int argc, char **argv)$/;"	f
+main	logiciel/kernel/examples/symbols/symbols.c	/^int main(int argc, char **argv)$/;"	f
+main	logiciel/kernel/examples/user/user.c	/^int main(int argc, char **argv)$/;"	f
+main	logiciel/mips_legacy/mips_game.c	/^void main(void)$/;"	f
+main	logiciel/mips_legacy/mips_invader_zybo.c	/^void main(void)$/;"	f
+main	logiciel/mips_legacy/test_irq.c	/^void main(void)$/;"	f
+malloc	logiciel/kernel/libfemto/std/malloc.c	/^void* malloc(size_t size)$/;"	f
+memchr	logiciel/kernel/libfemto/std/memchr.c	/^void *memchr(const void *s, int c, size_t n)$/;"	f
+memcmp	logiciel/kernel/libfemto/std/memcmp.c	/^int memcmp(const void *s1, const void *s2, size_t n)$/;"	f
+memcpy	logiciel/kernel/libfemto/std/memcpy.c	/^void *memcpy(void *dest, const void *src, size_t n)$/;"	f
+memory_info	logiciel/kernel/libfemto/arch/riscv/memory.c	/^static memory_info_t memory_info = {$/;"	v	file:
+memory_info	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^typedef struct memory_info$/;"	s
+memory_info_t	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^} memory_info_t;$/;"	t	typeref:struct:memory_info
+memory_probe	logiciel/kernel/libfemto/arch/riscv/memory.c	/^memory_info_t memory_probe()$/;"	f
+memory_probe_range	logiciel/kernel/libfemto/arch/riscv/memory.c	/^uintptr_t memory_probe_range(uintptr_t start, uintptr_t end)$/;"	f
+memset	logiciel/kernel/libfemto/std/memset.c	/^void *memset(void *dest, int c, size_t n)$/;"	f
+memset_32b	logiciel/apps/blue/blue.c	/^void *memset_32b(volatile uint32_t *dest, uint32_t c, uint32_t n)$/;"	f
+memset_32b	logiciel/apps/brick/brick.c	/^void *memset_32b(volatile uint32_t *dest, uint32_t c, uint32_t n)$/;"	f
+memset_32b	logiciel/apps/invader/invader.c	/^void *memset_32b(volatile uint32_t * dest, uint32_t c, uint32_t n)$/;"	f
+memset_32b	logiciel/apps/pong/pong.c	/^void *memset_32b(volatile uint32_t *dest, uint32_t c, uint32_t n)$/;"	f
+memset_32b	logiciel/apps/snake/snake.c	/^void *memset_32b(volatile uint32_t *dest, uint32_t c, uint32_t n)$/;"	f
+memset_32b	logiciel/apps/snake_it/snake_it.c	/^void *memset_32b(volatile uint32_t *dest, uint32_t c, uint32_t n)$/;"	f
+misa	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^static inline int64_t misa() { return read_const_csr(misa); }$/;"	f
+mode_set_and_continue	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^static inline void mode_set_and_continue(unsigned mode)$/;"	f
+mode_set_and_jump	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^static inline void mode_set_and_jump(unsigned mode, void (*fn)(void))$/;"	f
+motif	logiciel/mips_legacy/mips_game.c	/^  uint32 motif[8];$/;"	m	struct:Objet	file:
+move_ball	logiciel/apps/brick/brick.c	/^void move_ball(object_t *ball)$/;"	f
+move_ball	logiciel/apps/pong/pong.c	/^void move_ball(void)$/;"	f
+move_bar	logiciel/apps/brick/brick.c	/^void move_bar(object_t *bar)$/;"	f
+move_snake	logiciel/apps/snake/snake.c	/^void move_snake(void)$/;"	f
+move_snake	logiciel/apps/snake_it/snake_it.c	/^void move_snake(void)$/;"	f
+mret	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^__attribute__((noreturn)) static inline void mret()$/;"	f
+n_bric	logiciel/apps/brick/brick.c	/^uint32_t n_bric;                \/* number of bircks existing *\/$/;"	v
+n_descsz	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word n_descsz;$/;"	m	struct:__anon25
+n_descsz	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word n_descsz;$/;"	m	struct:__anon26
+n_namesz	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word n_namesz;$/;"	m	struct:__anon25
+n_namesz	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word n_namesz;$/;"	m	struct:__anon26
+n_type	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word n_type;$/;"	m	struct:__anon25
+n_type	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word n_type;$/;"	m	struct:__anon26
+next	logiciel/apps/snake/snake.c	/^static unsigned long next = 1;  \/* RAND_MAX assumed to be 32767, to obtain a random value *\/$/;"	v	file:
+next	logiciel/apps/snake_it/snake_it.c	/^static unsigned long next = 1;  \/* RAND_MAX assumed to be 32767, to obtain a random value *\/$/;"	v	file:
+next	logiciel/kernel/libfemto/include/list.h	/^	struct list_head *next;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+next_state	logiciel/apps/invader/invader.h	/^   int next_state;$/;"	m	struct:state_t
+node	logiciel/kernel/libfemto/std/malloc.c	/^	struct list_head node;$/;"	m	struct:alloc_node	typeref:struct:alloc_node::list_head	file:
+ns16550a_getchar	logiciel/kernel/libfemto/drivers/ns16550a.c	/^static int ns16550a_getchar()$/;"	f	file:
+ns16550a_init	logiciel/kernel/libfemto/drivers/ns16550a.c	/^static void ns16550a_init()$/;"	f	file:
+ns16550a_putchar	logiciel/kernel/libfemto/drivers/ns16550a.c	/^static int ns16550a_putchar(int ch)$/;"	f	file:
+object	logiciel/apps/brick/brick.c	/^object_t object[2] = {$/;"	v
+object	logiciel/apps/invader/invader.c	/^object_t object[N_OBJECTS] = {$/;"	v
+object	logiciel/mips_legacy/mips_invader_zybo.c	/^Object object[N_OBJECTS] = {$/;"	v
+object_t	logiciel/apps/brick/brick.h	/^typedef struct object_t {$/;"	s
+object_t	logiciel/apps/brick/brick.h	/^} object_t;$/;"	t	typeref:struct:object_t
+object_t	logiciel/apps/invader/invader.h	/^typedef struct object_t {$/;"	s
+object_t	logiciel/apps/invader/invader.h	/^} object_t;$/;"	t	typeref:struct:object_t
+objet	logiciel/mips_legacy/mips_game.c	/^Objet objet[NOBJETS]={$/;"	v
+offsetof	logiciel/kernel/libfemto/include/stddef.h	8;"	d
+overlap	logiciel/apps/snake/snake.c	/^uint32_t overlap(Object *object1, Object *object2)$/;"	f
+overlap	logiciel/apps/snake_it/snake_it.c	/^uint32_t overlap(Object *object1, Object *object2)$/;"	f
+p_align	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  p_align;$/;"	m	struct:__anon17
+p_align	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Xword p_align;$/;"	m	struct:__anon18
+p_filesz	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  p_filesz;$/;"	m	struct:__anon17
+p_filesz	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Xword p_filesz;$/;"	m	struct:__anon18
+p_flags	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  p_flags;$/;"	m	struct:__anon17
+p_flags	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word  p_flags;$/;"	m	struct:__anon18
+p_memsz	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  p_memsz;$/;"	m	struct:__anon17
+p_memsz	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Xword p_memsz;$/;"	m	struct:__anon18
+p_offset	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Off   p_offset;$/;"	m	struct:__anon17
+p_offset	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Off   p_offset;$/;"	m	struct:__anon18
+p_paddr	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Addr  p_paddr;$/;"	m	struct:__anon17
+p_paddr	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Addr  p_paddr;$/;"	m	struct:__anon18
+p_type	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  p_type;$/;"	m	struct:__anon17
+p_type	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word  p_type;$/;"	m	struct:__anon18
+p_vaddr	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Addr  p_vaddr;$/;"	m	struct:__anon17
+p_vaddr	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Addr  p_vaddr;$/;"	m	struct:__anon18
+pa	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    } pa;$/;"	m	union:sv32_pa	typeref:struct:sv32_pa::__anon50
+pa	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    } pa;$/;"	m	union:sv39_pa	typeref:struct:sv39_pa::__anon54
+pa	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    } pa;$/;"	m	union:sv48_pa	typeref:struct:sv48_pa::__anon58
+pattern	logiciel/apps/brick/brick.h	/^  uint32_t *pattern;$/;"	m	struct:object_t
+pattern	logiciel/apps/invader/invader.h	/^   uint32_t *pattern;$/;"	m	struct:object_t
+pattern	logiciel/apps/pong/pong.h	/^   uint32_t *pattern;$/;"	m	struct:Object
+pattern	logiciel/apps/snake/snake.h	/^  uint32_t *pattern;$/;"	m	struct:Object
+pattern	logiciel/apps/snake_it/snake.h	/^  uint32_t *pattern;$/;"	m	struct:Object
+pattern	logiciel/mips_legacy/sprite.h	/^	uint32 *pattern;$/;"	m	struct:Object
+period	logiciel/apps/invader/invader.h	/^   uint32_t period;$/;"	m	struct:object_t
+period	logiciel/mips_legacy/sprite.h	/^	uint32 period;$/;"	m	struct:Object
+periode	logiciel/mips_legacy/mips_game.c	/^  uint32 periode;$/;"	m	struct:Objet	file:
+pg_off	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint32_t pg_off : 12;$/;"	m	struct:sv32_va::__anon49
+pg_off	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t pg_off  : 12;$/;"	m	struct:sv32_pa::__anon50
+pg_off	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t pg_off  : 12;$/;"	m	struct:sv39_pa::__anon54
+pg_off	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t pg_off  : 12;$/;"	m	struct:sv39_va::__anon53
+pg_off	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t pg_off  : 12;$/;"	m	struct:sv48_pa::__anon58
+pg_off	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t pg_off  : 12;$/;"	m	struct:sv48_va::__anon57
+place_food	logiciel/apps/snake/snake.c	/^void place_food(void)$/;"	f
+place_food	logiciel/apps/snake_it/snake_it.c	/^void place_food(void)$/;"	f
+pmp_allow_all	logiciel/kernel/libfemto/arch/riscv/pmp.c	/^void pmp_allow_all()$/;"	f
+pmp_clear_all	logiciel/kernel/libfemto/arch/riscv/pmp.c	/^void pmp_clear_all()$/;"	f
+pmp_entry_count	logiciel/kernel/libfemto/arch/riscv/pmp.c	/^int pmp_entry_count()$/;"	f
+pmp_entry_granularity	logiciel/kernel/libfemto/arch/riscv/pmp.c	/^int pmp_entry_granularity()$/;"	f
+pmp_entry_set	logiciel/kernel/libfemto/arch/riscv/pmp.c	/^int pmp_entry_set(unsigned n, uint8_t prot, uint64_t addr, uint64_t len)$/;"	f
+pmp_entry_set_pow2	logiciel/kernel/libfemto/arch/riscv/pmp.c	/^static int pmp_entry_set_pow2(unsigned n, uint8_t prot, uint64_t addr, uint64_t len)$/;"	f	file:
+pmp_entry_set_range	logiciel/kernel/libfemto/arch/riscv/pmp.c	/^static int pmp_entry_set_range(unsigned n, uint8_t prot, uint64_t addr, uint64_t len)$/;"	f	file:
+pmp_entry_width	logiciel/kernel/libfemto/arch/riscv/pmp.c	/^int pmp_entry_width()$/;"	f
+pmp_info	logiciel/kernel/libfemto/arch/riscv/pmp.c	/^static pmp_info_t pmp_info = {$/;"	v	file:
+pmp_info	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^typedef struct pmp_info$/;"	s
+pmp_info_t	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^} pmp_info_t;$/;"	t	typeref:struct:pmp_info
+pmp_probe	logiciel/kernel/libfemto/arch/riscv/pmp.c	/^pmp_info_t pmp_probe()$/;"	f
+poweroff	logiciel/kernel/libfemto/include/device.h	/^    void (*poweroff)(int);$/;"	m	struct:poweroff_device
+poweroff_dev	logiciel/kernel/libfemto/arch/riscv/device.c	/^poweroff_device_t *poweroff_dev = &poweroff_none;$/;"	v
+poweroff_device	logiciel/kernel/libfemto/include/device.h	/^typedef struct poweroff_device {$/;"	s
+poweroff_device_t	logiciel/kernel/libfemto/include/device.h	/^} poweroff_device_t;$/;"	t	typeref:struct:poweroff_device
+poweroff_none	logiciel/kernel/libfemto/arch/riscv/device.c	/^poweroff_device_t poweroff_none = {$/;"	v
+poweroff_semihost	logiciel/kernel/libfemto/drivers/semihost.c	/^poweroff_device_t poweroff_semihost = {$/;"	v
+poweroff_sifive_test	logiciel/kernel/libfemto/drivers/sifive_test.c	/^poweroff_device_t poweroff_sifive_test = {$/;"	v
+ppn	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint32_t ppn     : 22;$/;"	m	struct:sv32_pte::__anon51
+ppn	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t ppn     : 22;$/;"	m	struct:sv32_pa::__anon50
+ppn	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t ppn     : 44;$/;"	m	struct:sv39_pa::__anon54
+ppn	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t ppn     : 44;$/;"	m	struct:sv39_pte::__anon55
+ppn	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t ppn     : 44;$/;"	m	struct:sv48_pa::__anon58
+ppn	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t ppn     : 44;$/;"	m	struct:sv48_pte::__anon59
+prev	logiciel/kernel/libfemto/include/list.h	/^	struct list_head *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+printf	logiciel/kernel/libfemto/std/printf.c	/^int printf(const char* s, ...)$/;"	f
+probe_all_csrs	logiciel/kernel/examples/probe/probe.c	/^static void probe_all_csrs()$/;"	f	file:
+pte	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    } pte;$/;"	m	union:sv32_pte	typeref:struct:sv32_pte::__anon51
+pte	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    } pte;$/;"	m	union:sv39_pte	typeref:struct:sv39_pte::__anon55
+pte	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    } pte;$/;"	m	union:sv48_pte	typeref:struct:sv48_pte::__anon59
+ptrdiff_t	logiciel/kernel/libfemto/include/stddef.h	/^typedef __PTRDIFF_TYPE__ ptrdiff_t;$/;"	t
+push	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^static volatile uint32_t *push         = (volatile uint32_t *)REG_PIN_ADDR;  \/\/ IP push$/;"	v	file:
+push	logiciel/mips_legacy/mips_invader_zybo.c	/^volatile uint32 *push = (volatile uint32 *)0x80004004; \/* IP push *\/$/;"	v
+push_button_get	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^uint32_t push_button_get()$/;"	f
+push_button_get	logiciel/mips_legacy/mips_invader_zybo.c	/^uint32 push_button_get(void)$/;"	f
+put	logiciel/apps/snake/snake.c	/^uint32_t put;                   \/* This is a flag to indicate that the food had been put into one place *\/$/;"	v
+put	logiciel/apps/snake_it/snake_it.c	/^uint32_t put;                   \/* This is a flag to indicate that the food had been put into one place *\/$/;"	v
+put_bar_ball	logiciel/apps/brick/brick.c	/^void put_bar_ball(object_t *ball, object_t *bar)$/;"	f
+putchar	logiciel/kernel/libfemto/include/device.h	/^    int (*putchar)(int);$/;"	m	struct:console_device
+putchar	logiciel/kernel/libfemto/std/putchar.c	/^int putchar(int ch)$/;"	f
+puts	logiciel/kernel/libfemto/std/puts.c	/^int puts(const char *s)$/;"	f
+r_addend	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Sword r_addend;$/;"	m	struct:__anon33
+r_addend	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Sxword r_addend;$/;"	m	struct:__anon35
+r_info	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  r_info;$/;"	m	struct:__anon32
+r_info	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  r_info;$/;"	m	struct:__anon33
+r_info	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Xword r_info;$/;"	m	struct:__anon34
+r_info	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Xword r_info;$/;"	m	struct:__anon35
+r_offset	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Addr  r_offset;$/;"	m	struct:__anon32
+r_offset	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Addr  r_offset;$/;"	m	struct:__anon33
+r_offset	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Addr  r_offset;$/;"	m	struct:__anon34
+r_offset	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Addr r_offset;$/;"	m	struct:__anon35
+racket	logiciel/apps/pong/pong.c	/^Object racket[N_PLAYER] = {$/;"	v
+racket_score	logiciel/apps/pong/pong.c	/^void racket_score(void)$/;"	f
+random_num	logiciel/apps/snake/snake.c	/^uint32_t random_num(uint32_t max)$/;"	f
+random_num	logiciel/apps/snake_it/snake_it.c	/^uint32_t random_num(uint32_t max)$/;"	f
+rdcycle	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^static inline unsigned long rdcycle() { return read_csr(cycle); }$/;"	f
+rdinstret	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^static inline unsigned long rdinstret() { return read_csr(instret); }$/;"	f
+rdtime	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^static inline unsigned long rdtime() { return read_csr(time); }$/;"	f
+read_const_csr	logiciel/kernel/libfemto/include/arch/riscv/machine.h	24;"	d
+read_csr	logiciel/kernel/libfemto/include/arch/riscv/machine.h	27;"	d
+read_csr_enum	logiciel/kernel/libfemto/arch/riscv/csr.c	/^long read_csr_enum(int csrenum)$/;"	f
+read_pixel	logiciel/apps/invader/invader.c	/^int read_pixel(int x, int y)$/;"	f
+read_pixel	logiciel/mips_legacy/mips_invader_zybo.c	/^int read_pixel(int x, int y)$/;"	f
+reg_hdmi_ADDR	logiciel/kernel/examples/hello_cep/hello_cep.c	/^volatile uint32_t *reg_hdmi_ADDR       = (uint32_t*)FRAME_BUFFER_CTRL_ADDR_REG; $/;"	v
+reg_hdmi_MODE	logiciel/kernel/examples/hello_cep/hello_cep.c	/^volatile uint32_t *reg_hdmi_MODE       = (uint32_t*)FRAME_BUFFER_CTRL_MODE_REG; $/;"	v
+reg_push_button_ctl	logiciel/apps/snake_it/snake_it.c	/^volatile uint32_t *reg_push_button_ctl = (uint32_t *)REG_PUSHBUTTON_CTL_ADDR;$/;"	v
+reg_push_button_ctl	logiciel/kernel/examples/hello_cep/hello_cep.c	/^volatile uint32_t *reg_push_button_ctl = (uint32_t*)REG_PUSHBUTTON_CTL_ADDR; $/;"	v
+reg_switches	logiciel/apps/snake_it/snake_it.c	/^volatile uint32_t *reg_switches        = (uint32_t *)REG_PIN_ADDR;$/;"	v
+reg_switches	logiciel/kernel/examples/hello_cep/hello_cep.c	/^volatile uint32_t *reg_switches        = (uint32_t*)REG_PIN_ADDR; $/;"	v
+register_console	logiciel/kernel/libfemto/arch/riscv/device.c	/^void register_console(console_device_t *dev)$/;"	f
+register_poweroff	logiciel/kernel/libfemto/arch/riscv/device.c	/^void register_poweroff(poweroff_device_t *dev)$/;"	f
+riscv_excp_names	logiciel/kernel/libfemto/arch/riscv/trap.c	/^const char * riscv_excp_names[16] = {$/;"	v
+riscv_excp_names	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^const char * riscv_excp_names[16];$/;"	v
+riscv_intr_names	logiciel/kernel/libfemto/arch/riscv/trap.c	/^const char * riscv_intr_names[16] = {$/;"	v
+riscv_intr_names	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^const char * riscv_intr_names[16];$/;"	v
+roundpow2	logiciel/kernel/libfemto/include/stdbits.h	/^static inline uintptr_t roundpow2(uintptr_t val)$/;"	f
+rsrv	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t rsrv    : 10;$/;"	m	struct:sv39_pte::__anon55
+rsrv	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t rsrv    : 10;$/;"	m	struct:sv48_pte::__anon59
+rsrv	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t rsrv    : 16;$/;"	m	struct:sv48_va::__anon57
+rsrv	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t rsrv    : 25;$/;"	m	struct:sv39_va::__anon53
+rsrv	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t rsrv    : 30;$/;"	m	struct:sv32_pa::__anon50
+rsrv	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t rsrv    : 8;$/;"	m	struct:sv39_pa::__anon54
+rsrv	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t rsrv    : 8;$/;"	m	struct:sv48_pa::__anon58
+s	logiciel/apps/snake/snake.c	/^Snake *s = &snake_body;         \/* A pointer that points to the variable snake_body *\/$/;"	v
+s	logiciel/apps/snake_it/snake_it.c	/^Snake *s = &snake_body;         \/* A pointer that points to the variable snake_body *\/$/;"	v
+save_cause	logiciel/kernel/libfemto/arch/riscv/memory.c	/^static volatile int save_cause = -1;$/;"	v	file:
+save_mcause	logiciel/kernel/examples/probe/probe.c	/^static volatile uintptr_t save_mcause;$/;"	v	file:
+score	logiciel/apps/pong/pong.h	/^   int score;$/;"	m	struct:Object
+semihost_call0	logiciel/kernel/libfemto/drivers/semihost.c	/^static inline long semihost_call0(long n)$/;"	f	file:
+semihost_call1	logiciel/kernel/libfemto/drivers/semihost.c	/^static inline long semihost_call1(long n, long a)$/;"	f	file:
+semihost_getchar	logiciel/kernel/libfemto/drivers/semihost.c	/^static int semihost_getchar()$/;"	f	file:
+semihost_poweroff	logiciel/kernel/libfemto/drivers/semihost.c	/^static void semihost_poweroff(int status)$/;"	f	file:
+semihost_putchar	logiciel/kernel/libfemto/drivers/semihost.c	/^static int semihost_putchar(int ch)$/;"	f	file:
+set_csr	logiciel/kernel/libfemto/include/arch/riscv/machine.h	36;"	d
+set_field	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^static inline uintptr_t set_field(uintptr_t reg, uintptr_t mask, uintptr_t val)$/;"	f
+set_trap_fn	logiciel/kernel/libfemto/arch/riscv/trap.c	/^void set_trap_fn(trap_fn fn)$/;"	f
+sh_addr	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Addr  sh_addr;$/;"	m	struct:__anon23
+sh_addr	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Addr  sh_addr;$/;"	m	struct:__anon24
+sh_addralign	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  sh_addralign;$/;"	m	struct:__anon23
+sh_addralign	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Xword sh_addralign;$/;"	m	struct:__anon24
+sh_entsize	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  sh_entsize;$/;"	m	struct:__anon23
+sh_entsize	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Xword sh_entsize;$/;"	m	struct:__anon24
+sh_flags	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  sh_flags;$/;"	m	struct:__anon23
+sh_flags	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Xword sh_flags;$/;"	m	struct:__anon24
+sh_info	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  sh_info;$/;"	m	struct:__anon23
+sh_info	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word  sh_info;$/;"	m	struct:__anon24
+sh_link	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  sh_link;$/;"	m	struct:__anon23
+sh_link	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word  sh_link;$/;"	m	struct:__anon24
+sh_name	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  sh_name;$/;"	m	struct:__anon23
+sh_name	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word  sh_name;$/;"	m	struct:__anon24
+sh_offset	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Off   sh_offset;$/;"	m	struct:__anon23
+sh_offset	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Off   sh_offset;$/;"	m	struct:__anon24
+sh_size	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  sh_size;$/;"	m	struct:__anon23
+sh_size	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Xword sh_size;$/;"	m	struct:__anon24
+sh_type	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  sh_type;$/;"	m	struct:__anon23
+sh_type	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word  sh_type;$/;"	m	struct:__anon24
+sifive_test_init	logiciel/kernel/libfemto/drivers/sifive_test.c	/^static void sifive_test_init()$/;"	f	file:
+sifive_test_poweroff	logiciel/kernel/libfemto/drivers/sifive_test.c	/^static void sifive_test_poweroff(int status)$/;"	f	file:
+sifive_uart_getchar	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^static int sifive_uart_getchar()$/;"	f	file:
+sifive_uart_init	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^static void sifive_uart_init()$/;"	f	file:
+sifive_uart_putchar	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^static int sifive_uart_putchar(int ch)$/;"	f	file:
+size	logiciel/apps/snake/snake.h	/^  uint32_t size;$/;"	m	struct:Snake
+size	logiciel/apps/snake_it/snake.h	/^  uint32_t size;$/;"	m	struct:Snake
+size	logiciel/kernel/libfemto/std/malloc.c	/^	size_t size;$/;"	m	struct:alloc_node	file:
+size_c	logiciel/apps/brick/brick.h	/^  uint32_t size_l, size_c;$/;"	m	struct:object_t
+size_c	logiciel/apps/pong/pong.h	/^   int size_l, size_c;          \/* Bit number of a line and a colonne *\/$/;"	m	struct:Object
+size_l	logiciel/apps/brick/brick.h	/^  uint32_t size_l, size_c;$/;"	m	struct:object_t
+size_l	logiciel/apps/pong/pong.h	/^   int size_l, size_c;          \/* Bit number of a line and a colonne *\/$/;"	m	struct:Object
+size_t	logiciel/kernel/libfemto/include/stddef.h	/^typedef __SIZE_TYPE__ size_t;$/;"	t
+sleep	logiciel/kernel/examples/hello_cep/hello_cep.c	/^void sleep(uint64_t max) {$/;"	f
+snake_body	logiciel/apps/snake/snake.c	/^Snake snake_body;               \/* This variable of type Snake registers the information of the whole snake body *\/$/;"	v
+snake_body	logiciel/apps/snake_it/snake_it.c	/^Snake snake_body;               \/* This variable of type Snake registers the information of the whole snake body *\/$/;"	v
+snprintf	logiciel/kernel/libfemto/std/snprintf.c	/^int snprintf(char* out, size_t n, const char* s, ...)$/;"	f
+sprite_alien1	logiciel/apps/invader/invader.c	/^static uint32_t sprite_alien1[8] = { 0xc3, 0x3c, 0x5a, 0xff, 0xff, 0x81, 0x42, 0x24 };$/;"	v	file:
+sprite_alien1	logiciel/mips_legacy/sprite.h	/^uint32 sprite_alien1[8] = {0xc3, 0x3c, 0x5a, 0xff, 0xff, 0x81, 0x42, 0x24};$/;"	v
+sprite_alien2	logiciel/apps/invader/invader.c	/^static uint32_t sprite_alien2[8] = { 0xc3, 0x3c, 0x5a, 0xff, 0xff, 0xa5, 0xa5, 0x5a };$/;"	v	file:
+sprite_alien2	logiciel/mips_legacy/sprite.h	/^uint32 sprite_alien2[8] = {0xc3, 0x3c, 0x5a, 0xff, 0xff, 0xa5, 0xa5, 0x5a};$/;"	v
+sprite_alien3	logiciel/apps/invader/invader.c	/^static uint32_t sprite_alien3[8] = { 0x42, 0x24, 0x3c, 0x5a, 0xff, 0xbd, 0x81, 0x42 };$/;"	v	file:
+sprite_alien3	logiciel/mips_legacy/sprite.h	/^uint32 sprite_alien3[8] = {0x42, 0x24, 0x3c, 0x5a, 0xff, 0xbd, 0x81, 0x42};$/;"	v
+sprite_alien4	logiciel/apps/invader/invader.c	/^static uint32_t sprite_alien4[8] = { 0x81, 0x42, 0x3c, 0x5a, 0x5a, 0x3c, 0x42, 0x81 };$/;"	v	file:
+sprite_alien4	logiciel/mips_legacy/sprite.h	/^uint32 sprite_alien4[8] = {0x81, 0x42, 0x3c, 0x5a, 0x5a, 0x3c, 0x42, 0x81};$/;"	v
+sprite_alien5	logiciel/apps/invader/invader.c	/^static uint32_t sprite_alien5[8] = { 0x41, 0x22, 0x3e, 0x6b, 0x49, 0x7f, 0x3e, 0x55 };$/;"	v	file:
+sprite_alien5	logiciel/mips_legacy/sprite.h	/^uint32 sprite_alien5[8] = {0x41, 0x22, 0x3e, 0x6b, 0x49, 0x7f, 0x3e, 0x55};$/;"	v
+sprite_ball	logiciel/apps/brick/brick.c	/^uint32_t sprite_ball[BALL_C]   = {0x6,   0xf,    0xf,     0x6};$/;"	v
+sprite_ball	logiciel/apps/pong/pong.c	/^uint32_t sprite_ball[C_BALL] = { 0x6, 0xf, 0xf, 0x6 };$/;"	v
+sprite_bar	logiciel/apps/brick/brick.c	/^uint32_t sprite_bar[BAR_C]     = {0xffffff, 0xffffff, 0xffffff, 0xffffff, 0xffffff, 0xffffff};$/;"	v
+sprite_brick	logiciel/apps/brick/brick.c	/^uint32_t sprite_brick[BRICK_C] = {0xffff, 0xffff, 0xffff, 0xffff};$/;"	v
+sprite_laser	logiciel/apps/invader/invader.c	/^static uint32_t sprite_laser[8]  = { 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18 };$/;"	v	file:
+sprite_laser	logiciel/mips_legacy/sprite.h	/^uint32 sprite_laser[8]  = {0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18};$/;"	v
+sprite_number	logiciel/apps/pong/pong.c	/^uint32_t sprite_number[MAX_DIGIT][N_SIZE_COLONNE] = {$/;"	v
+sprite_racket_A	logiciel/apps/pong/pong.c	/^uint32_t sprite_racket_A[C_RACKET] = {$/;"	v
+sprite_racket_B	logiciel/apps/pong/pong.c	/^uint32_t sprite_racket_B[C_RACKET] = {$/;"	v
+sprite_sship	logiciel/apps/invader/invader.c	/^static uint32_t sprite_sship[8]  = { 0x00, 0x3c, 0x7e, 0xff, 0xff, 0xe7, 0xc3, 0xc3 };$/;"	v	file:
+sprite_sship	logiciel/mips_legacy/sprite.h	/^uint32 sprite_sship[8]  = {0x00, 0x3c, 0x7e, 0xff, 0xff, 0xe7, 0xc3, 0xc3};$/;"	v
+st_info	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Byte  st_info;$/;"	m	struct:__anon30
+st_info	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Byte  st_info;$/;"	m	struct:__anon31
+st_name	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  st_name;$/;"	m	struct:__anon30
+st_name	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Word  st_name;$/;"	m	struct:__anon31
+st_other	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Byte  st_other;$/;"	m	struct:__anon30
+st_other	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Byte  st_other;$/;"	m	struct:__anon31
+st_shndx	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Half  st_shndx;$/;"	m	struct:__anon30
+st_shndx	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Half  st_shndx;$/;"	m	struct:__anon31
+st_size	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Word  st_size;$/;"	m	struct:__anon30
+st_size	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Xword st_size;$/;"	m	struct:__anon31
+st_value	logiciel/kernel/libfemto/include/elf.h	/^	Elf32_Addr  st_value;$/;"	m	struct:__anon30
+st_value	logiciel/kernel/libfemto/include/elf.h	/^	Elf64_Addr  st_value;$/;"	m	struct:__anon31
+start	logiciel/apps/snake/snake.c	/^void start(void)$/;"	f
+start	logiciel/apps/snake_it/snake_it.c	/^void start(void)$/;"	f
+start	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^    uintptr_t start;$/;"	m	struct:memory_info
+state	logiciel/apps/invader/invader.c	/^state_t state[5] = {$/;"	v
+state_t	logiciel/apps/invader/invader.h	/^typedef struct state_t {$/;"	s
+state_t	logiciel/apps/invader/invader.h	/^} state_t;$/;"	t	typeref:struct:state_t
+strchr	logiciel/kernel/libfemto/std/strchr.c	/^char *strchr(const char *s, int c)$/;"	f
+strcmp	logiciel/kernel/libfemto/std/strcmp.c	/^int strcmp(const char *s1, const char *s2)$/;"	f
+strlen	logiciel/kernel/libfemto/std/strlen.c	/^size_t strlen(const char* s)$/;"	f
+strncmp	logiciel/kernel/libfemto/std/strncmp.c	/^int strncmp(const char *s1, const char *s2, size_t n)$/;"	f
+strncpy	logiciel/kernel/libfemto/std/strncpy.c	/^char *strncpy(char *dst, const char *src, size_t n)$/;"	f
+sv32_pa	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^union sv32_pa {$/;"	u
+sv32_pte	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^union sv32_pte {$/;"	u
+sv32_va	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^union sv32_va {$/;"	u
+sv39_pa	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^union sv39_pa {$/;"	u
+sv39_pte	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^union sv39_pte {$/;"	u
+sv39_va	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^union sv39_va {$/;"	u
+sv48_pa	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^union sv48_pa {$/;"	u
+sv48_pte	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^union sv48_pte {$/;"	u
+sv48_va	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^union sv48_va {$/;"	u
+swap_csr	logiciel/kernel/libfemto/include/arch/riscv/machine.h	33;"	d
+tab	logiciel/mips_legacy/mips_game.c	/^int tab[32];$/;"	v
+test	logiciel/kernel/libfemto/drivers/sifive_test.c	/^static volatile uint32_t *test;$/;"	v	file:
+tfn	logiciel/kernel/libfemto/arch/riscv/trap.c	/^static trap_fn tfn = 0;$/;"	v	file:
+timer	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^static volatile uint64_t *timer        = (volatile uint64_t *)CLINT_TIMER;$/;"	v	file:
+timer	logiciel/mips_legacy/mips_invader_zybo.c	/^volatile uint32 *timer= (volatile uint32 *)0x80004010; \/* IP timer *\/$/;"	v
+timer_cmp	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^static volatile uint64_t *timer_cmp    = (volatile uint64_t *)CLINT_TIMER_CMP;$/;"	v	file:
+timer_cmp_hi	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^static volatile uint32_t *timer_cmp_hi = (volatile uint32_t *)CLINT_TIMER_CMP_HI;$/;"	v	file:
+timer_cmp_lo	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^static volatile uint32_t *timer_cmp_lo = (volatile uint32_t *)CLINT_TIMER_CMP_LO;$/;"	v	file:
+timer_hi	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^static volatile uint32_t *timer_hi     = (volatile uint32_t *)CLINT_TIMER_HI;$/;"	v	file:
+timer_lo	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^static volatile uint32_t *timer_lo     = (volatile uint32_t *)CLINT_TIMER_LOW;$/;"	v	file:
+timer_set	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^void timer_set(uint32_t period, uint32_t time)$/;"	f
+timer_set	logiciel/mips_legacy/mips_invader_zybo.c	/^void timer_set(uint32 period, uint32 start_value)$/;"	f
+timer_set_and_wait	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^void timer_set_and_wait(uint32_t period, uint32_t time)$/;"	f
+timer_wait	logiciel/kernel/libfemto/arch/riscv/drivers.c	/^void timer_wait(void)$/;"	f
+timer_wait	logiciel/mips_legacy/mips_invader_zybo.c	/^void timer_wait(void)$/;"	f
+trap_fn	logiciel/kernel/libfemto/include/arch/riscv/trap.h	/^typedef void (*trap_fn)(uintptr_t* regs, uintptr_t mcause, uintptr_t mepc);$/;"	t
+trap_h	logiciel/apps/snake_it/snake_it.c	/^extern void trap_h(uintptr_t *regs, uintptr_t mcause, uintptr_t mepc)$/;"	f
+trap_h	logiciel/kernel/examples/hello_cep/hello_cep.c	/^void trap_h(uintptr_t* regs, uintptr_t mcause, uintptr_t mepc) {$/;"	f
+trap_handler	logiciel/kernel/libfemto/arch/riscv/trap.c	/^void trap_handler(uintptr_t* regs, uintptr_t mcause, uintptr_t mepc)$/;"	f
+trap_save_cause	logiciel/kernel/examples/probe/probe.c	/^static void trap_save_cause(uintptr_t* regs, uintptr_t mcause, uintptr_t mepc)$/;"	f	file:
+trap_save_cause	logiciel/kernel/libfemto/arch/riscv/memory.c	/^static void trap_save_cause(uintptr_t* regs, uintptr_t mcause, uintptr_t mepc)$/;"	f	file:
+trap_save_cause	logiciel/kernel/libfemto/arch/riscv/pmp.c	/^static void trap_save_cause(uintptr_t* regs, uintptr_t mcause, uintptr_t mepc)$/;"	f	file:
+uart	logiciel/kernel/libfemto/drivers/ns16550a.c	/^static volatile uint8_t *uart;$/;"	v	file:
+uart	logiciel/kernel/libfemto/drivers/sifive_uart.c	/^static volatile int *uart;$/;"	v	file:
+uart_keys	logiciel/kernel/examples/enclave/enclave.c	/^static uintptr_t uart_keys[] = {$/;"	v	file:
+uint16_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINT16_TYPE__ uint16_t;$/;"	t
+uint32	logiciel/mips_legacy/mips_game.c	/^typedef unsigned int uint32;$/;"	t	file:
+uint32	logiciel/mips_legacy/sprite.h	/^typedef unsigned int uint32;$/;"	t
+uint32_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINT32_TYPE__ uint32_t;$/;"	t
+uint64_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINT64_TYPE__ uint64_t;$/;"	t
+uint8_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINT8_TYPE__ uint8_t;$/;"	t
+uint_fast16_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINT_FAST16_TYPE__ uint_fast16_t;$/;"	t
+uint_fast32_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINT_FAST32_TYPE__ uint_fast32_t;$/;"	t
+uint_fast64_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINT_FAST64_TYPE__ uint_fast64_t;$/;"	t
+uint_fast8_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINT_FAST8_TYPE__ uint_fast8_t;$/;"	t
+uint_least16_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINT_LEAST16_TYPE__ uint_least16_t;$/;"	t
+uint_least32_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINT_LEAST32_TYPE__ uint_least32_t;$/;"	t
+uint_least64_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINT_LEAST64_TYPE__ uint_least64_t;$/;"	t
+uint_least8_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINT_LEAST8_TYPE__ uint_least8_t;$/;"	t
+uintmax_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINTMAX_TYPE__ uintmax_t;$/;"	t
+uintptr_t	logiciel/kernel/libfemto/include/stdint.h	/^typedef __UINTPTR_TYPE__ uintptr_t;$/;"	t
+va	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    } va;$/;"	m	union:sv32_va	typeref:struct:sv32_va::__anon49
+va	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    } va;$/;"	m	union:sv39_va	typeref:struct:sv39_va::__anon53
+va	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    } va;$/;"	m	union:sv48_va	typeref:struct:sv48_va::__anon57
+va_arg	logiciel/kernel/libfemto/include/stdarg.h	7;"	d
+va_copy	logiciel/kernel/libfemto/include/stdarg.h	8;"	d
+va_end	logiciel/kernel/libfemto/include/stdarg.h	6;"	d
+va_list	logiciel/kernel/libfemto/include/stdarg.h	/^typedef __builtin_va_list va_list;$/;"	t
+va_start	logiciel/kernel/libfemto/include/stdarg.h	5;"	d
+val	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    uint32_t val;$/;"	m	union:sv32_pte
+val	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    uint32_t val;$/;"	m	union:sv32_va
+val	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    uint64_t val;$/;"	m	union:sv32_pa
+val	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    uint64_t val;$/;"	m	union:sv39_pa
+val	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    uint64_t val;$/;"	m	union:sv39_pte
+val	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    uint64_t val;$/;"	m	union:sv39_va
+val	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    uint64_t val;$/;"	m	union:sv48_pa
+val	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    uint64_t val;$/;"	m	union:sv48_pte
+val	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^    uint64_t val;$/;"	m	union:sv48_va
+val	logiciel/kernel/libfemto/include/auxval.h	/^    unsigned long val;$/;"	m	struct:auxval
+vivant	logiciel/mips_legacy/mips_game.c	/^  uint32 vivant;$/;"	m	struct:Objet	file:
+vpn	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint32_t vpn    : 20;$/;"	m	struct:sv32_va::__anon49
+vpn	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t vpn     : 27;$/;"	m	struct:sv39_va::__anon53
+vpn	logiciel/kernel/libfemto/include/arch/riscv/pte.h	/^        uint64_t vpn     : 36;$/;"	m	struct:sv48_va::__anon57
+vprintf	logiciel/kernel/libfemto/std/vprintf.c	/^int vprintf(const char* s, va_list vl)$/;"	f
+vram	logiciel/kernel/examples/hello_cep/hello_cep.c	/^volatile uint32_t *vram                = (uint32_t*)(VRAM_OFFSET); $/;"	v
+vsnprintf	logiciel/kernel/libfemto/std/vsnprintf.c	/^int vsnprintf(char * out, size_t n, const char* s, va_list vl)$/;"	f
+wfi	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^static inline void wfi() { asm volatile ("wfi" ::: "memory"); }$/;"	f
+width	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^    int width;$/;"	m	struct:pmp_info
+write_csr	logiciel/kernel/libfemto/include/arch/riscv/machine.h	30;"	d
+write_csr_enum	logiciel/kernel/libfemto/arch/riscv/csr.c	/^void write_csr_enum(int csrenum, long value)$/;"	f
+write_pixel	logiciel/apps/brick/brick.c	/^void write_pixel(int pixel, int x, int y)$/;"	f
+write_pixel	logiciel/apps/snake/snake.c	/^void write_pixel(int pixel, int x, int y)$/;"	f
+write_pixel	logiciel/apps/snake_it/snake_it.c	/^void write_pixel(int pixel, int x, int y)$/;"	f
+write_pixel	logiciel/mips_legacy/mips_invader_zybo.c	/^void write_pixel(int pixel, int x, int y)$/;"	f
+write_pixel_scaling	logiciel/apps/invader/invader.c	/^void write_pixel_scaling(int pixel, int x, int y)$/;"	f
+write_pixel_scaling	logiciel/apps/pong/pong.c	/^void write_pixel_scaling(int pixel, int x, int y)$/;"	f
+x	logiciel/apps/brick/brick.h	/^  int      x, y; $/;"	m	struct:object_t
+x	logiciel/apps/brick/brick.h	/^  int      x, y;$/;"	m	struct:brick_t
+x	logiciel/apps/invader/invader.h	/^   int x, y;$/;"	m	struct:object_t
+x	logiciel/apps/pong/pong.h	/^   int x, y;$/;"	m	struct:Object
+x	logiciel/apps/snake/snake.h	/^  uint32_t x, y;$/;"	m	struct:Object
+x	logiciel/apps/snake_it/snake.h	/^  uint32_t x, y;$/;"	m	struct:Object
+x	logiciel/mips_legacy/mips_game.c	/^  int x,y;$/;"	m	struct:Objet	file:
+x	logiciel/mips_legacy/sprite.h	/^	int x, y;$/;"	m	struct:Object
+xlen	logiciel/kernel/libfemto/include/arch/riscv/machine.h	/^static inline int xlen() { return misa() < 0 ? 64 : 32; }$/;"	f
+y	logiciel/apps/brick/brick.h	/^  int      x, y; $/;"	m	struct:object_t
+y	logiciel/apps/brick/brick.h	/^  int      x, y;$/;"	m	struct:brick_t
+y	logiciel/apps/invader/invader.h	/^   int x, y;$/;"	m	struct:object_t
+y	logiciel/apps/pong/pong.h	/^   int x, y;$/;"	m	struct:Object
+y	logiciel/apps/snake/snake.h	/^  uint32_t x, y;$/;"	m	struct:Object
+y	logiciel/apps/snake_it/snake.h	/^  uint32_t x, y;$/;"	m	struct:Object
+y	logiciel/mips_legacy/mips_game.c	/^  int x,y;$/;"	m	struct:Objet	file:
+y	logiciel/mips_legacy/sprite.h	/^	int x, y;$/;"	m	struct:Object

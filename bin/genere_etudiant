@@ -1,0 +1,76 @@
+#!/bin/bash
+enum_to_vec_valid=0
+if [ -z "${dest}" ];
+then
+    dest=vhdPointDeDepart
+fi
+
+evaluation=evaluation
+
+modif()
+{
+    prefix="$1"
+    gawk -v enum_to_vec_valid=$enum_to_vec_valid -v prefix=$prefix '
+    BEGIN {sup=0;decom=0;com;fin=0}
+    $1~(prefix "a_supprimer_debut") { sup=1;}
+    $1~(prefix "a_supprimer_fin")  { sup=0;fin=1}
+    $1~(prefix "a_decommenter_debut") { decom=1;$0="";}
+    $1~(prefix "a_decommenter_fin") { decom=0;fin=1;$0="";}
+    $1~(prefix "a_commenter_debut") { com=1;$0="";}
+    $1~(prefix "a_commenter_fin") { com=0;fin=1}
+    $1~(prefix "enum_to_cst_debut") { enu=enum_to_vec_valid;$0="";}
+    $1~(prefix "enum_to_cst_fin") { enu=0;$0=""}
+    enu && NF>0 && $0 !~ ")"{
+    if ($0 ~ "type")
+        {
+            n=$6
+            type=$2
+            print "subtype " $2 " is std_logic_vector (" n-1 " downto 0);"; 
+        }
+        if ($0 !~ "type")
+            {
+                gsub(",","");
+                gsub(prefix,"");
+                name=$1;
+                v=$2;
+                print "constant " name " : " type " := \"" v "\";";  
+            }
+        }
+        decom   {$0=gensub(prefix,"",1);}
+        com  {$0=prefix $0;}
+        !enu && !sup && !fin {print}
+        fin { fin=0;}
+        ' 
+    }
+
+    make clean
+    rm -rf ${dest}
+    mkdir ${dest}
+    rsync -av --exclude "vhd/*.vhd" --exclude "Makefile" --exclude ".*" --exclude "program/*/" --exclude "logiciel" --exclude "bin/genere*" --exclude ${dest} --exclude "bin/generate_badges.sh" --exclude "config/mutants.*" --exclude ${evaluation} . ${dest}/
+    mkdir -p ${dest}/program/autotest
+    cp -rf program/invaders ${dest}/program/
+    cp program/autotest/lui.s  ${dest}/program/autotest
+    cp program/autotest/rebouclage.s  ${dest}/program/autotest
+    cp program/sequence_tag_etudiant_initial ${dest}/program/sequence_tag
+
+
+    for f in `ls vhd/*.vhd`
+    do
+        if [ "$1" != full_vhdl ] ; then
+            echo "Code vhdl passé à la moulinette"
+            # On passe le code VHDL à la moulinette (cas général)
+            cat $f | modif "--" > ${dest}/$f
+        else
+            echo "Code vhdl original conservé"
+            # Sauf si à des fin de tests de déploiement, on génère un dépot étudiant avec le code final
+            cp $f ${dest}/$f
+        fi
+    done
+
+    cat "Makefile" | modif "#" > ${dest}/"Makefile"
+
+    rm -rf ${evaluation}
+    mkdir ${evaluation}
+    echo "Génération du prototype de répertoire d'évaluation"
+
+    rsync -av  --exclude ${dest}  . ${evaluation}/

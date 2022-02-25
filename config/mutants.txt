@@ -1,0 +1,29 @@
+#   n°      TAG                                         Coef.       Description
+#
+    001     ADD,ADDI,XOR,XORI                           5           On effectue un or
+    010     AND,ANDI                                    2           On effectue un xor
+    020     AUIPC                                       5           On n'effectue pas PC + 4 avant de fetch 
+    021     AUIPC,BEQ,BGE,BGEU,BLT,BLTU,BNE,JAL,JALR    5           On effectue PC + 4 dans decode quand on saute
+    030     BEQ,BGE,BGEU,BLT,BLTU,BNE                   5           On n'effectue pas PC + 4 quand on ne saute pas
+    031     BEQ,BNE                                     5           On met tous le temps true dans le test d'égalité et donc false dans le test d'inégalité
+    032     BEQ,BNE                                     5           On met tous le temps false dans le test d'égalité et donc true dans le test d'inégalité
+    033     BEQ,BNE                                     5           On inverse le test d'égalité et d'inégalité
+    034     BGE,BLT,SLT,SLTI                            5           On ne fait pas l'extension de signe
+    035     BGE,BGEU,BLT,BLTU,SLT,SLTI,SLTIU,SLTU       5           On saute tout le temps et on met tout le temps 1 pour les slt
+    036     BGE,BGEU,BLT,BLTU,SLT,SLTI,SLTIU,SLTU       5           On saute jamais et on met tout le temps 0 pour les slt
+    037     BGE,BGEU,BLT,BLTU,SLT,SLTI,SLTIU,SLTU       5           On inverse tout
+    038     BGEU,BLTU,SLTIU,SLTU                        5           On active tous le temps l'extension de signe
+    040     JAL,JALR                                    5           On oublie de sauvegarde PC + 4
+    050     LB,LBU,LH,LHU                               5           On ne fait que des lw
+    051     LB,LBU,LH,LHU,LW                            5           On lit uniquement l'addresse suivante
+    052     LB,LBU,LH,LHU,LW                            5           On écrit en plus de lire
+    060     LUI                                         5           On ne fait pas le pre_fetch   
+    070     OR,ORI                                      5           On effectue une addition
+    080     SB,SH                                       5           On ne fait que des sw
+    081     SB,SH,SW                                    5           On écrit uniquement à l'adresse suivante
+    090     SLL,SRA,SRL                                 5           On utilise un immédiat
+    100     SLLI,SRAI,SRLI                              5           On utilise le registre rs2 pour décaler
+    110     SLT,SLTI,SLTIU,SLTU                         5           On n'écrit jamais dans le registre destination
+    120     SRA,SRAI                                    5           On fait un décalage logique
+    130     SRL,SRLI                                    5           On fait un décalage arithmétique
+    140     SUB                                         5           On fait un and

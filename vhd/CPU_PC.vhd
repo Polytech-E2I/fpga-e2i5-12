@@ -49,38 +49,38 @@ begin
     begin
 
         -- Valeurs par défaut de cmd à définir selon les préférences de chacun
-        cmd.ALU_op            <= ALU_plus;
-        cmd.LOGICAL_op        <= LOGICAL_and;
-        cmd.ALU_Y_sel         <= ALU_Y_immI;
+        cmd.ALU_op            <= UNDEFINED;
+        cmd.LOGICAL_op        <= UNDEFINED;
+        cmd.ALU_Y_sel         <= UNDEFINED;
 
-        cmd.SHIFTER_op        <= SHIFT_rl;
-        cmd.SHIFTER_Y_sel     <= SHIFTER_Y_ir_sh;
+        cmd.SHIFTER_op        <= UNDEFINED;
+        cmd.SHIFTER_Y_sel     <= UNDEFINED;
 
-        cmd.RF_we             <= '0';
-        cmd.RF_SIZE_sel       <= RF_SIZE_word;
-        cmd.RF_SIGN_enable    <= '0';
-        cmd.DATA_sel          <= DATA_from_alu;
+        cmd.RF_we             <= 'U';
+        cmd.RF_SIZE_sel       <= UNDEFINED;
+        cmd.RF_SIGN_enable    <= 'U';
+        cmd.DATA_sel          <= UNDEFINED;
 
-        cmd.PC_we             <= '0';
-        cmd.PC_sel            <= PC_from_alu;
+        cmd.PC_we             <= 'U';
+        cmd.PC_sel            <= UNDEFINED;
 
-        cmd.PC_X_sel          <= PC_X_cst_x00;
-        cmd.PC_Y_sel          <= PC_Y_cst_x04;
+        cmd.PC_X_sel          <= UNDEFINED;
+        cmd.PC_Y_sel          <= UNDEFINED;
 
-        cmd.TO_PC_Y_sel       <= TO_PC_Y_immB;
+        cmd.TO_PC_Y_sel       <= UNDEFINED;
 
-        cmd.AD_we             <= '0';
+        cmd.AD_we             <= 'U';
         cmd.AD_Y_sel          <= UNDEFINED;
 
-        cmd.IR_we             <= '0';
+        cmd.IR_we             <= 'U';
 
-        cmd.ADDR_sel          <= ADDR_from_pc;
-        cmd.mem_we            <= '0';
-        cmd.mem_ce            <= '0';
+        cmd.ADDR_sel          <= UNDEFINED;
+        cmd.mem_we            <= 'U';
+        cmd.mem_ce            <= 'U';
 
         cmd.cs.CSR_we            <= UNDEFINED;
 
-        cmd.cs.TO_CSR_sel        <= TO_CSR_from_rs1;
+        cmd.cs.TO_CSR_sel        <= UNDEFINED;
         cmd.cs.CSR_sel           <= UNDEFINED;
         cmd.cs.MEPC_sel          <= UNDEFINED;
 

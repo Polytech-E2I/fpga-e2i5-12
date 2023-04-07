@@ -43,7 +43,8 @@ architecture RTL of CPU_PC is
         S_OR,
         S_AND,
         S_XOR,
-        S_XORI
+        S_XORI,
+        S_SUB
     );
 
     signal state_d, state_q : State_type;
@@ -195,9 +196,18 @@ begin
                             -- Type R starting from add
                             when "01" =>
                                 case status.IR(14 downto 12) is
-                                    -- add
                                     when "000" =>
-                                        state_d <= S_ADD;
+                                        case status.IR(30) is
+                                            -- add
+                                            when '0' =>
+                                                state_d <= S_ADD;
+                                            -- sub
+                                            when '1' =>
+                                                state_d <= S_SUB;
+
+                                            -- Error
+                                            when others => null;
+                                        end case;
                                     -- sll
                                     when "001" =>
                                         state_d <= S_SLL;
@@ -284,6 +294,19 @@ begin
                 -- rd <- rs1 + rs2
                 cmd.ALU_Y_sel   <= ALU_Y_rf_rs2;
                 cmd.ALU_op      <= ALU_plus;
+                cmd.RF_we       <= '1';
+                cmd.DATA_sel    <= DATA_from_alu;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
+
+            when S_SUB =>
+                -- rd <- rs1 - rs2
+                cmd.ALU_Y_sel   <= ALU_Y_rf_rs2;
+                cmd.ALU_op      <= ALU_minus;
                 cmd.RF_we       <= '1';
                 cmd.DATA_sel    <= DATA_from_alu;
                 -- lecture mem[PC]

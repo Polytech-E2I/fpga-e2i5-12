@@ -70,7 +70,7 @@ begin
         cmd.ALU_Y_sel         <= ALU_Y_immI;
 
         cmd.SHIFTER_op        <= SHIFT_ll;
-        cmd.SHIFTER_Y_sel     <= SHIFT_ll;
+        cmd.SHIFTER_Y_sel     <= SHIFTER_Y_rs2;
 
         cmd.RF_we             <= '0';
         cmd.RF_SIZE_sel       <= RF_SIZE_word;

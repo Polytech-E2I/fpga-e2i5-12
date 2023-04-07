@@ -1,13 +1,11 @@
-# TAG = addi
+# TAG = xori
     .text
 
-    addi x31,   zero,   0x037
     addi x31,   zero,   -1
-    addi x31,   x31,    22
+    xori x31,   x31,    0x74C
 
     # max_cycle 50
     # pout_start
-    # 00000037
     # FFFFFFFF
-    # 00000015
+    # FFFFF8B3
     # pout_end

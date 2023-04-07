@@ -54,4 +54,5 @@ architecture RTL of CPU_CSR is
     end CSR_write;
 
 begin
+    it <= '0';
 end architecture;

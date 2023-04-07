@@ -19,4 +19,6 @@ end entity;
 architecture RTL of CPU_CND is
 
 begin
+    slt     <= '0';
+    jcond   <= '0';
 end architecture;

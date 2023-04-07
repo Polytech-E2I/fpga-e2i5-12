@@ -31,7 +31,8 @@ architecture RTL of CPU_PC is
         S_LUI,
         S_ADDI,
         S_ADD,
-        S_AUIPC
+        S_AUIPC,
+        S_SLL
     );
 
     signal state_d, state_q : State_type;
@@ -162,6 +163,9 @@ begin
                                     -- add
                                     when "000" =>
                                         state_d <= S_ADD;
+                                    -- sll
+                                    when "001" =>
+                                        state_d <= S_SLL;
 
                                     -- Error
                                     when others => null;
@@ -217,6 +221,8 @@ begin
                 -- next state
                 state_d         <= S_Fetch;
 
+---------- Instructions arithmétiques et logiques ----------
+
             when S_ADD =>
                 -- rd <- rs1 + rs2
                 cmd.ALU_Y_sel   <= ALU_Y_rf_rs2;
@@ -230,11 +236,18 @@ begin
                 -- next state
                 state_d         <= S_Fetch;
 
-
-
-
-
----------- Instructions arithmétiques et logiques ----------
+            when S_SLL =>
+                -- rd <- rs1 SLL rs2
+                cmd.SHIFTER_Y_sel   <= SHIFTER_Y_rs2;
+                cmd.SHIFTER_op      <= SHIFT_ll;
+                cmd.RF_we           <= '1';
+                cmd.DATA_sel        <= DATA_from_shifter;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
 
 ---------- Instructions de saut ----------
 

@@ -37,7 +37,11 @@ architecture RTL of CPU_PC is
         S_SRL,
         S_SRLI,
         S_SRA,
-        S_SRAI
+        S_SRAI,
+        S_ORI,
+        S_ANDI,
+        S_OR,
+        S_AND
     );
 
     signal state_d, state_q : State_type;
@@ -173,6 +177,12 @@ begin
                                             -- Error
                                             when others => null;
                                         end case;
+                                    -- ori
+                                    when "110" =>
+                                        state_d <= S_ORI;
+                                    -- andi
+                                    when "111" =>
+                                        state_d <= S_ANDI;
 
                                     -- Error
                                     when others => null;
@@ -198,6 +208,11 @@ begin
                                             -- Error
                                             when others => null;
                                         end case;
+
+                                    when "110" =>
+                                        state_d <= S_OR;
+                                    when "111" =>
+                                        state_d <= S_AND;
 
                                     -- Error
                                     when others => null;
@@ -345,6 +360,20 @@ begin
                 cmd.mem_we      <= '0';
                 -- next state
                 state_d         <= S_Fetch;
+
+            when S_AND =>
+                -- rd <- rs1 & rs2
+                cmd.ALU_Y_sel       <= ALU_Y_rf_rs2;
+                cmd.LOGICAL_op      <= LOGICAL_and;
+                cmd.RF_we           <= '1';
+                cmd.DATA_sel        <= DATA_from_logical;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
+
 
 ---------- Instructions de saut ----------
 

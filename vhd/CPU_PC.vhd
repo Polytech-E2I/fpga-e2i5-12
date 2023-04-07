@@ -41,7 +41,9 @@ architecture RTL of CPU_PC is
         S_ORI,
         S_ANDI,
         S_OR,
-        S_AND
+        S_AND,
+        S_XOR,
+        S_XORI
     );
 
     signal state_d, state_q : State_type;
@@ -177,6 +179,9 @@ begin
                                             -- Error
                                             when others => null;
                                         end case;
+                                    -- xori
+                                    when "100" =>
+                                        state_d <= S_XORI;
                                     -- ori
                                     when "110" =>
                                         state_d <= S_ORI;
@@ -209,8 +214,13 @@ begin
                                             when others => null;
                                         end case;
 
+                                    -- xor
+                                    when "100" =>
+                                        state_d <= S_XOR;
+                                    -- or
                                     when "110" =>
                                         state_d <= S_OR;
+                                    -- and
                                     when "111" =>
                                         state_d <= S_AND;
 
@@ -413,6 +423,31 @@ begin
                 -- next state
                 state_d         <= S_Fetch;
 
+            when S_XOR =>
+                -- rd <- rs1 XOR rs2
+                cmd.ALU_Y_sel       <= ALU_Y_rf_rs2;
+                cmd.LOGICAL_op      <= LOGICAL_xor;
+                cmd.RF_we           <= '1';
+                cmd.DATA_sel        <= DATA_from_logical;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
+
+            when S_XORI =>
+                -- rd <- rs1 XOR immI
+                cmd.ALU_Y_sel       <= ALU_Y_immI;
+                cmd.LOGICAL_op      <= LOGICAL_xor;
+                cmd.RF_we           <= '1';
+                cmd.DATA_sel        <= DATA_from_logical;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
 ---------- Instructions de saut ----------
 
 ---------- Instructions de chargement à partir de la mémoire ----------

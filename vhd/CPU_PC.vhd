@@ -30,7 +30,8 @@ architecture RTL of CPU_PC is
         S_Decode,
         S_LUI,
         S_ADDI,
-        S_ADD
+        S_ADD,
+        S_AUIPC
     );
 
     signal state_d, state_q : State_type;
@@ -137,8 +138,8 @@ begin
                             when "01" =>
                                 state_d <= S_LUI;
                             -- auipc
-                            -- when "00" =>
-                            --     state_d <= S_AUIPC;
+                            when "00" =>
+                                state_d <= S_AUIPC;
                             -- Error
                             when others => null;
                         end case;
@@ -148,19 +149,25 @@ begin
                             -- Type I starting from addi
                             when "00" =>
                                 case status.IR(14 downto 12) is
+                                    -- addi
                                     when "000" =>
                                         state_d <= S_ADDI;
 
+                                    -- Error
                                     when others => null;
                                 end case;
+                            -- Type R starting from add
                             when "01" =>
                                 case status.IR(14 downto 12) is
+                                    -- add
                                     when "000" =>
                                         state_d <= S_ADD;
 
+                                    -- Error
                                     when others => null;
                                 end case;
 
+                            -- Error
                             when others => null;
                         end case;
 
@@ -173,6 +180,18 @@ begin
             when S_LUI =>
                 -- rd <- ImmU + 0
                 cmd.PC_X_sel    <= PC_X_cst_x00;
+                cmd.PC_Y_sel    <= PC_Y_immU;
+                cmd.RF_we       <= '1';
+                cmd.DATA_sel    <= DATA_from_pc;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
+            when S_AUIPC =>
+                -- rd <- immU + pc
+                cmd.PC_X_sel    <= PC_X_pc;
                 cmd.PC_Y_sel    <= PC_Y_immU;
                 cmd.RF_we       <= '1';
                 cmd.DATA_sel    <= DATA_from_pc;
@@ -199,7 +218,7 @@ begin
                 state_d         <= S_Fetch;
 
             when S_ADD =>
-                -- rd <- immI + rs1
+                -- rd <- rs1 + rs2
                 cmd.ALU_Y_sel   <= ALU_Y_rf_rs2;
                 cmd.ALU_op      <= ALU_plus;
                 cmd.RF_we       <= '1';

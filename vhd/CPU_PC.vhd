@@ -33,7 +33,11 @@ architecture RTL of CPU_PC is
         S_ADD,
         S_AUIPC,
         S_SLL,
-        S_SLLI
+        S_SLLI,
+        S_SRL,
+        S_SRLI,
+        S_SRA,
+        S_SRAI
     );
 
     signal state_d, state_q : State_type;
@@ -157,6 +161,18 @@ begin
                                     -- slli
                                     when "001" =>
                                         state_d <= S_SLLI;
+                                    when "101" =>
+                                        case status.IR(30) is
+                                            -- srli
+                                            when '0' =>
+                                                state_d <= S_SRLI;
+                                            -- srai
+                                            when '1' =>
+                                                state_d <= S_SRAI;
+
+                                            -- Error
+                                            when others => null;
+                                        end case;
 
                                     -- Error
                                     when others => null;
@@ -170,6 +186,18 @@ begin
                                     -- sll
                                     when "001" =>
                                         state_d <= S_SLL;
+                                    when "101" =>
+                                        case status.IR(30) is
+                                            -- srl
+                                            when '0' =>
+                                                state_d <= S_SRL;
+                                            -- sra
+                                            when '1' =>
+                                                state_d <= S_SRA;
+
+                                            -- Error
+                                            when others => null;
+                                        end case;
 
                                     -- Error
                                     when others => null;
@@ -254,9 +282,61 @@ begin
                 state_d         <= S_Fetch;
 
             when S_SLLI =>
-                -- rd <- rs1 SLL rs2
+                -- rd <- rs1 SLL imm
                 cmd.SHIFTER_Y_sel   <= SHIFTER_Y_ir_sh;
                 cmd.SHIFTER_op      <= SHIFT_ll;
+                cmd.RF_we           <= '1';
+                cmd.DATA_sel        <= DATA_from_shifter;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
+
+            when S_SRL =>
+                -- rd <- rs1 SRL rs2
+                cmd.SHIFTER_Y_sel   <= SHIFTER_Y_rs2;
+                cmd.SHIFTER_op      <= SHIFT_rl;
+                cmd.RF_we           <= '1';
+                cmd.DATA_sel        <= DATA_from_shifter;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
+
+            when S_SRLI =>
+                -- rd <- rs1 SRL imm
+                cmd.SHIFTER_Y_sel   <= SHIFTER_Y_ir_sh;
+                cmd.SHIFTER_op      <= SHIFT_rl;
+                cmd.RF_we           <= '1';
+                cmd.DATA_sel        <= DATA_from_shifter;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
+
+            when S_SRA =>
+                -- rd <- rs1 SRA rs2
+                cmd.SHIFTER_Y_sel   <= SHIFTER_Y_rs2;
+                cmd.SHIFTER_op      <= SHIFT_ra;
+                cmd.RF_we           <= '1';
+                cmd.DATA_sel        <= DATA_from_shifter;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
+
+            when S_SRAI =>
+                -- rd <- rs1 SRL imm
+                cmd.SHIFTER_Y_sel   <= SHIFTER_Y_ir_sh;
+                cmd.SHIFTER_op      <= SHIFT_ra;
                 cmd.RF_we           <= '1';
                 cmd.DATA_sel        <= DATA_from_shifter;
                 -- lecture mem[PC]

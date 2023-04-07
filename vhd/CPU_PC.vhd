@@ -29,7 +29,8 @@ architecture RTL of CPU_PC is
         S_Fetch,
         S_Decode,
         S_LUI,
-        S_ADDI
+        S_ADDI,
+        S_ADD
     );
 
     signal state_d, state_q : State_type;
@@ -152,6 +153,13 @@ begin
 
                                     when others => null;
                                 end case;
+                            when "01" =>
+                                case status.IR(14 downto 12) is
+                                    when "000" =>
+                                        state_d <= S_ADD;
+
+                                    when others => null;
+                                end case;
 
                             when others => null;
                         end case;
@@ -164,31 +172,45 @@ begin
 
             when S_LUI =>
                 -- rd <- ImmU + 0
-                    cmd.PC_X_sel    <= PC_X_cst_x00;
-                    cmd.PC_Y_sel    <= PC_Y_immU;
-                    cmd.RF_we       <= '1';
-                    cmd.DATA_sel    <= DATA_from_pc;
-                    -- lecture mem[PC]
-                    cmd.ADDR_sel    <= ADDR_from_pc;
-                    cmd.mem_ce      <= '1';
-                    cmd.mem_we      <= '0';
-                    -- next state
-                    state_d         <= S_Fetch;
-
-                ---------- Instructions avec immediat de type I ----------
-
-                when S_ADDI =>
-                    -- rd <- immI + rs1
-                    cmd.ALU_Y_sel   <= ALU_Y_immI;
-                    cmd.ALU_op      <= ALU_plus;
-                    cmd.RF_we       <= '1';
-                    cmd.DATA_sel    <= DATA_from_alu;
+                cmd.PC_X_sel    <= PC_X_cst_x00;
+                cmd.PC_Y_sel    <= PC_Y_immU;
+                cmd.RF_we       <= '1';
+                cmd.DATA_sel    <= DATA_from_pc;
                 -- lecture mem[PC]
-                    cmd.ADDR_sel    <= ADDR_from_pc;
-                    cmd.mem_ce      <= '1';
-                    cmd.mem_we      <= '0';
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
                 -- next state
-                    state_d         <= S_Fetch;
+                state_d         <= S_Fetch;
+
+---------- Instructions avec immediat de type I ----------
+
+            when S_ADDI =>
+                -- rd <- immI + rs1
+                cmd.ALU_Y_sel   <= ALU_Y_immI;
+                cmd.ALU_op      <= ALU_plus;
+                cmd.RF_we       <= '1';
+                cmd.DATA_sel    <= DATA_from_alu;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
+
+            when S_ADD =>
+                -- rd <- immI + rs1
+                cmd.ALU_Y_sel   <= ALU_Y_rf_rs2;
+                cmd.ALU_op      <= ALU_plus;
+                cmd.RF_we       <= '1';
+                cmd.DATA_sel    <= DATA_from_alu;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
+
 
 
 

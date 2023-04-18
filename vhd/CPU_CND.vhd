@@ -28,7 +28,20 @@ begin
                     -- slt
                     when "010" =>
                         -- Comparaison signée à faire à la main...
-                        if signed(rs1) < signed(alu_y) then
+                        -- if rs1(32) = '0' and alu_y(32) = '0' and rs1 < alu_y then
+                        --     slt <= '1';
+                        -- elsif rs1(32) = '0' and alu_y(32) = '0' and rs1 >= alu_y then
+                        --     slt <= '0';
+                        -- elsif rs1(32) = '1' and alu_y(32) = '1' and rs1 < alu_y then
+                        --     slt <= '0';
+                        -- elsif rs1(32) = '1' and alu_y(32) = '1' and rs1 >= alu_y then
+                        --     slt <= '1';
+                        -- elsif rs1(32) = '1' and alu_y(32) = '0' then
+                        --     slt <= '1';
+                        -- else
+                        --     slt <= '0';
+                        -- end if;
+                        if rs1 < alu_y then
                             slt <= '1';
                         else
                             slt <= '0';

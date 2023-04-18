@@ -1,11 +1,11 @@
-# TAG = slt
+# TAG = slti
     .text
 
     addi t0,    zero,   7
     addi t1,    zero,   -4
-    slt  x31,   t0,     t1
-    slt  x31,   t1,     t0
-    slt  x31,   t1,     t1
+    slti x31,   t0,     -4
+    slti x31,   t1,     7
+    slti x31,   t0,     7
 
     # max_cycle 50
     # pout_start

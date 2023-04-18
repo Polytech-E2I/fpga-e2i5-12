@@ -27,7 +27,8 @@ begin
                 case IR(14 downto 12) is
                     -- slt
                     when "010" =>
-                        if rs1 < alu_y then
+                        -- Comparaison signée à faire à la main...
+                        if signed(rs1) < signed(alu_y) then
                             slt <= '1';
                         else
                             slt <= '0';
@@ -36,6 +37,18 @@ begin
                     when others => null;
                 end case;
 
+            when "0010011" =>
+                case IR(14 downto 12) is
+                    -- slti
+                    when "010" =>
+                        if signed(rs1) < signed(alu_y) then
+                            slt <= '1';
+                        else
+                            slt <= '0';
+                        end if;
+
+                    when others => null;
+                end case;
             when others => null;
         end case;
 

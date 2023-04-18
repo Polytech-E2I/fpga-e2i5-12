@@ -46,6 +46,13 @@ begin
                         else
                             slt <= '0';
                         end if;
+                    -- sltu
+                    when "011" =>
+                        if rs1 < alu_y then
+                            slt <= '1';
+                        else
+                            slt <= '0';
+                        end if;
 
                     when others => null;
                 end case;
@@ -55,6 +62,13 @@ begin
                     -- slti
                     when "010" =>
                         if signed(rs1) < signed(alu_y) then
+                            slt <= '1';
+                        else
+                            slt <= '0';
+                        end if;
+                    -- sltiu
+                    when "011" =>
+                        if rs1 < alu_y then
                             slt <= '1';
                         else
                             slt <= '0';

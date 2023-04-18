@@ -46,7 +46,9 @@ architecture RTL of CPU_PC is
         S_XORI,
         S_SUB,
         S_SLT,
-        S_SLTI
+        S_SLTI,
+        S_SLTU,
+        S_SLTIU
     );
 
     signal state_d, state_q : State_type;
@@ -194,6 +196,8 @@ begin
 
                                     when "010" =>
                                         state_d <= S_SLTI;
+                                    when "011" =>
+                                        state_d <= S_SLTIU;
 
                                     -- Error
                                     when others => null;
@@ -241,6 +245,8 @@ begin
 
                                     when "010" =>
                                         state_d <= S_SLT;
+                                    when "011" =>
+                                        state_d <= S_SLTU;
 
                                     -- Error
                                     when others => null;
@@ -493,7 +499,29 @@ begin
                 -- next state
                 state_d         <= S_Fetch;
 
+            when S_SLTU =>
+                cmd.DATA_sel        <= DATA_from_slt;
+                cmd.RF_we           <= '1';
+                cmd.ALU_Y_sel       <= ALU_Y_rf_rs2;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
+
             when S_SLTI =>
+                cmd.DATA_sel        <= DATA_from_slt;
+                cmd.RF_we           <= '1';
+                cmd.ALU_Y_sel       <= ALU_Y_immI;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
+
+            when S_SLTIU =>
                 cmd.DATA_sel        <= DATA_from_slt;
                 cmd.RF_we           <= '1';
                 cmd.ALU_Y_sel       <= ALU_Y_immI;

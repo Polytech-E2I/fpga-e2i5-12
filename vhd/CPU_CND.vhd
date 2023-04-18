@@ -19,6 +19,28 @@ end entity;
 architecture RTL of CPU_CND is
 
 begin
-    slt     <= '0';
+    process(IR) is
+    begin
+
+        case IR(6 downto 0) is
+            when "0110011" =>
+                case IR(14 downto 12) is
+                    -- slt
+                    when "010" =>
+                        if rs1 < alu_y then
+                            slt <= '1';
+                        else
+                            slt <= '0';
+                        end if;
+
+                    when others => null;
+                end case;
+
+            when others => null;
+        end case;
+
+    end process;
+
     jcond   <= '0';
+
 end architecture;

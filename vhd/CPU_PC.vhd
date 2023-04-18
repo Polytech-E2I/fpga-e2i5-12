@@ -44,7 +44,8 @@ architecture RTL of CPU_PC is
         S_AND,
         S_XOR,
         S_XORI,
-        S_SUB
+        S_SUB,
+        S_SLT
     );
 
     signal state_d, state_q : State_type;
@@ -233,6 +234,9 @@ begin
                                     -- and
                                     when "111" =>
                                         state_d <= S_AND;
+
+                                    when "010" =>
+                                        state_d <= S_SLT;
 
                                     -- Error
                                     when others => null;
@@ -471,7 +475,19 @@ begin
                 cmd.mem_we      <= '0';
                 -- next state
                 state_d         <= S_Fetch;
+
 ---------- Instructions de saut ----------
+
+            when S_SLT =>
+                cmd.DATA_sel        <= DATA_from_slt;
+                cmd.RF_we           <= '1';
+                cmd.ALU_Y_sel       <= ALU_Y_rf_rs2;
+                -- lecture mem[PC]
+                cmd.ADDR_sel    <= ADDR_from_pc;
+                cmd.mem_ce      <= '1';
+                cmd.mem_we      <= '0';
+                -- next state
+                state_d         <= S_Fetch;
 
 ---------- Instructions de chargement à partir de la mémoire ----------
 

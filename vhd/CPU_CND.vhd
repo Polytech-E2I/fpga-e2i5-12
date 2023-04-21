@@ -17,70 +17,42 @@ entity CPU_CND is
 end entity;
 
 architecture RTL of CPU_CND is
+    -- signal sign_ext : std_logic;
+    -- signal z        : std_logic;
+    -- signal s        : std_logic;
 
 begin
-    process(IR) is
-    begin
 
-        case IR(6 downto 0) is
-            when "0110011" =>
-                case IR(14 downto 12) is
-                    -- slt
-                    when "010" =>
-                        -- Comparaison signée à faire à la main...
-                        -- if rs1(32) = '0' and alu_y(32) = '0' and rs1 < alu_y then
-                        --     slt <= '1';
-                        -- elsif rs1(32) = '0' and alu_y(32) = '0' and rs1 >= alu_y then
-                        --     slt <= '0';
-                        -- elsif rs1(32) = '1' and alu_y(32) = '1' and rs1 < alu_y then
-                        --     slt <= '0';
-                        -- elsif rs1(32) = '1' and alu_y(32) = '1' and rs1 >= alu_y then
-                        --     slt <= '1';
-                        -- elsif rs1(32) = '1' and alu_y(32) = '0' then
-                        --     slt <= '1';
-                        -- else
-                        --     slt <= '0';
-                        -- end if;
-                        if rs1 < alu_y then
-                            slt <= '1';
-                        else
-                            slt <= '0';
-                        end if;
-                    -- sltu
-                    when "011" =>
-                        if rs1 < alu_y then
-                            slt <= '1';
-                        else
-                            slt <= '0';
-                        end if;
+    -- process(IR, rs1, alu_y) is
+    -- begin
+    --     sign_ext <= (IR(6) and not IR(13)) or (IR(12) nor IR(6)) ;
+    --     if rs1 = alu_y then
+    --         z <= '1';
+    --     else
+    --         z <= '0';
+    --     end if;
 
-                    when others => null;
-                end case;
+    --     if sign_ext and IR(31) then
+    --         if rs1 > alu_y then
+    --             s <= '1';
+    --         else
+    --             s <= '0';
+    --         end if;
+    --     else
+    --         if rs1 < alu_y then
+    --             s <= '1';
+    --         else
+    --             s <= '0';
+    --         end if;
+    --     end if;
 
-            when "0010011" =>
-                case IR(14 downto 12) is
-                    -- slti
-                    when "010" =>
-                        if signed(rs1) < signed(alu_y) then
-                            slt <= '1';
-                        else
-                            slt <= '0';
-                        end if;
-                    -- sltiu
-                    when "011" =>
-                        if rs1 < alu_y then
-                            slt <= '1';
-                        else
-                            slt <= '0';
-                        end if;
+    --     jcond <= (not IR(14) and (IR(12) xor (z))) or (IR(14) and (IR(12) xor s));
+    --     slt <= s;
+    -- end process;
 
-                    when others => null;
-                end case;
-            when others => null;
-        end case;
 
-    end process;
 
-    jcond   <= '0';
+    jcond <= '0';
+    slt <= '0';
 
 end architecture;

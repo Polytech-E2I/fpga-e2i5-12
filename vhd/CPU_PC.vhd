@@ -48,7 +48,8 @@ architecture RTL of CPU_PC is
         S_SLT,
         S_SLTI,
         S_SLTU,
-        S_SLTIU
+        S_SLTIU,
+        S_BRANCH
     );
 
     signal state_d, state_q : State_type;
@@ -254,6 +255,16 @@ begin
                                 end case;
 
                             -- Error
+                            when others => null;
+                        end case;
+
+                    when "000" =>
+                        case status.IR(6 downto 5) is
+                            -- Branch
+                            when "11" =>
+                                cmd.PC_we <= '0';
+                                state_d <= S_BRANCH;
+
                             when others => null;
                         end case;
 
@@ -486,6 +497,15 @@ begin
                 state_d         <= S_Fetch;
 
 ---------- Instructions de saut ----------
+
+            when S_BRANCH =>
+                cmd.PC_we <= '1';
+                cmd.TO_PC_Y_sel <= TO_PC_Y_immB;
+                cmd.PC_sel <= PC_from_pc;
+                cmd.ADDR_sel <= ADDR_from_pc;
+
+                cmd.PC_we <= '1';
+                state_d <= S_Pre_Fetch;
 
             when S_SLT =>
                 cmd.DATA_sel        <= DATA_from_slt;

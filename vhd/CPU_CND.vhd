@@ -24,38 +24,31 @@ architecture RTL of CPU_CND is
     signal sign_ext : std_logic;
     signal z        : std_logic;
     signal s        : std_logic;
-    signal sum      : w33;
+    signal rs1_33   : w33;
+    signal alu_y_33 : w33;
+    signal diff     : w33;
 
 begin
 
-    CPU_CND: process(IR, rs1, alu_y) is
-    begin
+    z <= '1' when rs1 = alu_y else '0';
 
-        if rs1 = alu_y then
-            z <= '1';
-        else
-            z <= '0';
-        end if;
+    sign_ext <= ( ( not IR(12) ) and ( not IR(6) ) )
+                    or
+                ( IR(6) and ( not IR(13) ) )
+    ;
 
-        sum <= rs1 + alu_y;
+    rs1_33      <= (rs1(31)     and sign_ext) & rs1;
+    alu_y_33    <= (alu_y(31)   and sign_ext) & alu_y;
 
-        s <= sum(32);
+    diff <= rs1_33 - alu_y_33;
 
-        sign_ext <= ( ( not IR(12) ) and ( not IR(6) ) )
-                        or
-                    ( IR(6) and ( not IR(13) ) )
-        ;
+    s <= diff(32);
 
-        jcond <=    ( ( not IR(14) ) and ( IR(12) xor z ) )
-                        or
-                    ( IR(14) and ( IR(12) xor s ) )
-        ;
+    jcond <=    ( ( not IR(14) ) and ( IR(12) xor z ) )
+                    or
+                ( IR(14) and ( IR(12) xor s ) )
+    ;
 
-        slt <= s;
-
-    end process;
-
-    -- jcond <= '0';
-    -- slt <= '0';
+    slt <= s;
 
 end architecture;

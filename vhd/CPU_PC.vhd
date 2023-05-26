@@ -71,7 +71,7 @@ begin
         -- Valeurs par défaut de cmd à définir selon les préférences de chacun
         cmd.ALU_op            <= ALU_plus;
         cmd.LOGICAL_op        <= LOGICAL_and;
-        cmd.ALU_Y_sel         <= ALU_Y_immI;
+        cmd.ALU_Y_sel         <= ALU_Y_rf_rs2;
 
         cmd.SHIFTER_op        <= SHIFT_ll;
         cmd.SHIFTER_Y_sel     <= SHIFTER_Y_rs2;

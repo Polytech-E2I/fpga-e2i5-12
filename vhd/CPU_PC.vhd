@@ -499,13 +499,19 @@ begin
 ---------- Instructions de saut ----------
 
             when S_BRANCH =>
-                cmd.PC_we <= '1';
-                cmd.TO_PC_Y_sel <= TO_PC_Y_immB;
-                cmd.PC_sel <= PC_from_pc;
-                cmd.ADDR_sel <= ADDR_from_pc;
 
-                cmd.PC_we <= '1';
-                state_d <= S_Pre_Fetch;
+                if status.JCOND then
+                    cmd.TO_PC_Y_sel     <= TO_PC_Y_immB;
+                else
+                    cmd.TO_PC_Y_sel     <= TO_PC_Y_cst_x04;
+                end if;
+
+                cmd.PC_sel          <= PC_from_pc;
+                cmd.ADDR_sel        <= ADDR_from_pc;
+                cmd.ALU_Y_sel       <= ALU_Y_rf_rs2;
+
+                cmd.PC_we           <= '1';
+                state_d             <= S_Pre_Fetch;
 
             when S_SLT =>
                 cmd.DATA_sel        <= DATA_from_slt;

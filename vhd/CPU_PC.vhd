@@ -49,7 +49,13 @@ architecture RTL of CPU_PC is
         S_SLTI,
         S_SLTU,
         S_SLTIU,
-        S_BRANCH
+        S_BRANCH,
+        S_Pre_LW,
+        S_LW,
+        S_Pre_SW,
+        S_SW,
+        S_JAL,
+        S_JALR
     );
 
     signal state_d, state_q : State_type;
@@ -264,6 +270,45 @@ begin
                             when "11" =>
                                 cmd.PC_we <= '0';
                                 state_d <= S_BRANCH;
+
+                            when "00" =>
+                                case status.IR(14 downto 12) is
+                                    -- Load from memory
+                                    when "010" =>
+                                        -- lw
+                                        cmd.AD_Y_sel        <= AD_Y_immI;
+                                        cmd.AD_we           <= '1';
+                                        cmd.ADDR_sel        <= ADDR_from_ad;
+                                        cmd.DATA_sel        <= DATA_from_mem;
+                                        cmd.RF_we           <= '1';
+                                        cmd.RF_SIZE_sel     <= RF_SIZE_word;
+                                        cmd.RF_SIGN_enable  <= '1';
+                                        cmd.mem_ce          <= '1';
+                                        cmd.mem_we          <= '0';
+
+                                        state_d <= S_Pre_LW;
+
+                                    when others => null;
+                                end case;
+
+                            when "01" =>
+                                case status.IR(14 downto 12) is
+                                    -- Store in memory
+                                    when "010" =>
+                                        -- sw
+                                        cmd.AD_Y_sel        <= AD_Y_immS;
+                                        cmd.AD_we           <= '1';
+                                        cmd.ADDR_sel        <= ADDR_from_ad;
+                                        cmd.RF_we           <= '0';
+                                        cmd.RF_SIZE_sel     <= RF_SIZE_word;
+                                        cmd.RF_SIGN_enable  <= '1';
+                                        cmd.mem_ce          <= '1';
+                                        cmd.mem_we          <= '1';
+
+                                        state_d <= S_Pre_SW;
+
+                                    when others => null;
+                                end case;
 
                             when others => null;
                         end case;
@@ -559,7 +604,58 @@ begin
 
 ---------- Instructions de chargement à partir de la mémoire ----------
 
+            when S_Pre_LW =>
+                cmd.AD_Y_sel        <= AD_Y_immI;
+                cmd.AD_we           <= '1';
+                cmd.ADDR_sel        <= ADDR_from_ad;
+                cmd.DATA_sel        <= DATA_from_mem;
+                cmd.RF_we           <= '1';
+                cmd.RF_SIZE_sel     <= RF_SIZE_word;
+                cmd.RF_SIGN_enable  <= '1';
+                cmd.mem_ce          <= '1';
+                cmd.mem_we          <= '0';
+
+                state_d         <= S_LW;
+
+            when S_LW =>
+                cmd.AD_Y_sel        <= AD_Y_immI;
+                cmd.AD_we           <= '1';
+                cmd.ADDR_sel        <= ADDR_from_ad;
+                cmd.DATA_sel        <= DATA_from_mem;
+                cmd.RF_we           <= '1';
+                cmd.RF_SIZE_sel     <= RF_SIZE_word;
+                cmd.RF_SIGN_enable  <= '1';
+                cmd.mem_ce          <= '1';
+                cmd.mem_we          <= '0';
+
+                state_d         <= S_Pre_Fetch;
+
 ---------- Instructions de sauvegarde en mémoire ----------
+
+            when S_Pre_SW =>
+                cmd.AD_Y_sel        <= AD_Y_immS;
+                cmd.AD_we           <= '1';
+                cmd.ADDR_sel        <= ADDR_from_ad;
+                cmd.RF_we           <= '0';
+                cmd.RF_SIZE_sel     <= RF_SIZE_word;
+                cmd.RF_SIGN_enable  <= '1';
+                cmd.mem_ce          <= '1';
+                cmd.mem_we          <= '1';
+
+                state_d         <= S_SW;
+
+            when S_SW =>
+                cmd.AD_Y_sel        <= AD_Y_immS;
+                cmd.AD_we           <= '1';
+                cmd.ADDR_sel        <= ADDR_from_ad;
+                cmd.RF_we           <= '0';
+                cmd.RF_SIZE_sel     <= RF_SIZE_word;
+                cmd.RF_SIGN_enable  <= '1';
+                cmd.mem_ce          <= '1';
+                cmd.mem_we          <= '1';
+
+                state_d         <= S_Pre_Fetch;
+
 ---------- Instructions d'accès aux CSR ----------
 
             when others => null;

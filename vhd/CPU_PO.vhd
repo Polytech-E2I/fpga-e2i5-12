@@ -203,8 +203,6 @@ begin
         RS1_d <= RF_q(to_integer(IR_q(19 downto 15)));
         RS2_d <= RF_q(to_integer(IR_q(24 downto 20)));
 
-		RF_value <= (others => '0');
-
         -- mise a jour des registres par leur nouvelle valeur selon les WE
         if cmd.PC_we = '1' then
             case cmd.PC_sel is

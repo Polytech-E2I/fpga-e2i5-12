@@ -300,6 +300,11 @@ begin
                         cmd.PC_we   <= '0';
                         state_d <= S_JAL;
 
+                    when "001" =>
+                        -- jalr
+                        cmd.PC_we   <= '0';
+                        state_d <= S_JALR;
+
                     -- Error
                     when others => null;
                 end case;
@@ -597,6 +602,24 @@ begin
 
                 cmd.TO_PC_Y_sel     <= TO_PC_Y_immJ;
                 cmd.PC_sel          <= PC_from_pc;
+                cmd.PC_we           <= '1';
+                cmd.ADDR_sel        <= ADDR_from_pc;
+                cmd.mem_ce          <= '1';
+                cmd.mem_we          <= '0';
+
+
+                state_d             <= S_Pre_Fetch;
+
+            when S_JALR =>
+                cmd.PC_X_sel        <= PC_X_pc;
+                cmd.PC_Y_sel        <= PC_Y_cst_x04;
+                cmd.DATA_sel        <= DATA_from_pc;
+                cmd.RF_we           <= '1';
+
+                cmd.TO_PC_Y_sel     <= TO_PC_Y_immJ;
+                cmd.ALU_op          <= ALU_plus;
+                cmd.ALU_Y_sel       <= ALU_Y_immI;
+                cmd.PC_sel          <= PC_from_alu;
                 cmd.PC_we           <= '1';
                 cmd.ADDR_sel        <= ADDR_from_pc;
                 cmd.mem_ce          <= '1';

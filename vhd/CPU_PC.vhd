@@ -56,7 +56,9 @@ architecture RTL of CPU_PC is
         S_Pre_SW,
         S_SW,
         S_JAL,
-        S_JALR
+        S_JALR,
+        S_MRET,
+        S_CSRR
     );
 
     signal state_d, state_q : State_type;
@@ -138,10 +140,24 @@ begin
                 cmd.ADDR_sel <= ADDR_from_pc;
                 state_d      <= S_Fetch;
 
+            -- modification of S_Fetch
             when S_Fetch =>
                 -- IR <- mem_datain
                 cmd.IR_we <= '1';
                 state_d <= S_Decode;
+				--  add this
+                cmd.cs.MEPC_sel <= MEPC_from_pc;
+                cmd.PC_sel <= PC_mtvec;
+                if status.it then
+                    -- MEPC <- PC
+                    cmd.cs.CSR_we <= CSR_MEPC;
+                    -- MSTATUS(3) <- 0
+                    cmd.cs.MSTATUS_mie_set <= '1';
+                    -- PC <- 0x00001FFC
+                    cmd.PC_we <= '1';
+                    state_d <= S_Pre_Fetch;
+                end if;
+				-- end add this
 
             when S_Decode =>
 
@@ -304,6 +320,23 @@ begin
                         -- jalr
                         cmd.PC_we   <= '0';
                         state_d <= S_JALR;
+
+                    when "111" =>
+                        case status.IR( 3 downto 0 ) is
+                            when "0011" => -- CSR
+                                case status.IR( 14 downto 12 ) is
+                                    when "000" =>
+                                        case status.IR( 31 downto 7 ) is
+                                            when "0011000000100000000000000" =>
+                                                state_d <= S_Mret;
+                                            when others => null;
+                                        end case;
+                                    when "001"|"010"|"011"|"101"|"110"|"111" =>
+                                        state_d <= S_Csrr;
+                                    when others => null;
+                                end case;
+                            when others => null;
+                        end case;
 
                     -- Error
                     when others => null;
@@ -671,6 +704,54 @@ begin
                 state_d         <= S_Pre_Fetch;
 
 ---------- Instructions d'accès aux CSR ----------
+            when S_Mret =>
+                -- PC <- MEPC
+                cmd.PC_sel <= PC_from_mepc;
+                cmd.PC_we <= '1';
+                cmd.cs.MSTATUS_mie_reset <= '1';
+                state_d <= S_Pre_Fetch;
+
+            when S_Csrr =>
+                -- Immédiat ou registre
+                if status.IR(14) = '0' then
+                    cmd.cs.TO_CSR_sel <= TO_CSR_from_rs1;
+                else
+                    cmd.cs.TO_CSR_sel <= TO_CSR_from_imm;
+                end if;
+                -- Mode d'écriture
+                case status.IR( 13 downto 12 ) is
+                    when "01" => cmd.cs.CSR_WRITE_mode <= WRITE_mode_simple;
+                    when "10" => cmd.cs.CSR_WRITE_mode <= WRITE_mode_set;
+                    when "11" => cmd.cs.CSR_WRITE_mode <= WRITE_mode_clear;
+                    when others => null;
+                end case;
+                -- Registre CSR d'écriture
+                case status.IR( 31 downto 20 ) is
+                    when x"300" => -- MSTATUS
+                        cmd.cs.CSR_we <= CSR_MSTATUS;
+                        cmd.cs.CSR_sel    <= CSR_from_mstatus;
+                    when x"304" => -- MIE
+                        cmd.cs.CSR_we <= CSR_MIE;
+                        cmd.cs.CSR_sel <= CSR_from_mie;
+                    when x"305" => -- MTVEC
+                        cmd.cs.CSR_we <= CSR_MTVEC;
+                        cmd.cs.CSR_sel  <= CSR_from_mtvec;
+                    when x"341" => -- MEPC
+                        cmd.cs.CSR_we <= CSR_MEPC;
+                        cmd.cs.CSR_sel <= CSR_from_mepc;
+                    when x"342" => -- MCAUSE
+                        cmd.cs.CSR_sel   <= CSR_from_mcause;
+                    when x"344" => -- MIP
+                        cmd.cs.CSR_sel <= CSR_from_mip;
+                    when others => null;
+                end case;
+                cmd.cs.MEPC_sel <= MEPC_from_csr;
+                cmd.DATA_sel <= DATA_from_csr;
+                cmd.RF_we <= '1';
+                state_d <= S_Fetch;
+                -- mem[PC]
+                cmd.mem_ce <= '1';
+
 
             when others => null;
         end case;

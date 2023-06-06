@@ -5,8 +5,6 @@
     lui     t0,     0x1
     lw      x31,    0(t0)
 
-    # Fail ??? OK in simulation
-
     # max_cycle 50
     # pout_start
     # 000012B7

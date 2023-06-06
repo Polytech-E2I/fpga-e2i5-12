@@ -277,6 +277,14 @@ begin
                                     when others => null;
                                 end case;
 
+                            when "11" =>
+                                case status.IR( 14 downto 12 ) is
+                                    when "000" =>
+                                        state_d <= S_Mret;
+                                    when "001"|"010"|"011"|"101"|"110"|"111" =>
+                                        state_d <= S_Csrr;
+                                    when others => null;
+                                end case;
                             -- Error
                             when others => null;
                         end case;
@@ -321,18 +329,6 @@ begin
                         cmd.PC_we   <= '0';
                         state_d <= S_JALR;
 
-                    when "111" =>
-                        case status.IR( 3 downto 0 ) is
-                            when "0011" => -- CSR
-                                case status.IR( 14 downto 12 ) is
-                                    when "000" =>
-                                        state_d <= S_Mret;
-                                    when "001"|"010"|"011"|"101"|"110"|"111" =>
-                                        state_d <= S_Csrr;
-                                    when others => null;
-                                end case;
-                            when others => null;
-                        end case;
 
                     -- Error
                     when others => null;

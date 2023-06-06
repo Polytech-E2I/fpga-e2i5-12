@@ -52,6 +52,7 @@ architecture RTL of CPU_PC is
         S_BRANCH,
         S_Pre_LW,
         S_LW,
+        S_Post_LW,
         S_Pre_SW,
         S_SW,
         S_JAL,
@@ -276,16 +277,6 @@ begin
                                     -- Load from memory
                                     when "010" =>
                                         -- lw
-                                        cmd.AD_Y_sel        <= AD_Y_immI;
-                                        cmd.AD_we           <= '1';
-                                        cmd.ADDR_sel        <= ADDR_from_ad;
-                                        cmd.DATA_sel        <= DATA_from_mem;
-                                        cmd.RF_we           <= '1';
-                                        cmd.RF_SIZE_sel     <= RF_SIZE_word;
-                                        cmd.RF_SIGN_enable  <= '1';
-                                        cmd.mem_ce          <= '1';
-                                        cmd.mem_we          <= '0';
-
                                         state_d <= S_Pre_LW;
 
                                     when others => null;
@@ -607,28 +598,24 @@ begin
             when S_Pre_LW =>
                 cmd.AD_Y_sel        <= AD_Y_immI;
                 cmd.AD_we           <= '1';
-                cmd.ADDR_sel        <= ADDR_from_ad;
-                cmd.DATA_sel        <= DATA_from_mem;
-                cmd.RF_we           <= '1';
-                cmd.RF_SIZE_sel     <= RF_SIZE_word;
-                cmd.RF_SIGN_enable  <= '1';
-                cmd.mem_ce          <= '1';
-                cmd.mem_we          <= '0';
 
                 state_d         <= S_LW;
 
             when S_LW =>
-                cmd.AD_Y_sel        <= AD_Y_immI;
-                cmd.AD_we           <= '1';
                 cmd.ADDR_sel        <= ADDR_from_ad;
+                cmd.mem_ce          <= '1';
+                cmd.mem_we          <= '0';
+
+                state_d         <= S_Post_LW;
+
+            when S_Post_LW =>
                 cmd.DATA_sel        <= DATA_from_mem;
                 cmd.RF_we           <= '1';
                 cmd.RF_SIZE_sel     <= RF_SIZE_word;
                 cmd.RF_SIGN_enable  <= '1';
-                cmd.mem_ce          <= '1';
-                cmd.mem_we          <= '0';
 
                 state_d         <= S_Pre_Fetch;
+
 
 ---------- Instructions de sauvegarde en mémoire ----------
 

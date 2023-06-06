@@ -90,10 +90,10 @@ begin
         cmd.DATA_sel          <= DATA_from_alu;
 
         cmd.PC_we             <= '0';
-        cmd.PC_sel            <= PC_from_alu;
+        cmd.PC_sel            <= PC_from_pc;
 
         cmd.PC_X_sel          <= PC_X_pc;
-        cmd.PC_Y_sel          <= PC_Y_immU;
+        cmd.PC_Y_sel          <= PC_Y_cst_x04;
 
         cmd.TO_PC_Y_sel       <= TO_PC_Y_cst_x04;
 

@@ -326,11 +326,7 @@ begin
                             when "0011" => -- CSR
                                 case status.IR( 14 downto 12 ) is
                                     when "000" =>
-                                        case status.IR( 31 downto 7 ) is
-                                            when "0011000000100000000000000" =>
-                                                state_d <= S_Mret;
-                                            when others => null;
-                                        end case;
+                                        state_d <= S_Mret;
                                     when "001"|"010"|"011"|"101"|"110"|"111" =>
                                         state_d <= S_Csrr;
                                     when others => null;

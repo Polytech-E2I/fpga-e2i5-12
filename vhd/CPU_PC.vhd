@@ -287,15 +287,6 @@ begin
                                     -- Store in memory
                                     when "010" =>
                                         -- sw
-                                        cmd.AD_Y_sel        <= AD_Y_immS;
-                                        cmd.AD_we           <= '1';
-                                        cmd.ADDR_sel        <= ADDR_from_ad;
-                                        cmd.RF_we           <= '0';
-                                        cmd.RF_SIZE_sel     <= RF_SIZE_word;
-                                        cmd.RF_SIGN_enable  <= '1';
-                                        cmd.mem_ce          <= '1';
-                                        cmd.mem_we          <= '1';
-
                                         state_d <= S_Pre_SW;
 
                                     when others => null;
@@ -622,18 +613,10 @@ begin
             when S_Pre_SW =>
                 cmd.AD_Y_sel        <= AD_Y_immS;
                 cmd.AD_we           <= '1';
-                cmd.ADDR_sel        <= ADDR_from_ad;
-                cmd.RF_we           <= '0';
-                cmd.RF_SIZE_sel     <= RF_SIZE_word;
-                cmd.RF_SIGN_enable  <= '1';
-                cmd.mem_ce          <= '1';
-                cmd.mem_we          <= '1';
 
                 state_d         <= S_SW;
 
             when S_SW =>
-                cmd.AD_Y_sel        <= AD_Y_immS;
-                cmd.AD_we           <= '1';
                 cmd.ADDR_sel        <= ADDR_from_ad;
                 cmd.RF_we           <= '0';
                 cmd.RF_SIZE_sel     <= RF_SIZE_word;
